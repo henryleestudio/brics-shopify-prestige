@@ -30,9 +30,24 @@
         "mega_menu_naEPPA": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Shop",
+            "menu_item": "Shop by Collection",
             "images_position": "right",
-            "image_1_heading": "Shop",
+            "image_1": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_Bellagio.jpg",
+            "image_1_heading": "Bellagio",
+            "image_1_text": "Lorem ipsum dolor.",
+            "image_1_link": "shopify:\/\/collections\/bellagio",
+            "image_2": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_BY.jpg",
+            "image_2_heading": "B|Y Ullise",
+            "image_2_text": "Lorem ipsum dolor.",
+            "image_2_link": "shopify:\/\/collections\/b-y-ullise"
+          }
+        },
+        "mega_menu_HpBej3": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "images_position": "right",
+            "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
             "image_2_heading": "",
@@ -42,7 +57,8 @@
         }
       },
       "block_order": [
-        "mega_menu_naEPPA"
+        "mega_menu_naEPPA",
+        "mega_menu_HpBej3"
       ],
       "settings": {
         "color_scheme": "",
