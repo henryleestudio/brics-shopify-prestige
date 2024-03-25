@@ -1,0 +1,85 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+PRODUCT BADGES COMPONENT
+----------------------------------------------------------------------------------------------------------------------
+
+This component is used in product listing and product page to render the badges of a given product
+
+********************************************
+Supported variables
+********************************************
+
+* product: the product to render the badges
+* variant: the specific variant to show the badge from
+* vertical: if set to true, the badges are outputted vertically
+* types: the types of badge to output. Can be "custom", "sold_out" or "discount" (or a combination separated by comma). If nothing is set, all badges are outputted.
+* form_id: an optional form ID to use to update the badges when a given variant changes
+{%- endcomment -%}
+
+{%- liquid
+  assign badge_types = types | default: 'custom, sold_out, discount' | split: ','
+  assign variant = variant | default: product.selected_or_first_available_variant
+-%}
+
+{%- assign is_badge_list_hidden = true -%}
+
+{%- capture badges -%}
+  {%- for badge_type in badge_types -%}
+    {%- assign stripped_badge_type = badge_type | strip -%}
+
+    {%- case stripped_badge_type -%}
+      {%- when 'custom' -%}
+        {%- assign custom_badges = product.metafields.custom.badges.value -%}
+
+        {%- for custom_badge in custom_badges -%}
+          {%- assign is_badge_list_hidden = false -%}
+          <span class="badge badge--custom badge--{{ custom_badge | handle }}">{{ custom_badge }}</span>
+        {%- endfor -%}
+
+      {%- when 'sold_out' -%}
+        {%- if settings.show_sold_out_badge -%}
+          {%- if variant.available == false or form_id != blank -%}
+            {%- unless variant.available -%}
+              {%- assign is_badge_list_hidden = false -%}
+            {%- endunless -%}
+
+            <sold-out-badge {% if variant.available %}hidden{% endif %} {% if form_id != blank %}form="{{ form_id }}"{% endif %} class="badge badge--sold-out">
+              {{- 'product.general.sold_out_badge' | t -}}
+            </sold-out-badge>
+          {%- endif -%}
+        {%- endif -%}
+
+      {%- when 'discount' -%}
+        {%- if settings.show_discount -%}
+          {%- assign is_variant_on_sale = false -%}
+
+          {%- if variant.compare_at_price > variant.price -%}
+            {%- assign is_variant_on_sale = true -%}
+            {%- assign is_badge_list_hidden = false -%}
+          {%- endif -%}
+
+          {%- if product.compare_at_price > product.price -%}
+            {%- if settings.discount_mode == 'percentage' -%}
+              {%- assign savings = variant.compare_at_price | minus: variant.price | times: 100.0 | divided_by: variant.compare_at_price | round | append: '%' -%}
+            {%- else -%}
+              {%- capture savings -%}{{ variant.compare_at_price | minus: variant.price | money }}{%- endcapture -%}
+            {%- endif -%}
+
+            <on-sale-badge {% if form_id != blank and is_variant_on_sale == false %}hidden{% endif %} {% if settings.show_discount %}discount-mode="{{ settings.discount_mode | escape }}"{% endif %} {% if form_id != blank %}form="{{ form_id }}"{% endif %} class="badge badge--on-sale">
+              {%- if form_id == blank and is_variant_on_sale == false or product.compare_at_price_varies -%}
+                {{- 'product.general.on_sale_badge' | t -}}
+              {%- else -%}
+                {{- 'product.general.discount_badge_html' | t: savings: savings -}}
+              {%- endif -%}
+            </on-sale-badge>
+          {%- endif -%}
+        {%- endif -%}
+    {%- endcase -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- if badges != blank -%}
+  <badge-list {% if form_id != blank and is_badge_list_hidden %}hidden{% endif %} class="badge-list {% if vertical %}badge-list--vertical{% endif %}">
+    {{- badges -}}
+  </badge-list>
+{%- endif -%}

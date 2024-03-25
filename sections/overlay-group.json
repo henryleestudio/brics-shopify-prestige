@@ -1,0 +1,1 @@
+{"type":"custom.overlay","name":"Overlay group","sections":{"cart-drawer":{"type":"cart-drawer","settings":{}},"newsletter-popup":{"type":"newsletter-popup","settings":{}},"privacy-banner":{"type":"privacy-banner","settings":{}}},"order":["cart-drawer","newsletter-popup","privacy-banner"]}

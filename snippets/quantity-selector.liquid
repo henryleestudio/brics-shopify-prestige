@@ -1,0 +1,88 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+QUANTITY SELECTOR
+----------------------------------------------------------------------------------------------------------------------
+
+This component renders a quantity selector that can be used either on product page (by passing a "variant") or on a
+cart page (by passing a "line_item"). It also automatically checks for inventory in the case of cart page.
+
+********************************************
+Supported variables
+********************************************
+
+* variant: when the quantity selector is used in product page context
+* line_item: when the quantity selector is used in cart page context
+* size: if set to "sm", we render a reduced size
+* add_updates: allows to add the updates[] attribute on the input
+* form: an optional form ID to submit to
+* show_rules: if true, the quantity rules are displayed below the selector
+{%- endcomment -%}
+
+<quantity-selector {% if form != blank %}form="{{ form }}"{% endif %} class="quantity-selector {% if size %}quantity-selector--{{ size }}{% endif %}">
+  {%- comment -%}
+  IMPLEMENTATION NOTE: we distinguish the case of a product quantity selector and a cart quantity selector. In the case
+  of cart, we reload the page fully when the quantity changes (or re-render it in Ajax for the mini-cart). This is done
+  to improve compatibility with third-party apps that often rely on the page reload. For product page we do not have this
+  so we have a slightly different logic.
+  {%- endcomment -%}
+
+  {%- if line_item != blank -%}
+    {%- comment -%}
+    -------------------------------------------
+    LINE ITEM CASE
+    -------------------------------------------
+    {%- endcomment -%}
+    {% liquid
+      assign max_quantity = ''
+      assign variant = line_item.variant | default: variant
+
+      if variant.inventory_management != blank and variant.inventory_policy == 'deny'
+        assign current_quantity_for_variant = cart | item_count_for_variant: variant.id
+        assign max_quantity = variant.inventory_quantity | minus: current_quantity_for_variant | plus: line_item.quantity
+      endif
+
+      comment
+        if variant.quantity_rule.max != null
+          assign max_quantity = max_quantity | at_most: variant.quantity_rule.max
+        endif
+      endcomment
+    %}
+
+    <a href="{{ routes.cart_change_url }}?id={{ line_item.key }}&quantity={{ line_item.quantity | minus: 1 }}" class="quantity-selector__button">
+      <span class="sr-only">{{ 'product.quantity.decrease_quantity' | t }}</span>
+      {%- render 'icon' with 'minus', width: 10 -%}
+    </a>
+
+    <input class="quantity-selector__input {% if size == 'sm' %}text-sm{% endif %}" type="number" is="quantity-input" value="{{ line_item.quantity }}" {% if add_updates %}name="updates[]"{% endif %} inputmode="numeric" {% comment %}step="{{ variant.quantity_rule.increment }}" min="{{ variant.quantity_rule.min }}"{% endcomment %} {% if max_quantity != blank %}max="{{ max_quantity | at_least: line_item.quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'product.quantity.change_quantity' | t | escape }}">
+
+    {%- if max_quantity != blank and line_item.quantity == max_quantity -%}
+      <button class="quantity-selector__button" disabled data-tooltip="{{ 'product.quantity.cannot_add_more' | t | escape }}">
+        <span class="sr-only">{{ 'product.quantity.increase_quantity' | t }}</span>
+        {%- render 'icon' with 'plus', width: 10 -%}
+      </button>
+    {%- else -%}
+      <a href="{{ routes.cart_change_url }}?id={{ line_item.key }}&quantity={{ line_item.quantity | plus: 1 }}" class="quantity-selector__button">
+        <span class="sr-only">{{ 'product.quantity.increase_quantity' | t }}</span>
+        {%- render 'icon' with 'plus', width: 10 -%}
+      </a>
+    {%- endif -%}
+  {%- else -%}
+    {%- comment -%}
+    -------------------------------------------
+    PRODUCT CASE
+    -------------------------------------------
+    {%- endcomment -%}
+
+    <button disabled class="quantity-selector__button">
+      <span class="sr-only">{{ 'product.quantity.decrease_quantity' | t }}</span>
+      {%- render 'icon' with 'minus', width: 10 -%}
+    </button>
+
+    <input class="quantity-selector__input {% if size == 'sm' %}text-sm{% endif %}" type="number" is="quantity-input" value="1" name="quantity" form="{{ form }}" inputmode="numeric" {% comment %}step="{{ variant.quantity_rule.increment }}" min="{{ variant.quantity_rule.min }}"{% endcomment %} aria-label="{{ 'product.quantity.change_quantity' | t | escape }}">
+
+    <button class="quantity-selector__button">
+      <span class="sr-only">{{ 'product.quantity.decrease_quantity' | t }}</span>
+      {%- render 'icon' with 'plus', width: 10 -%}
+    </button>
+  {%- endif -%}
+</quantity-selector>

@@ -1,0 +1,99 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+PRODUCT INVENTORY COMPONENT
+----------------------------------------------------------------------------------------------------------------------
+
+This component is used to display the inventory of a given product
+
+********************************************
+Supported variables
+********************************************
+
+* product: the product from which the inventory is extracted (if none is set, a placeholder is rendered)
+* show_in_stock_quantity: decide if the quantity in stock is shown or not
+* low_threshold: the inventory quantity threshold below which the inventory is shown as "red"
+* show_progress_bar: if true, a progress bar is added
+* progress_bar_max_value: the value used as a max value to calculate the progress advancement
+* form_id: if specified, define the form ID linked to this input
+{%- endcomment -%}
+
+{%- capture inventory_for_variants -%}
+  {%- assign inventory_default_status = '' -%}
+  {%- assign inventory_default_quantity = '' -%}
+
+  {%- if product -%}
+    {%- for variant in product.variants -%}
+      {%- liquid
+        if variant.available
+          if variant.inventory_management and variant.inventory_policy == 'deny' and variant.inventory_quantity <= low_threshold and low_threshold > 0
+            assign inventory_status = 'warning'
+            assign inventory_text = 'product.inventory.low_stock_with_quantity_count' | t: count: variant.inventory_quantity
+          else
+            if variant.inventory_policy == 'continue' and variant.inventory_quantity <= 0 and variant.requires_shipping
+              if variant.incoming and variant.next_incoming_date
+                assign next_incoming_date = variant.next_incoming_date | date: format: 'date'
+                assign inventory_status = 'warning'
+                assign inventory_text = 'product.inventory.incoming_stock' | t: next_incoming_date: next_incoming_date
+              else
+                assign inventory_status = 'warning'
+                assign inventory_text = 'product.inventory.oversell_stock' | t
+              endif
+            else
+              assign inventory_status = 'success'
+
+              if show_in_stock_quantity and variant.inventory_management
+                assign inventory_text = 'product.inventory.in_stock_with_quantity_count' | t: count: variant.inventory_quantity
+              else
+                assign inventory_text = 'product.inventory.in_stock' | t
+              endif
+            endif
+          endif
+        elsif variant.incoming
+          if variant.next_incoming_date
+            assign next_incoming_date = variant.next_incoming_date | date: format: 'date'
+            assign inventory_status = 'warning'
+            assign inventory_text = 'product.inventory.incoming_stock' | t: next_incoming_date: next_incoming_date
+          else
+            assign inventory_status = 'warning'
+            assign inventory_text = 'product.inventory.oversell_stock' | t
+          endif
+        else
+          assign inventory_status = 'error'
+          assign inventory_text = 'product.inventory.out_of_stock' | t
+        endif
+
+        if variant == product.selected_or_first_available_variant
+          assign inventory_default_status = inventory_status
+
+          if variant.inventory_management
+            assign inventory_default_quantity = variant.inventory_quantity | at_least: 0
+          else
+            assign inventory_default_quantity = progress_bar_max_value
+          endif
+        endif
+      -%}
+
+      <span {% unless variant == product.selected_or_first_available_variant %}hidden{% endunless %} data-variant-id="{{ variant.id }}" {% if show_progress_bar %}data-quantity="{% if variant.inventory_management %}{{ variant.inventory_quantity | at_least: 0 }}{% else %}{{ progress_bar_max_value }}{% endif %}"{% endif %} data-status="{{ inventory_status }}">
+        {{- inventory_text -}}
+      </span>
+    {%- endfor -%}
+  {%- else -%}
+    <span data-status="success">
+      {%- if show_in_stock_quantity -%}
+        {{- 'product.inventory.in_stock_with_quantity_count' | t: count: variant.inventory_quantity -}}
+      {%- else -%}
+        {{- 'product.inventory.in_stock' | t -}}
+      {%- endif -%}
+    </span>
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- if inventory_for_variants != blank -%}
+  <variant-inventory class="inventory text-{{ inventory_default_status }}" {% if form_id %}form="{{ form_id }}"{% endif %}>
+    {{- inventory_for_variants -}}
+
+    {%- if show_progress_bar -%}
+      <progress-bar class="progress-bar" animate-on-scroll aria-valuenow="{{ inventory_default_quantity }}" aria-valuemax="{{ progress_bar_max_value | default: 50 }}"></progress-bar>
+    {%- endif -%}
+  </variant-inventory>
+{%- endif -%}
