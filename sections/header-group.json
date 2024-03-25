@@ -33,12 +33,12 @@
             "menu_item": "Shop by Collection",
             "images_position": "right",
             "image_1": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_Bellagio.jpg",
-            "image_1_heading": "Bellagio",
+            "image_1_heading": "Best Sellers",
             "image_1_text": "Lorem ipsum dolor.",
             "image_1_link": "shopify:\/\/collections\/bellagio",
             "image_2": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_BY.jpg",
-            "image_2_heading": "B|Y Ullise",
-            "image_2_text": "Lorem ipsum dolor.",
+            "image_2_heading": "Promotions",
+            "image_2_text": "Lorem ipsum on sale.",
             "image_2_link": "shopify:\/\/collections\/b-y-ullise"
           }
         },
