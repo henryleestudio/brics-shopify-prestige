@@ -2,65 +2,6 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "text-with-icons": {
-      "type": "text-with-icons",
-      "blocks": {
-        "icon-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Free delivery worldwide",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        },
-        "icon-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Satisfied or refunded",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        },
-        "icon-3": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Top-notch support",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        },
-        "icon-4": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Secure payments",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "icon-1",
-        "icon-2",
-        "icon-3",
-        "icon-4"
-      ],
-      "settings": {
-        "color_scheme": "scheme-2",
-        "separate_section_with_border": true,
-        "stack_on_mobile": false,
-        "icon_color": "",
-        "text_color": "",
-        "text_alignment": "center"
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -69,7 +10,7 @@
           "settings": {
             "menu": "footer",
             "show_menu_title": true,
-            "menu_title": ""
+            "menu_title": "Customer Care"
           }
         },
         "text": {
@@ -108,7 +49,6 @@
     }
   },
   "order": [
-    "text-with-icons",
     "footer"
   ]
 }

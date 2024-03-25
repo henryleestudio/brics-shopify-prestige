@@ -1,7 +1,7 @@
 {
   "current": {
     "section_vertical_spacing": "md",
-    "product_rating_color": "#1c1c1c",
+    "product_rating_color": "{{ shop.brand.colors.primary[0].background }}",
     "product_on_sale_accent": "#e32c2b",
     "product_sold_out_badge_background": "#efefef",
     "product_custom_badge_background": "#1c1c1c",
@@ -13,30 +13,38 @@
     "text_font": "univers_next_n4",
     "text_font_size_desktop": 14,
     "button_letter_spacing": 18,
+    "cart_type": "drawer",
+    "cart_icon": "shopping_bag",
+    "content_for_index": [
+
+    ],
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#efefef",
-          "text_color": "#1c1c1c",
-          "primary_button_background": "#1c1c1c",
-          "primary_button_text_color": "#ffffff",
-          "circle_button_background": "#ffffff",
-          "circle_button_icon": "#1c1c1c"
+          "background": "{{ shop.brand.colors.secondary[0].background }}",
+          "background_gradient": "",
+          "text_color": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "primary_button_background": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "primary_button_text_color": "{{ shop.brand.colors.primary[0].foreground }}",
+          "circle_button_background": "{{ shop.brand.colors.primary[0].foreground }}",
+          "circle_button_icon": "{{ shop.brand.colors.secondary[0].foreground }}"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#ffffff",
-          "text_color": "#1c1c1c",
-          "primary_button_background": "#1c1c1c",
-          "primary_button_text_color": "#ffffff",
-          "circle_button_background": "#ffffff",
-          "circle_button_icon": "#1c1c1c"
+          "background": "{{ shop.brand.colors.primary[0].foreground }}",
+          "background_gradient": "",
+          "text_color": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "primary_button_background": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "primary_button_text_color": "{{ shop.brand.colors.primary[0].foreground }}",
+          "circle_button_background": "{{ shop.brand.colors.primary[0].foreground }}",
+          "circle_button_icon": "{{ shop.brand.colors.secondary[0].foreground }}"
         }
       },
       "scheme-3": {
         "settings": {
-          "background": "#1c1c1c",
+          "background": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "background_gradient": "",
           "text_color": "#ffffff",
           "primary_button_background": "#ffffff",
           "primary_button_text_color": "#1c1c1c",
@@ -47,6 +55,7 @@
       "scheme-4": {
         "settings": {
           "background": "rgba(0,0,0,0)",
+          "background_gradient": "",
           "text_color": "#ffffff",
           "primary_button_background": "#ffffff",
           "primary_button_text_color": "#1c1c1c",

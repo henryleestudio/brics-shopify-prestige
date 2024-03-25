@@ -450,20 +450,6 @@
         "button_2_style": "solid"
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "subheading": "Keep me updated",
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing.<\/p>",
-        "button_text": "Subscribe",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "shop-the-look": {
       "type": "shop-the-look",
       "blocks": {
@@ -498,22 +484,18 @@
         "popover_title": "Shop the look"
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
+    "newsletter": {
+      "type": "newsletter",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "blog": "",
-        "posts_count": 3,
-        "stack_on_mobile": false,
-        "show_category": true,
-        "show_excerpt": true,
-        "show_read_more": true,
-        "subheading": "",
-        "title": "Blog posts",
-        "content": "",
-        "button_link": "",
-        "button_text": "View all"
+        "image_size": "auto",
+        "subheading": "Keep me updated",
+        "title": "Newsletter",
+        "content": "<p>A short sentence describing what someone will receive by subscribing.<\/p>",
+        "button_text": "Subscribe",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     }
   },
@@ -525,8 +507,7 @@
     "collection-list",
     "before-after",
     "multiple-media-with-text",
-    "newsletter",
     "shop-the-look",
-    "blog-posts"
+    "newsletter"
   ]
 }

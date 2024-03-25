@@ -51,7 +51,7 @@
         "show_separation_border": true,
         "reduce_padding": false,
         "logo": "{{ shop.brand.logo }}",
-        "logo_max_width": 140,
+        "logo_max_width": 130,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
         "sidebar_menu": "",
@@ -62,11 +62,12 @@
         "sidebar_show_dividers": true,
         "layout": "logo_left_navigation_inline",
         "show_icons": true,
-        "show_country_selector": true,
+        "show_country_selector": false,
         "show_country_name": false,
-        "show_country_flag": true,
+        "show_country_flag": false,
         "show_locale_selector": false,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify:\/\/shop_images\/Brics_-_Logo_-_White.svg"
       }
     }
   },
