@@ -65,6 +65,7 @@
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+    {{ 'app.css' | asset_url | stylesheet_tag }}
   </head>
 
   {% liquid
@@ -113,5 +114,7 @@
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+
+    {{ 'app.js' | asset_url | script_tag }}
   </body>
 </html>
