@@ -1,1 +1,18 @@
-{"sections":{"main":{"type":"main-cart","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "show_cart_note": false,
+        "show_order_weight": false,
+        "show_shipping_text": true,
+        "show_accelerated_buttons": false,
+        "show_shipping_estimator": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

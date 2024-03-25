@@ -13,12 +13,12 @@
             "menu_title": "Customer Care"
           }
         },
-        "text": {
-          "type": "text",
+        "links_L7eJer": {
+          "type": "links",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
-            "enable_follow_on_shop": true
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
           }
         },
         "newsletter": {
@@ -33,14 +33,14 @@
       },
       "block_order": [
         "links",
-        "text",
+        "links_L7eJer",
         "newsletter"
       ],
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
         "show_social_media": true,
-        "show_payment_icons": true,
+        "show_payment_icons": false,
         "show_country_selector": true,
         "show_country_name": true,
         "show_country_flag": true,

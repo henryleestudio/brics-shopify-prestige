@@ -15,6 +15,18 @@
     "button_letter_spacing": 18,
     "cart_type": "drawer",
     "cart_icon": "shopping_bag",
+    "cart_show_free_shipping_bar": false,
+    "favicon": "shopify:\/\/shop_images\/Brics_-_Logo_-_Square.svg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Brics_-_Logo.svg",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#1d2344",
+    "checkout_heading_font": "PT Serif",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#978b82",
+    "checkout_button_color": "#1d2344",
     "content_for_index": [
 
     ],
