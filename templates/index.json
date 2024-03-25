@@ -133,6 +133,7 @@
         "item-1": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_BY.jpg",
             "subheading": "",
             "title": "B|Y Ullise",
             "content": "<p>Discover the perfect luggage companion for the younger generation, where style meets practicality to redefine your travel experience.<\/p>",
@@ -144,6 +145,7 @@
         "item-2": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_Bellagio.jpg",
             "subheading": "",
             "title": "Bellagio",
             "content": "<p>Named Travel & Leisure Magazine's 'Best Carry-On Bag,\" this iconic collection is ultra-lightweight made with durable polycarbonate – and trimmed with our vegetable tanned, Tuscan full grain leather.<\/p>",
@@ -155,6 +157,7 @@
         "item-3": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_BY.jpg",
             "subheading": "",
             "title": "Monza",
             "content": "<p>With up to 14 interior pockets and a USB battery hub, Monza is designed with the urban lifestyle in mind. This collection will take you from office to city life in style.<\/p>",
@@ -166,6 +169,7 @@
         "image_with_text_VBRTQY": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_Bellagio.jpg",
             "subheading": "",
             "title": "Capri",
             "content": "<p>Trimmed in Full Grain Tuscan leather, Japanese Hinomoto spinner wheels, and durable German Quality polycarbonate, this collection is elegant as it is functional.<\/p>",
@@ -177,6 +181,7 @@
         "image_with_text_3774hj": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_BY.jpg",
             "subheading": "",
             "title": "X-Collection",
             "content": "<p>Create your signature style with a range of core and seasonal colors. Join the legions of savvy travelers who have made X-BAG their go-to for water-resistant, washable, and effortlessly stylish travel.<\/p>",
