@@ -247,6 +247,22 @@
         "subheading": "Best Selling"
       }
     },
+    "image_with_text_overlay_iLhRMr": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "xs",
+        "image": "shopify:\/\/shop_images\/Brics_-_PORSCHE_DESIGN_SS_2021_M24_182_final_Web.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "xs",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "shop-the-look": {
       "type": "shop-the-look",
       "blocks": {
@@ -607,6 +623,7 @@
     "scrolling_content_jfEQVV",
     "scrolling_content_E6mKdg",
     "featured-collections",
+    "image_with_text_overlay_iLhRMr",
     "shop-the-look",
     "image-with-text-scroll",
     "multiple-media-with-text",
