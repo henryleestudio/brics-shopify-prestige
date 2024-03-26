@@ -483,20 +483,21 @@
         "item_Ff7xwQ": {
           "type": "item",
           "settings": {
-            "label": "2000",
-            "subheading": "Subheading",
-            "title": "2000",
+            "image": "shopify:\/\/shop_images\/Brics_-_PORSCHE_DESIGN_SS_2021_M24_182_final_Web.jpg",
+            "label": "Porsche Design",
+            "subheading": "Engineered Sophistication",
+            "title": "Porsche Design",
             "content": "<p>Use this text to share information about what happened to your brand at a specific time.<\/p>",
-            "link_text": "",
+            "link_text": "Shop Now",
             "link_url": "",
-            "link_style": "link",
+            "link_style": "outline",
             "mobile_text_color": "#ffffff"
           }
         },
         "item_dktTx3": {
           "type": "item",
           "settings": {
-            "label": "2010",
+            "label": "Other Bric's Collections?",
             "subheading": "Subheading",
             "title": "2010",
             "content": "<p>Use this text to share information about what happened to your brand at a specific time.<\/p>",
@@ -509,9 +510,9 @@
         "item_kiVXnF": {
           "type": "item",
           "settings": {
-            "label": "2020",
+            "label": "B|Y Ulisse",
             "subheading": "Subheading",
-            "title": "2020",
+            "title": "Be Young. Be Brics.",
             "content": "<p>Use this text to share information about what happened to your brand at a specific time.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -526,7 +527,7 @@
         "item_kiVXnF"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "item_color_scheme": "",
         "separate_section_with_border": true
       }
@@ -547,7 +548,7 @@
           "type": "testimonial",
           "settings": {
             "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
-            "image": "shopify:\/\/shop_images\/B0BB7Y5C7R.01_0411b0e7-6787-485b-97d3-bdcc6036a60d.jpg",
+            "image": "shopify:\/\/shop_images\/New_York_Times.svg",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
