@@ -98,6 +98,97 @@
         "controls_color": "#ffffff"
       }
     },
+    "scrolling_content_jfEQVV": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_fpAjb4": {
+          "type": "text",
+          "settings": {
+            "text": "Happiness is packing for your next adventure"
+          }
+        },
+        "image_UPfAbx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B0CH98HQ8B.01.jpg"
+          }
+        },
+        "text_Ac8RJB": {
+          "type": "text",
+          "settings": {
+            "text": "Explore in Style"
+          }
+        },
+        "image_ybQRya": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B0BB7Y5C7R.01_0411b0e7-6787-485b-97d3-bdcc6036a60d.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_fpAjb4",
+        "image_UPfAbx",
+        "text_Ac8RJB",
+        "image_ybQRya"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "scrolling_speed": 0.2,
+        "scroll_direction": "left",
+        "text_font": "heading",
+        "text_font_size_mobile": 26,
+        "text_font_size_desktop": 40,
+        "section_vertical_spacing_mobile": 40,
+        "section_vertical_spacing_desktop": 60,
+        "item_horizontal_spacing_mobile": 60,
+        "item_horizontal_spacing_desktop": 80,
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "scrolling_content_E6mKdg": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_BmyMkj": {
+          "type": "text",
+          "settings": {
+            "text": "Happiness is packing for your next adventure"
+          }
+        },
+        "image_JGKTir": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B0CH98HQ8B.01.jpg"
+          }
+        },
+        "text_DwGd6c": {
+          "type": "text",
+          "settings": {
+            "text": "Discover our products"
+          }
+        }
+      },
+      "block_order": [
+        "text_BmyMkj",
+        "image_JGKTir",
+        "text_DwGd6c"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.2,
+        "scroll_direction": "right",
+        "text_font": "heading",
+        "text_font_size_mobile": 26,
+        "text_font_size_desktop": 40,
+        "section_vertical_spacing_mobile": 40,
+        "section_vertical_spacing_desktop": 60,
+        "item_horizontal_spacing_mobile": 60,
+        "item_horizontal_spacing_desktop": 80,
+        "background": "",
+        "text_color": ""
+      }
+    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
@@ -324,10 +415,29 @@
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
+        },
+        "look_xy8k3a": {
+          "type": "look",
+          "settings": {
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
         }
       },
       "block_order": [
-        "look-1"
+        "look-1",
+        "look_xy8k3a"
       ],
       "settings": {
         "color_scheme": "scheme-2",
@@ -341,6 +451,8 @@
   },
   "order": [
     "slideshow",
+    "scrolling_content_jfEQVV",
+    "scrolling_content_E6mKdg",
     "featured-collections",
     "image-with-text-scroll",
     "multiple-media-with-text",

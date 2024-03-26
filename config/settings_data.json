@@ -1,6 +1,7 @@
 {
   "current": {
     "section_vertical_spacing": "md",
+    "default_color_scheme": "scheme-2",
     "product_rating_color": "{{ shop.brand.colors.primary[0].background }}",
     "product_on_sale_accent": "#e32c2b",
     "product_sold_out_badge_background": "#efefef",
