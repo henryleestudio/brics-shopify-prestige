@@ -104,7 +104,7 @@
         "text_fpAjb4": {
           "type": "text",
           "settings": {
-            "text": "Happiness is packing for your next adventure"
+            "text": "Pack for your next adventure"
           }
         },
         "image_UPfAbx": {
@@ -137,11 +137,11 @@
         "scrolling_speed": 0.2,
         "scroll_direction": "left",
         "text_font": "heading",
-        "text_font_size_mobile": 26,
+        "text_font_size_mobile": 20,
         "text_font_size_desktop": 40,
-        "section_vertical_spacing_mobile": 40,
+        "section_vertical_spacing_mobile": 30,
         "section_vertical_spacing_desktop": 60,
-        "item_horizontal_spacing_mobile": 60,
+        "item_horizontal_spacing_mobile": 40,
         "item_horizontal_spacing_desktop": 80,
         "background": "",
         "text_color": ""
@@ -153,7 +153,7 @@
         "text_BmyMkj": {
           "type": "text",
           "settings": {
-            "text": "Happiness is packing for your next adventure"
+            "text": "Elegance on the Go"
           }
         },
         "image_JGKTir": {
@@ -165,25 +165,32 @@
         "text_DwGd6c": {
           "type": "text",
           "settings": {
-            "text": "Discover our products"
+            "text": "Sophistication in Every Journey"
+          }
+        },
+        "image_cDBk6b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B0BB7Y5C7R.01.jpg"
           }
         }
       },
       "block_order": [
         "text_BmyMkj",
         "image_JGKTir",
-        "text_DwGd6c"
+        "text_DwGd6c",
+        "image_cDBk6b"
       ],
       "settings": {
         "separate_section_with_border": true,
         "scrolling_speed": 0.2,
         "scroll_direction": "right",
         "text_font": "heading",
-        "text_font_size_mobile": 26,
+        "text_font_size_mobile": 20,
         "text_font_size_desktop": 40,
-        "section_vertical_spacing_mobile": 40,
+        "section_vertical_spacing_mobile": 30,
         "section_vertical_spacing_desktop": 60,
-        "item_horizontal_spacing_mobile": 60,
+        "item_horizontal_spacing_mobile": 40,
         "item_horizontal_spacing_desktop": 80,
         "background": "",
         "text_color": ""
@@ -196,15 +203,37 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "products_count": 8,
-            "title": "",
+            "products_count": 4,
+            "title": "Luggage",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_R8DRem": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 4,
+            "title": "Bags",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_BQwcYx": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 4,
+            "title": "Accessories",
             "link_url": "",
             "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "collection-1"
+        "collection-1",
+        "collection_R8DRem",
+        "collection_BQwcYx"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -215,7 +244,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Featured"
+        "subheading": "Best Selling"
       }
     },
     "image-with-text-scroll": {
