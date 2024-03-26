@@ -247,6 +247,60 @@
         "subheading": "Best Selling"
       }
     },
+    "shop-the-look": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look-1": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Home_-_Shop_the_Look_-_1.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "test-product",
+            "product_1_horizontal_position": 25,
+            "product_1_vertical_position": 40,
+            "product_2": "test-product",
+            "product_2_horizontal_position": 37,
+            "product_2_vertical_position": 49,
+            "product_3": "test-product",
+            "product_3_horizontal_position": 50,
+            "product_3_vertical_position": 64,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_xy8k3a": {
+          "type": "look",
+          "settings": {
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look-1",
+        "look_xy8k3a"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Shop the look",
+        "content": "",
+        "popover_title": "Shop the look"
+      }
+    },
     "image-with-text-scroll": {
       "type": "images-with-text-scroll",
       "blocks": {
@@ -254,9 +308,9 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_BY.jpg",
-            "subheading": "",
-            "title": "B|Y Ullise",
-            "content": "<p>Discover the perfect luggage companion for the younger generation, where style meets practicality to redefine your travel experience.<\/p>",
+            "subheading": "About Us",
+            "title": "Our Heritage",
+            "content": "",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -423,58 +477,127 @@
         "content": ""
       }
     },
-    "shop-the-look": {
-      "type": "shop-the-look",
+    "timeline_xFbCEB": {
+      "type": "timeline",
       "blocks": {
-        "look-1": {
-          "type": "look",
+        "item_Ff7xwQ": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_-_Shop_the_Look_-_1.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "test-product",
-            "product_1_horizontal_position": 25,
-            "product_1_vertical_position": 40,
-            "product_2": "test-product",
-            "product_2_horizontal_position": 37,
-            "product_2_vertical_position": 49,
-            "product_3": "test-product",
-            "product_3_horizontal_position": 50,
-            "product_3_vertical_position": 64,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
+            "label": "2000",
+            "subheading": "Subheading",
+            "title": "2000",
+            "content": "<p>Use this text to share information about what happened to your brand at a specific time.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
           }
         },
-        "look_xy8k3a": {
-          "type": "look",
+        "item_dktTx3": {
+          "type": "item",
           "settings": {
-            "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
+            "label": "2010",
+            "subheading": "Subheading",
+            "title": "2010",
+            "content": "<p>Use this text to share information about what happened to your brand at a specific time.<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        },
+        "item_kiVXnF": {
+          "type": "item",
+          "settings": {
+            "label": "2020",
+            "subheading": "Subheading",
+            "title": "2020",
+            "content": "<p>Use this text to share information about what happened to your brand at a specific time.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
           }
         }
       },
       "block_order": [
-        "look-1",
-        "look_xy8k3a"
+        "item_Ff7xwQ",
+        "item_dktTx3",
+        "item_kiVXnF"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "item_color_scheme": "",
+        "separate_section_with_border": true
+      }
+    },
+    "testimonials_QEkXdT": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_iPAtxB": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_F7pBdw": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "image": "shopify:\/\/shop_images\/B0BB7Y5C7R.01_0411b0e7-6787-485b-97d3-bdcc6036a60d.jpg",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_JHM6mj": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "image": "shopify:\/\/shop_images\/B0CJB1QWJH.01.jpg",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_dBHKyd": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_tjtDPK": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_iPAtxB",
+        "testimonial_F7pBdw",
+        "testimonial_JHM6mj",
+        "testimonial_dBHKyd",
+        "testimonial_tjtDPK"
       ],
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
         "subheading": "",
-        "title": "Shop the look",
-        "content": "",
-        "popover_title": "Shop the look"
+        "title": "",
+        "content": ""
       }
     }
   },
@@ -483,9 +606,11 @@
     "scrolling_content_jfEQVV",
     "scrolling_content_E6mKdg",
     "featured-collections",
+    "shop-the-look",
     "image-with-text-scroll",
     "multiple-media-with-text",
     "multi-column",
-    "shop-the-look"
+    "timeline_xFbCEB",
+    "testimonials_QEkXdT"
   ]
 }
