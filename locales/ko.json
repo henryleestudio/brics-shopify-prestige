@@ -438,7 +438,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "비포/애프터 비교를 표시하려면, 섹션에서 블록을 더 많이 추가하세요.",
+      "not_enough_blocks": "비포\/애프터 비교를 표시하려면, 섹션에서 블록을 더 많이 추가하세요.",
       "percentage_shown": "표시되는 애프터 사진 비율"
     },
     "countdown_timer": {

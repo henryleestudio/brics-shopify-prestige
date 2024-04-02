@@ -448,7 +448,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "Önce/sonra karşılaştırmasını göstermek için lütfen bölüme daha fazla blok ekleyin.",
+      "not_enough_blocks": "Önce\/sonra karşılaştırmasını göstermek için lütfen bölüme daha fazla blok ekleyin.",
       "percentage_shown": "Gösterilen sonra fotoğrafının yüzdesi"
     },
     "countdown_timer": {

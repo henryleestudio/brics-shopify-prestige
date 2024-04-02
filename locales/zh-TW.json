@@ -441,7 +441,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "若要顯示之前/之後的比較，請在該區塊中加更多內容。",
+      "not_enough_blocks": "若要顯示之前\/之後的比較，請在該區塊中加更多內容。",
       "percentage_shown": "顯示的「之後」照片的百分比"
     },
     "countdown_timer": {

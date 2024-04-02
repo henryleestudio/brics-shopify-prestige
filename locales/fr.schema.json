@@ -77,7 +77,7 @@
       },
       "maximum_width": "Largeur maximale",
       "mobile_maximum_width": "Largeur mobile maximale",
-      "ratio_avoid_cropping_info": "Choisissez \"Ratio original de l'image\" pour éviter de couper l'image. [En savoir plus](https://help.shopify.com/fr/manual/online-store/images/theme-images#part-f13b28eac99d324a)"
+      "ratio_avoid_cropping_info": "Choisissez \"Ratio original de l'image\" pour éviter de couper l'image. [En savoir plus](https:\/\/help.shopify.com\/fr\/manual\/online-store\/images\/theme-images#part-f13b28eac99d324a)"
     },
     "section": {
       "header_category": "Header de section",
@@ -95,7 +95,7 @@
       "loop": "Activer les vidéos en boucle",
       "show_controls": "Afficher les controles du lecteur vidéo",
       "video_size": "Taille de la vidéo",
-      "ratio_avoid_cropping_info": "Choisissez \"Ratio original de la vidéo\" pour éviter de couper la vidéo. [En savoir plus](https://help.shopify.com/fr/manual/online-store/images/theme-images#part-f13b28eac99d324a)"
+      "ratio_avoid_cropping_info": "Choisissez \"Ratio original de la vidéo\" pour éviter de couper la vidéo. [En savoir plus](https:\/\/help.shopify.com\/fr\/manual\/online-store\/images\/theme-images#part-f13b28eac99d324a)"
     },
     "position": {
       "left": "Gauche",
@@ -124,13 +124,13 @@
       "remove_horizontal_spacing": "Supprimer l'espace horizontal"
     },
     "localization": {
-      "country_region_selector_category": "Sélecteur de pays/région",
-      "country_region_selector_category_info": "Pour ajouter un pays/région, modifiez les [réglages de marchés](/admin/settings/markets).",
-      "show_country_region_selector": "Afficher le sélecteur de pays/région",
+      "country_region_selector_category": "Sélecteur de pays\/région",
+      "country_region_selector_category_info": "Pour ajouter un pays\/région, modifiez les [réglages de marchés](\/admin\/settings\/markets).",
+      "show_country_region_selector": "Afficher le sélecteur de pays\/région",
       "show_country_name": "Afficher le nom du pays",
       "show_country_flag": "Afficher le drapeau du pays",
       "language_selector_category": "Sélecteur de langue",
-      "language_selector_category_info": "Pour ajouter une langue, modifiez les [réglages de langue](/admin/settings/languages).",
+      "language_selector_category_info": "Pour ajouter une langue, modifiez les [réglages de langue](\/admin\/settings\/languages).",
       "show_locale_selector": "Afficher le selecteur de langue"
     },
     "animation": {
@@ -148,7 +148,7 @@
       },
       "show_sort_by": "Afficher le tri",
       "show_filters": "Afficher les filtres",
-      "show_filters_info": "[Personnaliser les filtres](/admin/menus)",
+      "show_filters_info": "[Personnaliser les filtres](\/admin\/menus)",
       "show_results_count": "Afficher le nombre de résultats",
       "show_group_name": "Afficher le nom du groupe",
       "show_group_name_info": "Le nom du groupe s'affichera à l'intérieur des filtres sélectionnés.",
@@ -189,7 +189,7 @@
       "show_date": "Afficher la date",
       "show_author": "Afficher l'auteur",
       "show_category": "Afficher la catégorie",
-      "show_category_info": "Ajoutez des tags pour organiser vos articles de blog. [En savoir plus](https://help.shopify.com/en/manual/online-store/blogs/writing-blogs#add-tags-to-a-blog-post).",
+      "show_category_info": "Ajoutez des tags pour organiser vos articles de blog. [En savoir plus](https:\/\/help.shopify.com\/en\/manual\/online-store\/blogs\/writing-blogs#add-tags-to-a-blog-post).",
       "show_read_more": "Afficher le lien en savoir plus"
     },
     "icons": {
@@ -292,13 +292,13 @@
       "button_category": "Bouton",
       "button_icon_category": "Bouton avec icone",
       "button_icon_category_info": "S'applique aux boutons arrondis comme les boutons de navigation ou de fermeture.",
-      "modal_category": "Modales/panneaux déroulants",
+      "modal_category": "Modales\/panneaux déroulants",
       "product_category": "Produit",
       "product_rating_color": "Etoile des avis",
       "on_sale_accent": "Accent en solde",
       "sold_out_badge_background": "Badge en rupture",
       "custom_badge": "Badge personnalisé",
-      "custom_badge_info": "[En savoir plus](https://prestige-theme.helpscoutdocs.com/article/437-custom-badges-with-metafields)"
+      "custom_badge_info": "[En savoir plus](https:\/\/prestige-theme.helpscoutdocs.com\/article\/437-custom-badges-with-metafields)"
     },
     "typography": {
       "name": "Typographie",
@@ -331,7 +331,7 @@
         "lowercase": "Minuscule",
         "uppercase": "Majuscule"
       },
-      "font_info": "Choisir une police sur mesure peut réduire les performances de votre boutique. En savoir plus sur les [polices système.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+      "font_info": "Choisir une police sur mesure peut réduire les performances de votre boutique. En savoir plus sur les [polices système.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
     },
     "currency_format": {
       "name": "Format de devise",
@@ -355,7 +355,7 @@
       "name": "Pastille de couleur",
       "round_color_swatches": "Arrondir les pastilles de couleur",
       "configuration": "Configuration (déprécié)",
-      "configuration_info": "Nous recommandons l'usage des pastilles de couleur natives. [En savoir plus](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches). Le système basé sur la configuration du thème est déprécié et sera supprimé dans une version ultérieure du thème. Si vous devez absolument utilisé le système basé sur la configuration, vous pouvez [en savoir plus](https://prestige-theme.helpscoutdocs.com/article/417-configuring-color-swatches) sur la nomenclature à utiliser."
+      "configuration_info": "Nous recommandons l'usage des pastilles de couleur natives. [En savoir plus](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-settings#options-with-swatches). Le système basé sur la configuration du thème est déprécié et sera supprimé dans une version ultérieure du thème. Si vous devez absolument utilisé le système basé sur la configuration, vous pouvez [en savoir plus](https:\/\/prestige-theme.helpscoutdocs.com\/article\/417-configuring-color-swatches) sur la nomenclature à utiliser."
     },
     "product_card": {
       "name": "Card produit",
@@ -391,7 +391,7 @@
         "swatch": "Pastille"
       },
       "rating_category": "Avis client",
-      "rating_category_info": "Pour afficher les avis, ajoutez une application d'avis clients. [En savoir plus](https://help.shopify.com/fr/manual/products/product-reviews/installation)",
+      "rating_category_info": "Pour afficher les avis, ajoutez une application d'avis clients. [En savoir plus](https:\/\/help.shopify.com\/fr\/manual\/products\/product-reviews\/installation)",
       "show_product_rating": "Afficher les avis client",
       "show_product_rating_if_empty": "Afficher si aucun avis",
       "show_product_rating_as": "Afficher les avis en...",
@@ -426,11 +426,11 @@
       },
       "empty_cart_link": "Lien du bouton lorsque le panier est vide",
       "free_shipping_bar_category": "Message de livraison gratuite",
-      "free_shipping_bar_category_info": "Configurez un message d'avancement sur la page panier et le drawer. Configurez vos [frais de livraison](/admin/settings/shipping) afin que le montant corresponde.",
+      "free_shipping_bar_category_info": "Configurez un message d'avancement sur la page panier et le drawer. Configurez vos [frais de livraison](\/admin\/settings\/shipping) afin que le montant corresponde.",
       "show_shipping_bar": "Afficher le message",
       "free_shipping_bar_minimum_amount": "Montant à partir duquelle la livraison est offerte",
       "free_shipping_bar_minimum_amount_placeholder": "Ex: 50",
-      "free_shipping_bar_minimum_amount_info": "Indiquez le montant dans la devise principale de votre boutique. Pour afficher un montant différent par marché, utilisez [l'app Translate & Adapt](https://apps.shopify.com/translate-and-adapt?locale=fr)."
+      "free_shipping_bar_minimum_amount_info": "Indiquez le montant dans la devise principale de votre boutique. Pour afficher un montant différent par marché, utilisez [l'app Translate & Adapt](https:\/\/apps.shopify.com\/translate-and-adapt?locale=fr)."
     },
     "social_media": {
       "name": "Réseaux sociaux",
@@ -466,7 +466,7 @@
       }
     },
     "before_after": {
-      "name": "Image avant/après",
+      "name": "Image avant\/après",
       "cursor_category": "Curseur",
       "cursor_direction": "Direction du curseur",
       "cursor_direction_options": {
@@ -488,7 +488,7 @@
       },
       "presets": {
         "before_after": {
-          "name": "Image avant/après"
+          "name": "Image avant\/après"
         }
       }
     },
@@ -525,7 +525,7 @@
       "page_info": "Le drawer panier n'apparaitra sur votre thème si vous avez specifié le mode Page pour le panier dans les réglages globaux.",
       "free_shipping_bar_info": "Le message de livraison grauite peut etre configuré dans les réglages globaux du panier.",
       "show_cart_note": "Afficher la note de panier",
-      "show_shipping_text": "Afficher le texte de livraison/taxes",
+      "show_shipping_text": "Afficher le texte de livraison\/taxes",
       "show_view_cart_button": "Afficher le bouton pour accéder au panier",
       "show_checkout_button": "Afficher le bouton pour passer à la caisse",
       "show_price_in_checkout_button": "Afficher le prix dans le bouton de caisse",
@@ -595,7 +595,7 @@
     },
     "countdown_timer": {
       "name": "Compte à rebours",
-      "timezone_information": "La date d'expiration est calculée à partir du [fuseau horaire de la boutique](/admin/settings/general).",
+      "timezone_information": "La date d'expiration est calculée à partir du [fuseau horaire de la boutique](\/admin\/settings\/general).",
       "image_recommendation": "3000 x 800px .jpg recommandé",
       "mobile_image_recommendation": "1200 x 1600px .jpg recommandé",
       "flip_background": "Arrière-plan du chiffre",
@@ -689,7 +689,7 @@
         "text": {
           "name": "Texte",
           "show_follow_on_shop": "Activer Suivre sur Shop",
-          "show_follow_on_shop_info": "Pour autoriser les clients à suivre votre boutique sur l’application Shop depuis votre boutique en ligne, Shop Pay doit être activé. [En savoir plus](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+          "show_follow_on_shop_info": "Pour autoriser les clients à suivre votre boutique sur l’application Shop depuis votre boutique en ligne, Shop Pay doit être activé. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
         },
         "links": {
           "name": "Liens",
@@ -701,7 +701,7 @@
         },
         "newsletter": {
           "name": "Newsletter",
-          "newsletter_info": "Les clients qui enregistrent leur adresse email sont ajoutés à la [liste de clients](/admin/customers?query=&accepts_marketing=1) \"accepts marketing\"."
+          "newsletter_info": "Les clients qui enregistrent leur adresse email sont ajoutés à la [liste de clients](\/admin\/customers?query=&accepts_marketing=1) \"accepts marketing\"."
         }
       }
     },
@@ -741,14 +741,14 @@
       },
       "show_icons": "Afficher les icones",
       "transparent_header_category": "Header transparent",
-      "transparent_header_info": "Pour afficher un header transparent, ajoutez une section compatible (comme un diaporama d'images) en première position. [En savoir plus](https://prestige-theme.helpscoutdocs.com/article/501-transparent-header)",
+      "transparent_header_info": "Pour afficher un header transparent, ajoutez une section compatible (comme un diaporama d'images) en première position. [En savoir plus](https:\/\/prestige-theme.helpscoutdocs.com\/article\/501-transparent-header)",
       "transparent_header_logo_image": "Image logo",
       "transparent_header_logo_size_recommendation": "Utilisez des dimensions identiques au logo principal.",
       "blocks": {
         "mega_menu": {
           "name": "Mega menu",
           "menu_item": "Nom du lien",
-          "menu_item_info": "Entrez un nom de lien pour activer un mega-menu. [En savoir plus](https://prestige-theme.helpscoutdocs.com/article/412-mega-menu).",
+          "menu_item_info": "Entrez un nom de lien pour activer un mega-menu. [En savoir plus](https:\/\/prestige-theme.helpscoutdocs.com\/article\/412-mega-menu).",
           "images_position": "Position des images",
           "image_1": "Image 1",
           "image_2": "Image 2",
@@ -888,7 +888,7 @@
     },
     "main_article": {
       "name": "Article de blog",
-      "comments_category_info": "Configurez votre blog pour permettre les commentaires. [En savoir plus](https://help.shopify.com/en/manual/online-store/blogs/managing-comments#allow-or-disable-comments-on-a-blog)",
+      "comments_category_info": "Configurez votre blog pour permettre les commentaires. [En savoir plus](https:\/\/help.shopify.com\/en\/manual\/online-store\/blogs\/managing-comments#allow-or-disable-comments-on-a-blog)",
       "show_share_buttons": "Afficher les boutons de partage",
       "show_image": "Afficher l'image",
       "image_height": "Hauteur de l'image",
@@ -897,7 +897,7 @@
       "show_sticky_bar": "Afficher la barre fixe"
     },
     "prev_next_blog_posts": {
-      "name": "Articles précédent/suivant"
+      "name": "Articles précédent\/suivant"
     },
     "main_blog": {
       "name": "Blog",
@@ -915,9 +915,9 @@
       "name": "Panier",
       "show_cart_note": "Afficher la note de panier",
       "show_order_weight": "Afficher le poids de la commande",
-      "show_shipping_text": "Afficher le texte de livraison/taxes",
+      "show_shipping_text": "Afficher le texte de livraison\/taxes",
       "show_accelerated_buttons": "Afficher les boutons de paiement accélérés",
-      "show_accelerated_buttons_info": "Configurer les boutons de paiement accélérés dans vos [réglages de paiement](https://www.shopify.com/admin/settings/payments).",
+      "show_accelerated_buttons_info": "Configurer les boutons de paiement accélérés dans vos [réglages de paiement](https:\/\/www.shopify.com\/admin\/settings\/payments).",
       "show_shipping_estimator": "Afficher l'estimation des frais de livraison"
     },
     "main_collection": {
@@ -1019,9 +1019,9 @@
       "blocks": {
         "content": {
           "name": "Contenu",
-          "instructions": "Ajoutez un message pour vos clients en configurant vos [préférences de protection](/admin/online_store/preferences).",
+          "instructions": "Ajoutez un message pour vos clients en configurant vos [préférences de protection](\/admin\/online_store\/preferences).",
           "show_newsletter_form": "Afficher la newsletter",
-          "show_newsletter_form_info": "Les clients qui enregistrent leur adresse email sont ajoutés à la [liste de clients](/admin/customers?query=&accepts_marketing=1) \"accepts marketing\"."
+          "show_newsletter_form_info": "Les clients qui enregistrent leur adresse email sont ajoutés à la [liste de clients](\/admin\/customers?query=&accepts_marketing=1) \"accepts marketing\"."
         },
         "social_media": {
           "name": "Réseaux sociaux",
@@ -1037,7 +1037,7 @@
       "center_basic_info": "Centrer les informations de base (mobile)",
       "center_basic_info_info": "Inclut le titre, la marque, le prix et les avis.",
       "media_category": "Media",
-      "media_category_info": "En savoir plus sur les [types de media](https://help.shopify.com/fr/manual/products/product-media).",
+      "media_category_info": "En savoir plus sur les [types de media](https:\/\/help.shopify.com\/fr\/manual\/products\/product-media).",
       "desktop_media_layout": "Disposition sur desktop",
       "desktop_media_layout_options": {
         "grid": "Grille (1 par ligne)",
@@ -1073,7 +1073,7 @@
         },
         "badges": {
           "name": "Badges",
-          "instructions": "Utilisez les metafields pour créer des badges personnalisés. [En savoir plus](https://prestige-theme.helpscoutdocs.com/article/437-custom-badges-with-metafields)"
+          "instructions": "Utilisez les metafields pour créer des badges personnalisés. [En savoir plus](https:\/\/prestige-theme.helpscoutdocs.com\/article\/437-custom-badges-with-metafields)"
         },
         "price": {
           "name": "Prix",
@@ -1081,11 +1081,11 @@
         },
         "payment_terms": {
           "name": "Paiements en plusieurs fois",
-          "instructions": "Pour afficher les paiements en plusieurs fois, votre boutique doit supporter Shop Pay Installments. [En savoir plus](https://help.shopify.com/fr/manual/payments/shop-pay-installments)"
+          "instructions": "Pour afficher les paiements en plusieurs fois, votre boutique doit supporter Shop Pay Installments. [En savoir plus](https:\/\/help.shopify.com\/fr\/manual\/payments\/shop-pay-installments)"
         },
         "rating": {
           "name": "Avis clients",
-          "instructions": "Pour afficher la note, ajoutez une application d'avis clients. [En savoir plus](https://help.shopify.com/fr/manual/products/product-reviews/installation)",
+          "instructions": "Pour afficher la note, ajoutez une application d'avis clients. [En savoir plus](https:\/\/help.shopify.com\/fr\/manual\/products\/product-reviews\/installation)",
           "show_if_no_reviews": "Afficher si aucun avis",
           "show_product_rating_as": "Afficher les avis en...",
           "show_product_rating_as_options": {
@@ -1111,20 +1111,20 @@
             "variant_image": "Image de variante"
           },
           "swatch_selector_style": "Style des swatchs",
-          "swatch_selector_style_info": "Activez les [swatches](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches) dans les options de produit.",
+          "swatch_selector_style_info": "Activez les [swatches](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-settings#options-with-swatches) dans les options de produit.",
           "swatch_selector_style_options": {
             "swatch": "Pastille",
             "block_swatch": "Bloc avec pastille de couleur",
             "none": "Aucun"
           },
           "variant_image_options": "Afficher les images de variante pour les options",
-          "variant_image_options_info": "Une liste de noms d'options séparés par une virgule pour lesquelles les valeurs affichent l'image de variante. [En savoir plus](https://prestige-theme.helpscoutdocs.com/article/476-variant-images-for-color-option)",
+          "variant_image_options_info": "Une liste de noms d'options séparés par une virgule pour lesquelles les valeurs affichent l'image de variante. [En savoir plus](https:\/\/prestige-theme.helpscoutdocs.com\/article\/476-variant-images-for-color-option)",
           "size_chart_page": "Guide des tailles",
           "size_chart_page_info": "Afficher le contenu d'une page pour l'option de taille"
         },
         "product_variations": {
           "name": "Variations produit",
-          "instructions": "Utilisez des metafields pour relier des produits entre eux. [En savoir plus](https://prestige-theme.helpscoutdocs.com/article/426-product-variations-linked-products)",
+          "instructions": "Utilisez des metafields pour relier des produits entre eux. [En savoir plus](https:\/\/prestige-theme.helpscoutdocs.com\/article\/426-product-variations-linked-products)",
           "option_name": "Nom de l'option",
           "option_name_placeholder": "Couleur",
           "option_value_metafield": "Metafield de la valeur de l'option",
@@ -1173,9 +1173,9 @@
         "buy_buttons": {
           "name": "Bouton d'achat",
           "show_payment_button": "Afficher le bouton d'achat dynamique",
-          "show_payment_button_info": "La méthode de paiement préférée du client s'affichera, comme PayPal ou Apple Pay. [En savoir plus](https://help.shopify.com/fr/manual/online-store/dynamic-checkout)",
+          "show_payment_button_info": "La méthode de paiement préférée du client s'affichera, comme PayPal ou Apple Pay. [En savoir plus](https:\/\/help.shopify.com\/fr\/manual\/online-store\/dynamic-checkout)",
           "show_gift_card_recipient": "Afficher le formulaire d’information sur le destinataire pour les cartes‑cadeaux en tant que produit",
-          "show_gift_card_recipient_info": "Les cartes‑cadeaux en tant que produits peuvent être envoyées directement au destinataire, accompagnées d’un message personnel. [En savoir plus](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)",
+          "show_gift_card_recipient_info": "Les cartes‑cadeaux en tant que produits peuvent être envoyées directement au destinataire, accompagnées d’un message personnel. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)",
           "add_to_cart_background": "Fond du bouton d'ajout au panier",
           "add_to_cart_text_color": "Texte du bouton d'ajout au panier",
           "payment_button_background": "Fond du bouton d'achat dynamique",
@@ -1183,11 +1183,11 @@
         },
         "pickup_availability": {
           "name": "Retrait en boutique",
-          "instructions": "Permettez à vos clients de voir la disponibilité de vos produits dans vos boutiques physiques en activant [le retrait sur place des commandes](https://help.shopify.com/fr/manual/sell-in-person/shopify-pos/order-management/local-pickup-for-online-orders)."
+          "instructions": "Permettez à vos clients de voir la disponibilité de vos produits dans vos boutiques physiques en activant [le retrait sur place des commandes](https:\/\/help.shopify.com\/fr\/manual\/sell-in-person\/shopify-pos\/order-management\/local-pickup-for-online-orders)."
         },
         "complementary_products": {
           "name": "Produits complémentaires",
-          "instructions": "Afficher d'afficher des produits complémentaires, utilisez l'application Search & Discovery. [En savoir plus](https://help.shopify.com/fr/manual/online-store/search-and-discovery/product-recommendations#part-3bb41598db801eee)",
+          "instructions": "Afficher d'afficher des produits complémentaires, utilisez l'application Search & Discovery. [En savoir plus](https:\/\/help.shopify.com\/fr\/manual\/online-store\/search-and-discovery\/product-recommendations#part-3bb41598db801eee)",
           "products_count": "Produits à afficher",
           "show_below_gallery": "Afficher sous les images",
           "stack_products": "Empiler les produits",
@@ -1198,7 +1198,7 @@
           "instructions": "Affiche les avis clients sous la galerie d'images, dans un menu déroulant. Pour afficher les avis clients à un autre endroit, utilisez directement le block de l'app de votre choix.",
           "show_star_icon": "Afficher une icône",
           "liquid": "Code Liquid",
-          "liquid_info": "Le thème s'intègre par défaut avec l'app gratuite [Shopify Reviews app](https://apps.shopify.com/product-reviews). Pour afficher les avis clients d'une autre app, contactez le support technique de l'app de votre choix."
+          "liquid_info": "Le thème s'intègre par défaut avec l'app gratuite [Shopify Reviews app](https:\/\/apps.shopify.com\/product-reviews). Pour afficher les avis clients d'une autre app, contactez le support technique de l'app de votre choix."
         },
         "offers": {
           "name": "Offres",
@@ -1343,7 +1343,7 @@
     },
     "newsletter": {
       "name": "Newsletter",
-      "instructions": "Les clients qui enregistrent leur adresse email sont ajoutés à la [liste de clients](/admin/customers?query=&accepts_marketing=1) \"accepts marketing\".",
+      "instructions": "Les clients qui enregistrent leur adresse email sont ajoutés à la [liste de clients](\/admin\/customers?query=&accepts_marketing=1) \"accepts marketing\".",
       "image_size_recommendation": "2000 x 1000px .jpg recommandé",
       "mobile_image_size_recommendation": "1100 x 1500px .jpg recommandé. Utilise l'image desktop par défaut.",
       "presets": {
@@ -1354,7 +1354,7 @@
     },
     "newsletter_popup": {
       "name": "Modale de newsletter",
-      "instructions": "Les clients qui enregistrent leur adresse email sont ajoutés à la [liste de clients](/admin/customers?query=&accepts_marketing=1) \"accepts marketing\".",
+      "instructions": "Les clients qui enregistrent leur adresse email sont ajoutés à la [liste de clients](\/admin\/customers?query=&accepts_marketing=1) \"accepts marketing\".",
       "enable": "Activer",
       "delay": "Délai d'apparition de la modale",
       "show_only_on_home_page": "Afficher uniquement sur la page d'accueil",
@@ -1369,7 +1369,7 @@
     },
     "privacy_banner": {
       "name": "Bannière de confidentialité",
-      "show_privacy_banner_info": "La bannière de confidentialité ne sera affichée que si les conditions de [l'API Shopify Customer Privacy](https://shopify.dev/docs/themes/consent-tracking-api) sont respectées."
+      "show_privacy_banner_info": "La bannière de confidentialité ne sera affichée que si les conditions de [l'API Shopify Customer Privacy](https:\/\/shopify.dev\/docs\/themes\/consent-tracking-api) sont respectées."
     },
     "recently_viewed_products": {
       "name": "Produits récemment consultés",
@@ -1381,7 +1381,7 @@
     },
     "related_products": {
       "name": "Produits similaires",
-      "info": "Les recommandations dynamiques s'améliorent au fil du temps. Créez des recommandations personnalisées en utilisant l'application Shopify Search & Discovery. [En savoir plus](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations).",
+      "info": "Les recommandations dynamiques s'améliorent au fil du temps. Créez des recommandations personnalisées en utilisant l'application Shopify Search & Discovery. [En savoir plus](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations).",
       "recommendations_count": "Recommandations à afficher",
       "presets": {
         "related_products": {

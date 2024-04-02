@@ -448,7 +448,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "Tilføj flere blokke i området for at vise en før/efter-sammenligning.",
+      "not_enough_blocks": "Tilføj flere blokke i området for at vise en før\/efter-sammenligning.",
       "percentage_shown": "Procentdel efter viste foto"
     },
     "countdown_timer": {
