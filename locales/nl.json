@@ -448,7 +448,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "Om de voor/na-vergelijking weer te geven, moet je meer blokken toevoegen in het onderdeel.",
+      "not_enough_blocks": "Om de voor\/na-vergelijking weer te geven, moet je meer blokken toevoegen in het onderdeel.",
       "percentage_shown": "Percentage van achteraf getoonde foto"
     },
     "countdown_timer": {

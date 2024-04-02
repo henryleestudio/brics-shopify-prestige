@@ -438,7 +438,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "若要显示之前/之后的比较，请在该版块中添加更多内容。",
+      "not_enough_blocks": "若要显示之前\/之后的比较，请在该版块中添加更多内容。",
       "percentage_shown": "显示的之后照片的百分比"
     },
     "countdown_timer": {

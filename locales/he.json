@@ -448,7 +448,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "להצגה לפני/אחרי ההשוואה, נא להוסיף בלוקים נוספים בסעיף.",
+      "not_enough_blocks": "להצגה לפני\/אחרי ההשוואה, נא להוסיף בלוקים נוספים בסעיף.",
       "percentage_shown": "אחוז המוצג מהתמונה שאחרי"
     },
     "countdown_timer": {

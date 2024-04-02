@@ -448,7 +448,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "Lisää enemmän lohkoja osioon ennen/jälkeen-vertailun näyttämiseksi.",
+      "not_enough_blocks": "Lisää enemmän lohkoja osioon ennen\/jälkeen-vertailun näyttämiseksi.",
       "percentage_shown": "Näytetyn jälkeen-kuvan prosenttiosuus"
     },
     "countdown_timer": {

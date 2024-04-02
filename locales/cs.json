@@ -462,7 +462,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "Pokud chcete zobrazit srovnání před/po, přidejte do sekce další bloky.",
+      "not_enough_blocks": "Pokud chcete zobrazit srovnání před\/po, přidejte do sekce další bloky.",
       "percentage_shown": "Procento zobrazené fotografie po"
     },
     "countdown_timer": {

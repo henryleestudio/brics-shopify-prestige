@@ -448,7 +448,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "Lai parādītu salīdzinājumu “pirms/pēc”, iekļaujiet sadaļā vairāk bloku.",
+      "not_enough_blocks": "Lai parādītu salīdzinājumu “pirms\/pēc”, iekļaujiet sadaļā vairāk bloku.",
       "percentage_shown": "Parādāmā “pēc” attēla daļa procentos"
     },
     "countdown_timer": {

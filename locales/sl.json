@@ -462,7 +462,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "Če želite prikazati primerjavo pred/potem, dodajte več vsebine v razdelek.",
+      "not_enough_blocks": "Če želite prikazati primerjavo pred\/potem, dodajte več vsebine v razdelek.",
       "percentage_shown": "Odstotek prikaza slike potem"
     },
     "countdown_timer": {
