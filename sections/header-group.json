@@ -46,9 +46,9 @@
         "layout": "logo_center_navigation_inline",
         "show_icons": true,
         "show_country_selector": true,
-        "show_country_name": false,
+        "show_country_name": true,
         "show_country_flag": true,
-        "show_locale_selector": false,
+        "show_locale_selector": true,
         "transparent_header_text_color": "#ffffff"
       }
     }

@@ -108,14 +108,25 @@
           "settings": {
             "collection": "",
             "products_count": 8,
-            "title": "",
+            "title": "Carry on",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_wRQFqA": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "CHECK IN",
             "link_url": "",
             "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "collection-1"
+        "collection-1",
+        "collection_wRQFqA"
       ],
       "settings": {
         "color_scheme": "",
@@ -126,7 +137,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Featured collection"
+        "subheading": "OUR BEST SELLERS"
       }
     },
     "multi-column": {
