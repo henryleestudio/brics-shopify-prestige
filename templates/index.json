@@ -100,6 +100,46 @@
         "controls_color": "#ffffff"
       }
     },
+    "featured_collections_rpVDar": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_JiD3p7": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "Women",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_pU7dGw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "Men",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_JiD3p7",
+        "collection_pU7dGw"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "OUR BEST SELLERS"
+      }
+    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
@@ -510,6 +550,7 @@
   },
   "order": [
     "slideshow",
+    "featured_collections_rpVDar",
     "featured-collections",
     "multi-column",
     "collection-list",
