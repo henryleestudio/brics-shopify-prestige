@@ -256,9 +256,79 @@
         "mobile_row_height": 180,
         "section_width": "lg",
         "spacing": "md",
-        "subheading": "Traveler Styles",
-        "title": "Luxury Quality Elegance",
+        "subheading": "Featured Collections",
+        "title": "Quality & Elegance",
         "content": ""
+      }
+    },
+    "scrolling_content_pEzdNq": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_bF9YyH": {
+          "type": "text",
+          "settings": {
+            "text": "Welcome to our shop"
+          }
+        },
+        "text_wbGfU6": {
+          "type": "text",
+          "settings": {
+            "text": "Discover our products"
+          }
+        }
+      },
+      "block_order": [
+        "text_bF9YyH",
+        "text_wbGfU6"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "{{ shop.brand.colors.secondary[0].background }}",
+        "text_color": "{{ shop.brand.colors.primary[0].background }}"
+      }
+    },
+    "scrolling_content_WWTgGm": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_XV7x9Y": {
+          "type": "text",
+          "settings": {
+            "text": "Welcome to our shop"
+          }
+        },
+        "text_eQj3DA": {
+          "type": "text",
+          "settings": {
+            "text": "Discover our products"
+          }
+        }
+      },
+      "block_order": [
+        "text_XV7x9Y",
+        "text_eQj3DA"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "right",
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": "{{ shop.brand.colors.primary[0].background }}"
       }
     },
     "featured-collections": {
@@ -267,7 +337,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "carry-on",
+            "collection": "",
             "products_count": 8,
             "title": "CARRY-ON",
             "link_url": "",
@@ -289,7 +359,6 @@
         "collection-1",
         "collection_wRQFqA"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -299,7 +368,45 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "OUR BEST SELLERS"
+        "subheading": "Traveler Styles"
+      }
+    },
+    "video_xGe6Xd": {
+      "type": "video",
+      "blocks": {
+        "subheading_YyqNKU": {
+          "type": "subheading",
+          "settings": {
+            "text": "Made in Italy"
+          }
+        },
+        "heading_ayU7wm": {
+          "type": "heading",
+          "settings": {
+            "text": "finest handmade",
+            "heading_tag": "h2"
+          }
+        },
+        "play_YyDc8A": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YyqNKU",
+        "heading_ayU7wm",
+        "play_YyDc8A"
+      ],
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify:\/\/files\/videos\/brics-banner-video-edit.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/bric_s-video-banner-img.webp",
+        "text_color": "#ffffff"
       }
     },
     "before-after": {
@@ -320,7 +427,7 @@
           "type": "after",
           "settings": {
             "color_scheme": "",
-            "image": "shopify:\/\/shop_images\/girasole-wine_9a11c92b-55e5-4923-a987-5dd7d7d34b04.webp",
+            "image": "shopify:\/\/shop_images\/girasole-wine_7b6620af-a63e-4654-80d2-059c480f600c.webp",
             "text": "After",
             "link_text": "",
             "link_url": "",
@@ -335,9 +442,9 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "subheading": "",
+        "subheading": "GIRASOLE",
         "title": "CHOOSE YOUR COLOR",
-        "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
+        "content": "",
         "cursor_direction": "horizontal",
         "cursor_initial_position": 50,
         "cursor_background": "#ffffff",
@@ -513,7 +620,10 @@
     "featured_collections_rpVDar",
     "image_with_text_overlay_njfifb",
     "media_grid_k4hyGr",
+    "scrolling_content_pEzdNq",
+    "scrolling_content_WWTgGm",
     "featured-collections",
+    "video_xGe6Xd",
     "before-after",
     "image-with-text-scroll",
     "multiple-media-with-text",
