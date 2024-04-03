@@ -1,5 +1,45 @@
 @import url(https://use.typekit.net/pmr0rci.css);
 @import url(https://use.typekit.net/pmr0rci.css);
-.header {
-  background: white !important;
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "bodoni-moda-variable", sans-serif !important;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "brandon-grotesque", sans-serif !important;
+  letter-spacing: 2.7px !important;
+}
+
+a {
+  font-family: "brandon-grotesque", sans-serif !important;
+  letter-spacing: 2.5px !important;
+}
+
+p,
+span,
+li {
+  font-family: "brandon-grotesque", sans-serif !important;
+  letter-spacing: 2.7px !important;
+}
+
+.header__menu-disclosure summary {
+  font-family: "brandon-grotesque", sans-serif !important;
+  letter-spacing: 2.7px !important;
+}
+
+.header,
+.header__dropdown-menu {
+  background: rgba(29, 35, 68, 0.2901960784);
+}
+
+.header:hover,
+.header__dropdown-menu:hover {
+  background: rgba(29, 35, 68, 0.2901960784);
 }
