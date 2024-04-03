@@ -557,6 +557,73 @@
         "overlay_opacity": 0
       }
     },
+    "countdown_br4Xky": {
+      "type": "countdown",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/S20_1.jpg",
+        "image_size": "auto",
+        "subheading": "LIMITED TIME ONLY",
+        "title": "PROMOTIONS UP TO 40% OFF",
+        "content": "<p>Shop our selection of exclusive handbags and backpacks at reduced price during the Pomotions!<\/p>",
+        "button_link": "#",
+        "button_text": "Shop now",
+        "expiration_date": "",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "multiple_media_with_text_zxW6Bn": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_ffW9xn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PORSCHE_DESIGN_SS_2021_M24_182_final_Web.jpg",
+            "rotation": 0
+          }
+        },
+        "image_zML6GC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PORSCHE_DESIGN_SS_2021_M17_072_final_Web.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_ffW9xn",
+        "image_zML6GC"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "PORSCHE DESIGN",
+        "title": "Showcase your product",
+        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.<\/p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "outline",
+        "button_2_text": "PORSCHE DESIGN",
+        "button_2_link": "shopify:\/\/collections\/porsche-design",
+        "button_2_style": "solid"
+      }
+    },
     "multiple-media-with-text": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -664,8 +731,8 @@
         "subheading": "",
         "title": "Blog posts",
         "content": "",
-        "button_link": "",
-        "button_text": "View all"
+        "button_link": "shopify:\/\/collections\/porsche-design",
+        "button_text": "DISCOVER"
       }
     }
   },
@@ -681,6 +748,8 @@
     "images_with_text_scroll_fHygB4",
     "before-after",
     "image-with-text-scroll",
+    "countdown_br4Xky",
+    "multiple_media_with_text_zxW6Bn",
     "multiple-media-with-text",
     "newsletter",
     "shop-the-look",
