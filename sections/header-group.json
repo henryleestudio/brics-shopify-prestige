@@ -38,7 +38,7 @@
         "logo_mobile_max_width": 80,
         "menu": "main-menu",
         "sidebar_menu": "",
-        "menu_open_trigger": "click",
+        "menu_open_trigger": "hover",
         "enable_search": true,
         "sidebar_color_scheme": "",
         "sidebar_text_font": "body",

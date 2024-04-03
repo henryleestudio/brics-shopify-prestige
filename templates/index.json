@@ -106,21 +106,21 @@
         "collection_JiD3p7": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "women",
             "products_count": 8,
             "title": "Women",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "ALL WOMEN'S BAGS"
           }
         },
         "collection_pU7dGw": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "men",
             "products_count": 8,
             "title": "Men",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "ALL MEN'S BAGS"
           }
         }
       },
@@ -138,6 +138,127 @@
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
         "subheading": "OUR BEST SELLERS"
+      }
+    },
+    "image_with_text_overlay_njfifb": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_ryaWz9": {
+          "type": "heading",
+          "settings": {
+            "text": "Bellagio",
+            "heading_tag": "h5"
+          }
+        },
+        "richtext_PKnnH7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Timeless Sophistication: Pioneering Italian Craftsmanship<\/p>"
+          }
+        },
+        "button_YU7xiq": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ryaWz9",
+        "richtext_PKnnH7",
+        "button_YU7xiq"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/website-banner-img.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_grid_k4hyGr": {
+      "type": "media-grid",
+      "blocks": {
+        "image_jXJQ46": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/brics-catalog-1.webp",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "Life Pelle",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rm3dcw": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/PORSCHE_DESIGN_SS_2021_M24_182_final_Web.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "PORSCHE",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_QejYQr": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/brics-catalog-2.webp",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "Firenze",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_jXJQ46",
+        "image_rm3dcw",
+        "image_QejYQr"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "Traveler Styles",
+        "title": "Luxury Quality Elegance",
+        "content": ""
       }
     },
     "featured-collections": {
@@ -168,6 +289,7 @@
         "collection-1",
         "collection_wRQFqA"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -180,174 +302,6 @@
         "subheading": "OUR BEST SELLERS"
       }
     },
-    "multi-column": {
-      "type": "multi-column",
-      "blocks": {
-        "column-1": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "column-2": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "column-3": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-1",
-        "column-2",
-        "column-3"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "columns_per_row": 3,
-        "stack_on_mobile": false,
-        "overlap_image": false,
-        "content_alignment": "start",
-        "text_alignment": "start",
-        "spacing": "md",
-        "subheading": "About",
-        "title": "Multi-column",
-        "content": ""
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-4": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-5": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-6": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3",
-        "collection-4",
-        "collection-5",
-        "collection-6"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": true,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "before-after": {
       "type": "before-after",
       "blocks": {
@@ -355,6 +309,7 @@
           "type": "before",
           "settings": {
             "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/girasole-olive.webp",
             "text": "Before",
             "link_text": "",
             "link_url": "",
@@ -365,6 +320,7 @@
           "type": "after",
           "settings": {
             "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/girasole-wine_9a11c92b-55e5-4923-a987-5dd7d7d34b04.webp",
             "text": "After",
             "link_text": "",
             "link_url": "",
@@ -380,7 +336,7 @@
         "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "Before\/after",
+        "title": "CHOOSE YOUR COLOR",
         "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
         "cursor_direction": "horizontal",
         "cursor_initial_position": 50,
@@ -430,6 +386,7 @@
         "item-2",
         "item-3"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "image_position": "start",
@@ -459,6 +416,7 @@
         "image-1",
         "image-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "reveal_on_scroll": true,
@@ -520,6 +478,7 @@
       "block_order": [
         "look-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -531,6 +490,7 @@
     },
     "blog-posts": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -551,9 +511,9 @@
   "order": [
     "slideshow",
     "featured_collections_rpVDar",
+    "image_with_text_overlay_njfifb",
+    "media_grid_k4hyGr",
     "featured-collections",
-    "multi-column",
-    "collection-list",
     "before-after",
     "image-with-text-scroll",
     "multiple-media-with-text",
