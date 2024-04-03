@@ -106,21 +106,21 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "carry-on",
             "products_count": 8,
             "title": "CARRY-ON",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "All Carry-On Bags"
           }
         },
         "collection_wRQFqA": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "check-in",
             "products_count": 8,
             "title": "CHECK-IN",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "All Check-In Bags"
           }
         }
       },
