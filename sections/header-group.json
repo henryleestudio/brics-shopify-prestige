@@ -41,7 +41,7 @@
         "menu_open_trigger": "click",
         "enable_search": true,
         "sidebar_color_scheme": "",
-        "sidebar_text_font": "heading",
+        "sidebar_text_font": "body",
         "sidebar_show_dividers": true,
         "layout": "logo_center_navigation_inline",
         "show_icons": true,
