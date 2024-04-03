@@ -60,8 +60,8 @@
           "settings": {
             "video": "shopify:\/\/files\/videos\/brics-intro-video-edited_88a6ed91-b37e-4212-9cc7-d26edce63cd9.mp4",
             "allow_sound": true,
-            "subheading": "Tell your story",
-            "title": "Video slide",
+            "subheading": "",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
