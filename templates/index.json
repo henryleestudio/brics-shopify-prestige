@@ -409,6 +409,60 @@
         "text_color": "#ffffff"
       }
     },
+    "images_with_text_scroll_fHygB4": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_cndMPc": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3300.webp",
+            "subheading": "",
+            "title": "#1",
+            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_YLHRXq": {
+          "type": "image_with_text",
+          "settings": {
+            "subheading": "",
+            "title": "#2",
+            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_baAW3C": {
+          "type": "image_with_text",
+          "settings": {
+            "subheading": "",
+            "title": "#3",
+            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_cndMPc",
+        "image_with_text_YLHRXq",
+        "image_with_text_baAW3C"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "background_image": "shopify:\/\/shop_images\/Screenshot_2024-04-03_at_7.19.08_PM.png",
+        "mobile_background_image": "shopify:\/\/shop_images\/Screenshot_2024-04-03_at_7.26.23_PM.png",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "before-after": {
       "type": "before-after",
       "blocks": {
@@ -624,6 +678,7 @@
     "scrolling_content_WWTgGm",
     "featured-collections",
     "video_xGe6Xd",
+    "images_with_text_scroll_fHygB4",
     "before-after",
     "image-with-text-scroll",
     "multiple-media-with-text",
