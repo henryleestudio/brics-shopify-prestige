@@ -58,7 +58,7 @@
         "video_fJF3DM": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/brics-intro-video-edited_88a6ed91-b37e-4212-9cc7-d26edce63cd9.mp4",
+            "video": "shopify:\/\/files\/videos\/bric-intro-video-2.mp4",
             "allow_sound": true,
             "subheading": "",
             "title": "",
@@ -174,8 +174,8 @@
       ],
       "settings": {
         "color_scheme": "",
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/website-banner-img.webp",
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/brics-banner--4.webp",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
@@ -609,8 +609,9 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": true,
-        "image": "shopify:\/\/shop_images\/S20_1.jpg",
-        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/brics-banner-2.webp",
+        "mobile_image": "shopify:\/\/shop_images\/Screenshot_2024-04-03_at_7.26.23_PM.png",
+        "image_size": "sm",
         "subheading": "LIMITED TIME ONLY",
         "title": "PROMOTIONS UP TO 40% OFF",
         "content": "<p>Shop our selection of exclusive handbags and backpacks at reduced price during the Pomotions!<\/p>",

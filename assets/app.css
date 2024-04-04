@@ -33,13 +33,3 @@ li {
   font-family: "brandon-grotesque", sans-serif !important;
   letter-spacing: 2.7px !important;
 }
-
-.header,
-.header__dropdown-menu {
-  background: rgba(29, 35, 68, 0.2901960784);
-}
-
-.header:hover,
-.header__dropdown-menu:hover {
-  background: rgba(29, 35, 68, 0.2901960784);
-}

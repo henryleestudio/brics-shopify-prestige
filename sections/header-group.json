@@ -43,7 +43,7 @@
         "sidebar_color_scheme": "",
         "sidebar_text_font": "body",
         "sidebar_show_dividers": true,
-        "layout": "logo_center_navigation_inline",
+        "layout": "logo_left_navigation_inline",
         "show_icons": true,
         "show_country_selector": true,
         "show_country_name": false,
