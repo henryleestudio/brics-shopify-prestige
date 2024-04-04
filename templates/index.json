@@ -417,22 +417,22 @@
         "before": {
           "type": "before",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "image": "shopify:\/\/shop_images\/girasole-olive.webp",
-            "text": "Before",
-            "link_text": "",
-            "link_url": "",
+            "text": "Khaki",
+            "link_text": "View product",
+            "link_url": "shopify:\/\/products\/girasole-bag-w-loop-handle-khaki",
             "link_style": "link"
           }
         },
         "after": {
           "type": "after",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "image": "shopify:\/\/shop_images\/girasole-wine_7b6620af-a63e-4654-80d2-059c480f600c.webp",
-            "text": "After",
-            "link_text": "",
-            "link_url": "",
+            "text": "WINE",
+            "link_text": "View product",
+            "link_url": "shopify:\/\/products\/girasole-bag-w-loop-handle-wine",
             "link_style": "link"
           }
         }
@@ -442,7 +442,7 @@
         "after"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "separate_section_with_border": true,
         "subheading": "GIRASOLE",
         "title": "CHOOSE YOUR COLOR",
@@ -672,6 +672,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
