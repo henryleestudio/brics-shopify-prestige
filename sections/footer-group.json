@@ -2,6 +2,21 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "newsletter_L9ynMc": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "JOIN THE CONVERSATION",
+        "title": "Newsletter",
+        "content": "<p>Sign up to our newsletter to receive exclusive offers.<\/p>",
+        "button_text": "Subscribe",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
@@ -68,8 +83,8 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "title": "Newsletter",
-            "content": "<p>Sign up to our newsletter to receive exclusive offers.<\/p>",
+            "title": "JOIN THE CONVERSATION",
+            "content": "<p>Sign up to our newsletter<\/p>",
             "button_background": "",
             "button_text_color": ""
           }
@@ -82,11 +97,19 @@
             "menu_title": ""
           }
         },
+        "links_BxVkNd": {
+          "type": "links",
+          "settings": {
+            "menu": "resources",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
+            "title": "BRIC'S MILANO",
+            "content": "<p>Founded in 1952 by Mario Briccola, BRIC’S Milano has been hand-crafting travel bags and fine leather goods for seventy years.<\/p>",
             "enable_follow_on_shop": true
           }
         }
@@ -94,6 +117,7 @@
       "block_order": [
         "newsletter",
         "links",
+        "links_BxVkNd",
         "text"
       ],
       "settings": {
@@ -109,6 +133,7 @@
     }
   },
   "order": [
+    "newsletter_L9ynMc",
     "text-with-icons",
     "footer"
   ]
