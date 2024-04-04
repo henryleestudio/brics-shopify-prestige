@@ -8,11 +8,12 @@
     "success_color": "#307a07",
     "warning_color": "#ed8a00",
     "error_color": "#cb2b2b",
-    "heading_font": "univers_next_n4",
+    "heading_font": "bauer_bodoni_n4",
     "heading_letter_spacing": 18,
     "text_font": "univers_next_n4",
     "text_font_size_desktop": 14,
     "button_letter_spacing": 18,
+    "favicon": "shopify:\/\/shop_images\/emblem-favicon_713f07e4-ac2d-41d7-bc87-5b2e4ec9c218.png",
     "content_for_index": [
 
     ],
@@ -59,6 +60,17 @@
           "primary_button_text_color": "#1c1c1c",
           "circle_button_background": "#ffffff",
           "circle_button_icon": "#1c1c1c"
+        }
+      },
+      "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522": {
+        "settings": {
+          "background": "{{ shop.brand.colors.primary[0].background }}",
+          "background_gradient": "",
+          "text_color": "{{ shop.brand.colors.primary[0].foreground }}",
+          "primary_button_background": "{{ shop.brand.colors.primary[0].foreground }}",
+          "primary_button_text_color": "{{ shop.brand.colors.primary[0].background }}",
+          "circle_button_background": "#ffffff",
+          "circle_button_icon": "{{ shop.brand.colors.secondary[0].foreground }}"
         }
       }
     }
