@@ -216,7 +216,7 @@
             "row_count": 1,
             "title": "PORSCHE",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p>DESIGN<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -281,6 +281,7 @@
         "text_bF9YyH",
         "text_wbGfU6"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "scrolling_speed": 0.3,
@@ -316,6 +317,7 @@
         "text_XV7x9Y",
         "text_eQj3DA"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "scrolling_speed": 0.3,
@@ -409,6 +411,48 @@
         "text_color": "#ffffff"
       }
     },
+    "before-after": {
+      "type": "before-after",
+      "blocks": {
+        "before": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/girasole-olive.webp",
+            "text": "Before",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        },
+        "after": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/girasole-wine_7b6620af-a63e-4654-80d2-059c480f600c.webp",
+            "text": "After",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "before",
+        "after"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "GIRASOLE",
+        "title": "CHOOSE YOUR COLOR",
+        "content": "",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
+    },
     "images_with_text_scroll_fHygB4": {
       "type": "images-with-text-scroll",
       "blocks": {
@@ -452,57 +496,16 @@
         "image_with_text_YLHRXq",
         "image_with_text_baAW3C"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
-        "background_image": "shopify:\/\/shop_images\/Screenshot_2024-04-03_at_7.19.08_PM.png",
-        "mobile_background_image": "shopify:\/\/shop_images\/Screenshot_2024-04-03_at_7.26.23_PM.png",
+        "background_image": "shopify:\/\/shop_images\/brics-banner-1.webp",
+        "mobile_background_image": "shopify:\/\/shop_images\/brics-mobile-banner-1.webp",
         "image_position": "start",
         "text_alignment": "center",
         "heading_tag": "h3",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "before-after": {
-      "type": "before-after",
-      "blocks": {
-        "before": {
-          "type": "before",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify:\/\/shop_images\/girasole-olive.webp",
-            "text": "Before",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link"
-          }
-        },
-        "after": {
-          "type": "after",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify:\/\/shop_images\/girasole-wine_7b6620af-a63e-4654-80d2-059c480f600c.webp",
-            "text": "After",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "before",
-        "after"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "GIRASOLE",
-        "title": "CHOOSE YOUR COLOR",
-        "content": "",
-        "cursor_direction": "horizontal",
-        "cursor_initial_position": 50,
-        "cursor_background": "#ffffff",
-        "cursor_arrows_color": "#000000"
       }
     },
     "image-with-text-scroll": {
@@ -557,29 +560,6 @@
         "overlay_opacity": 0
       }
     },
-    "countdown_br4Xky": {
-      "type": "countdown",
-      "settings": {
-        "color_scheme": "scheme-3",
-        "separate_section_with_border": true,
-        "image": "shopify:\/\/shop_images\/S20_1.jpg",
-        "image_size": "auto",
-        "subheading": "LIMITED TIME ONLY",
-        "title": "PROMOTIONS UP TO 40% OFF",
-        "content": "<p>Shop our selection of exclusive handbags and backpacks at reduced price during the Pomotions!<\/p>",
-        "button_link": "#",
-        "button_text": "Shop now",
-        "expiration_date": "",
-        "expiration_behavior": "leave",
-        "timer_position": "end",
-        "animate_number": true,
-        "flip_background": "",
-        "flip_background_opacity": 50,
-        "flip_text_color": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "multiple_media_with_text_zxW6Bn": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -614,14 +594,37 @@
         "media_mobile_alignment_offset": 0,
         "text_alignment": "center",
         "subheading": "PORSCHE DESIGN",
-        "title": "Showcase your product",
-        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.<\/p>",
-        "button_1_text": "",
-        "button_1_link": "",
-        "button_1_style": "outline",
-        "button_2_text": "PORSCHE DESIGN",
-        "button_2_link": "shopify:\/\/collections\/porsche-design",
+        "title": "Precision engineering, stunning design, & clever functionality",
+        "content": "",
+        "button_1_text": "Discover",
+        "button_1_link": "shopify:\/\/collections\/porsche-design",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
         "button_2_style": "solid"
+      }
+    },
+    "countdown_br4Xky": {
+      "type": "countdown",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/S20_1.jpg",
+        "image_size": "auto",
+        "subheading": "LIMITED TIME ONLY",
+        "title": "PROMOTIONS UP TO 40% OFF",
+        "content": "<p>Shop our selection of exclusive handbags and backpacks at reduced price during the Pomotions!<\/p>",
+        "button_link": "#",
+        "button_text": "Shop now",
+        "expiration_date": "",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "multiple-media-with-text": {
@@ -745,11 +748,11 @@
     "scrolling_content_WWTgGm",
     "featured-collections",
     "video_xGe6Xd",
-    "images_with_text_scroll_fHygB4",
     "before-after",
+    "images_with_text_scroll_fHygB4",
     "image-with-text-scroll",
-    "countdown_br4Xky",
     "multiple_media_with_text_zxW6Bn",
+    "countdown_br4Xky",
     "multiple-media-with-text",
     "newsletter",
     "shop-the-look",
