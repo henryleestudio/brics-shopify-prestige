@@ -129,7 +129,7 @@
         "collection_pU7dGw"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
@@ -251,7 +251,7 @@
         "image_QejYQr"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "desktop_row_height": 290,
         "mobile_row_height": 180,
@@ -268,33 +268,46 @@
         "text_bF9YyH": {
           "type": "text",
           "settings": {
-            "text": "Welcome to our shop"
+            "text": "Pack for your next adventure"
+          }
+        },
+        "image_dniBtT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B0CH98HQ8B.01.jpg"
           }
         },
         "text_wbGfU6": {
           "type": "text",
           "settings": {
-            "text": "Discover our products"
+            "text": "Explore in Style"
+          }
+        },
+        "image_p3mwgC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B0BB7Y5C7R.01_0411b0e7-6787-485b-97d3-bdcc6036a60d.jpg"
           }
         }
       },
       "block_order": [
         "text_bF9YyH",
-        "text_wbGfU6"
+        "image_dniBtT",
+        "text_wbGfU6",
+        "image_p3mwgC"
       ],
-      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "scrolling_speed": 0.3,
         "scroll_direction": "left",
         "text_font": "heading",
-        "text_font_size_mobile": 40,
-        "text_font_size_desktop": 96,
-        "section_vertical_spacing_mobile": 60,
-        "section_vertical_spacing_desktop": 80,
-        "item_horizontal_spacing_mobile": 80,
-        "item_horizontal_spacing_desktop": 120,
-        "background": "{{ shop.brand.colors.secondary[0].background }}",
+        "text_font_size_mobile": 20,
+        "text_font_size_desktop": 40,
+        "section_vertical_spacing_mobile": 30,
+        "section_vertical_spacing_desktop": 60,
+        "item_horizontal_spacing_mobile": 40,
+        "item_horizontal_spacing_desktop": 80,
+        "background": "rgba(0,0,0,0)",
         "text_color": "{{ shop.brand.colors.primary[0].background }}"
       }
     },
@@ -304,32 +317,45 @@
         "text_XV7x9Y": {
           "type": "text",
           "settings": {
-            "text": "Welcome to our shop"
+            "text": "Elegance on the Go"
+          }
+        },
+        "image_bTqLxJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B0CH98HQ8B.01.jpg"
           }
         },
         "text_eQj3DA": {
           "type": "text",
           "settings": {
-            "text": "Discover our products"
+            "text": "Sophistication in Every Journey"
+          }
+        },
+        "image_eqbaYA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B0BB7Y5C7R.01.jpg"
           }
         }
       },
       "block_order": [
         "text_XV7x9Y",
-        "text_eQj3DA"
+        "image_bTqLxJ",
+        "text_eQj3DA",
+        "image_eqbaYA"
       ],
-      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "scrolling_speed": 0.3,
         "scroll_direction": "right",
         "text_font": "heading",
-        "text_font_size_mobile": 40,
-        "text_font_size_desktop": 96,
-        "section_vertical_spacing_mobile": 60,
-        "section_vertical_spacing_desktop": 80,
-        "item_horizontal_spacing_mobile": 80,
-        "item_horizontal_spacing_desktop": 120,
+        "text_font_size_mobile": 20,
+        "text_font_size_desktop": 40,
+        "section_vertical_spacing_mobile": 30,
+        "section_vertical_spacing_desktop": 60,
+        "item_horizontal_spacing_mobile": 40,
+        "item_horizontal_spacing_desktop": 80,
         "background": "",
         "text_color": "{{ shop.brand.colors.primary[0].background }}"
       }
@@ -363,7 +389,7 @@
         "collection_wRQFqA"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
@@ -413,6 +439,100 @@
         "text_color": "#ffffff"
       }
     },
+    "image-with-text-scroll": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "item-1": {
+          "type": "image_with_text",
+          "settings": {
+            "subheading": "",
+            "title": "#1",
+            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "item-2": {
+          "type": "image_with_text",
+          "settings": {
+            "subheading": "",
+            "title": "#2",
+            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "item-3": {
+          "type": "image_with_text",
+          "settings": {
+            "subheading": "",
+            "title": "#3",
+            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "background_image": "shopify:\/\/shop_images\/italy-background.webp",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multiple-media-with-text": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "rotation": 0
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "About",
+        "title": "Showcase your product",
+        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.<\/p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    },
     "before-after": {
       "type": "before-after",
       "blocks": {
@@ -444,7 +564,7 @@
         "after"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "subheading": "GIRASOLE",
         "title": "CHOOSE YOUR COLOR",
@@ -453,6 +573,64 @@
         "cursor_initial_position": 50,
         "cursor_background": "#ffffff",
         "cursor_arrows_color": "#000000"
+      }
+    },
+    "shop-the-look": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look-1": {
+          "type": "look",
+          "settings": {
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Shop the look",
+        "content": "",
+        "popover_title": "Shop the look"
+      }
+    },
+    "countdown_br4Xky": {
+      "type": "countdown",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/brics-banner-2.webp",
+        "mobile_image": "shopify:\/\/shop_images\/Screenshot_2024-04-03_at_7.26.23_PM.png",
+        "image_size": "sm",
+        "subheading": "LIMITED TIME ONLY",
+        "title": "PROMOTIONS UP TO 40% OFF",
+        "content": "<p>Shop our selection of exclusive handbags and backpacks at reduced price during the Pomotions!<\/p>",
+        "button_link": "#",
+        "button_text": "Shop now",
+        "expiration_date": "",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "images_with_text_scroll_fHygB4": {
@@ -510,58 +688,6 @@
         "overlay_opacity": 0
       }
     },
-    "image-with-text-scroll": {
-      "type": "images-with-text-scroll",
-      "blocks": {
-        "item-1": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "",
-            "title": "#1",
-            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "item-2": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "",
-            "title": "#2",
-            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "item-3": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "",
-            "title": "#3",
-            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "image_position": "start",
-        "text_alignment": "center",
-        "heading_tag": "h3",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "multiple_media_with_text_zxW6Bn": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -606,123 +732,6 @@
         "button_2_style": "solid"
       }
     },
-    "countdown_br4Xky": {
-      "type": "countdown",
-      "settings": {
-        "color_scheme": "scheme-3",
-        "separate_section_with_border": true,
-        "image": "shopify:\/\/shop_images\/brics-banner-2.webp",
-        "mobile_image": "shopify:\/\/shop_images\/Screenshot_2024-04-03_at_7.26.23_PM.png",
-        "image_size": "sm",
-        "subheading": "LIMITED TIME ONLY",
-        "title": "PROMOTIONS UP TO 40% OFF",
-        "content": "<p>Shop our selection of exclusive handbags and backpacks at reduced price during the Pomotions!<\/p>",
-        "button_link": "#",
-        "button_text": "Shop now",
-        "expiration_date": "",
-        "expiration_behavior": "leave",
-        "timer_position": "end",
-        "animate_number": true,
-        "flip_background": "",
-        "flip_background_opacity": 50,
-        "flip_text_color": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "multiple-media-with-text": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "rotation": 0
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image-1",
-        "image-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "reveal_on_scroll": true,
-        "separate_section_with_border": true,
-        "media_position_desktop": "before_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "overlap",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "center",
-        "subheading": "About",
-        "title": "Showcase your product",
-        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.<\/p>",
-        "button_1_text": "",
-        "button_1_link": "",
-        "button_1_style": "solid",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid"
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "subheading": "Keep me updated",
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing.<\/p>",
-        "button_text": "Subscribe",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "shop-the-look": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look-1": {
-          "type": "look",
-          "settings": {
-            "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Shop the look",
-        "content": "",
-        "popover_title": "Shop the look"
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "disabled": true,
@@ -752,14 +761,13 @@
     "scrolling_content_WWTgGm",
     "featured-collections",
     "video_xGe6Xd",
-    "before-after",
-    "images_with_text_scroll_fHygB4",
     "image-with-text-scroll",
-    "multiple_media_with_text_zxW6Bn",
-    "countdown_br4Xky",
     "multiple-media-with-text",
-    "newsletter",
+    "before-after",
     "shop-the-look",
+    "countdown_br4Xky",
+    "images_with_text_scroll_fHygB4",
+    "multiple_media_with_text_zxW6Bn",
     "blog-posts"
   ]
 }
