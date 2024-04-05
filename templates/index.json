@@ -147,7 +147,7 @@
           "type": "heading",
           "settings": {
             "text": "Bellagio",
-            "heading_tag": "h5"
+            "heading_tag": "h3"
           }
         },
         "richtext_PKnnH7": {
@@ -161,7 +161,7 @@
           "settings": {
             "style": "solid",
             "text": "SHOP",
-            "url": "",
+            "url": "shopify:\/\/collections\/sale-bellagio",
             "background": "",
             "text_color": ""
           }
@@ -402,6 +402,7 @@
         "heading_ayU7wm",
         "play_YyDc8A"
       ],
+      "disabled": true,
       "settings": {
         "autoplay": false,
         "show_controls": true,
