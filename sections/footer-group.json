@@ -8,13 +8,95 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image_size": "auto",
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/posito.png",
         "subheading": "JOIN THE CONVERSATION",
         "title": "Newsletter",
         "content": "<p>Sign up to our newsletter to receive exclusive offers.<\/p>",
         "button_text": "Subscribe",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "multi_column_3Yqzfm": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_GEEcKV": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/insta-img-3.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_qyEBzC": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/insta-img-2.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_XkgfWg": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/insta-img-1.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_9jGEbF": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/insta-img-7.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_wGcJQV": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/insta-img-4.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_GEEcKV",
+        "image_with_text_qyEBzC",
+        "image_with_text_XkgfWg",
+        "image_with_text_9jGEbF",
+        "image_with_text_wGcJQV"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "columns_per_row": 5,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "JOIN US",
+        "title": "@bricsmilano",
+        "content": ""
       }
     },
     "text-with-icons": {
@@ -134,6 +216,7 @@
   },
   "order": [
     "newsletter_L9ynMc",
+    "multi_column_3Yqzfm",
     "text-with-icons",
     "footer"
   ]
