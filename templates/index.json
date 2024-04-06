@@ -197,7 +197,7 @@
             "image": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_2.41.46_PM.png",
             "column_count": "8",
             "row_count": 2,
-            "title": "Life Pelle",
+            "title": "X-COLLECTION",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
@@ -215,7 +215,7 @@
             "image": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_2.42.28_PM.png",
             "column_count": "4",
             "row_count": 1,
-            "title": "PORSCHE",
+            "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
@@ -229,11 +229,11 @@
         "image_QejYQr": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-2",
+            "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
             "image": "shopify:\/\/shop_images\/brics-catalog-2.webp",
             "column_count": "4",
             "row_count": 1,
-            "title": "Firenze",
+            "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
@@ -258,7 +258,7 @@
         "section_width": "lg",
         "spacing": "md",
         "subheading": "Featured Collections",
-        "title": "Quality & Elegance",
+        "title": "QUALITY & STYLE",
         "content": ""
       }
     },
@@ -403,48 +403,25 @@
     "image-with-text-scroll": {
       "type": "images-with-text-scroll",
       "blocks": {
-        "item-2": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3199.webp",
-            "subheading": "",
-            "title": "#2",
-            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
         "item-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3155.webp",
+            "image": "shopify:\/\/shop_images\/brics-2webp.webp",
             "subheading": "",
-            "title": "#1",
-            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.<\/p>",
+            "title": "Italian wanderlust",
+            "content": "<p>As the world blooms anew, immerse yourself in the spirit of adventure with our exquisite collection of bags and luggage.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
           }
         },
-        "image_with_text_r6Jt6R": {
+        "item-2": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/brics-1.webp",
             "subheading": "",
-            "title": "Title",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "item-3": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "subheading": "",
-            "title": "#3",
-            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>",
+            "title": "Fresh allure",
+            "content": "<p>Embark on a journey filled with sophistication and grace, each piece invites you to rediscover the joy of travel.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -452,10 +429,8 @@
         }
       },
       "block_order": [
-        "item-2",
         "item-1",
-        "image_with_text_r6Jt6R",
-        "item-3"
+        "item-2"
       ],
       "settings": {
         "color_scheme": "",
@@ -500,9 +475,9 @@
         "media_alignment_offset": 0,
         "media_mobile_alignment_offset": 0,
         "text_alignment": "center",
-        "subheading": "About",
-        "title": "Showcase your product",
-        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.<\/p>",
+        "subheading": "Spring & Serenity",
+        "title": "Luxury redefined",
+        "content": "<p>Infused with Italian flair, each piece redefines luxury travel<\/p>",
         "button_1_text": "",
         "button_1_link": "",
         "button_1_style": "solid",
@@ -521,7 +496,7 @@
         "image_size": "md",
         "subheading": "LIMITED TIME ONLY",
         "title": "PROMOTIONS UP TO 40% OFF",
-        "content": "<p>Shop our selection of exclusive handbags and backpacks at reduced price during the Pomotions!<\/p>",
+        "content": "<p>Shop our selection of exclusive handbags and backpacks at reduced price during promotions!<\/p>",
         "button_link": "#",
         "button_text": "Shop now",
         "expiration_date": "",
@@ -568,9 +543,9 @@
         "media_alignment_offset": 0,
         "media_mobile_alignment_offset": 0,
         "text_alignment": "center",
-        "subheading": "About",
-        "title": "Showcase your product",
-        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.<\/p>",
+        "subheading": "Tranquility & elegance",
+        "title": "Italian Splendor",
+        "content": "<p>Indulge in the harmonious blend of style and sophistication<\/p>",
         "button_1_text": "",
         "button_1_link": "",
         "button_1_style": "solid",
@@ -626,12 +601,14 @@
       "blocks": {
         "subheading_YyqNKU": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "Made in Italy"
           }
         },
         "heading_ayU7wm": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "X-Collection",
             "heading_tag": "h2"
@@ -649,14 +626,13 @@
         "heading_ayU7wm",
         "play_YyDc8A"
       ],
-      "disabled": true,
       "settings": {
-        "autoplay": false,
+        "autoplay": true,
         "show_controls": true,
         "video_size": "md",
         "video": "shopify:\/\/files\/videos\/orizzontale-compresed.mp4",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "poster": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_3.11.45_PM.png",
+        "poster": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_5.52.23_PM.png",
         "text_color": "#ffffff"
       }
     },
@@ -696,7 +672,7 @@
         "look-1": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/S22_1.jpg",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_6.04.44_PM.png",
             "hot_spots_background": "#ffffff",
             "product_1": "",
             "product_1_horizontal_position": 69,
@@ -716,12 +692,11 @@
       "block_order": [
         "look-1"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": false,
         "subheading": "SHOP",
-        "title": "OUR LOOKS",
+        "title": "X-COLLECTION",
         "content": "",
         "popover_title": "Shop the look"
       }
@@ -797,9 +772,9 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_3536.webp",
-            "subheading": "",
-            "title": "#1",
-            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.<\/p>",
+            "subheading": "Discover a winning combination of performance and luxury with our spring collection of bags and luggage",
+            "title": "Tennis Couture",
+            "content": "<p>Whether you're hitting the tennis courts or exploring the world, our meticulously crafted pieces ensure you're always at the top of your game, both on and off the court<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
