@@ -1,6 +1,7 @@
 {
   "current": {
     "section_vertical_spacing": "md",
+    "default_color_scheme": "scheme-2",
     "product_rating_color": "#1c1c1c",
     "product_on_sale_accent": "#e32c2b",
     "product_sold_out_badge_background": "#efefef",
@@ -13,6 +14,8 @@
     "text_font": "univers_next_n4",
     "text_font_size_desktop": 14,
     "button_letter_spacing": 18,
+    "social_facebook": "https:\/\/www.facebook.com\/bricsusa\/",
+    "social_instagram": "https:\/\/www.instagram.com\/bricsmilano\/",
     "favicon": "shopify:\/\/shop_images\/emblem-favicon_713f07e4-ac2d-41d7-bc87-5b2e4ec9c218.png",
     "content_for_index": [
 
@@ -23,7 +26,7 @@
           "background": "#efefef",
           "background_gradient": "",
           "text_color": "#1c1c1c",
-          "primary_button_background": "#1c1c1c",
+          "primary_button_background": "{{ shop.brand.colors.primary[0].background }}",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
           "circle_button_icon": "#1c1c1c"
@@ -34,7 +37,7 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text_color": "{{ shop.brand.colors.primary[0].background }}",
-          "primary_button_background": "#1c1c1c",
+          "primary_button_background": "{{ shop.brand.colors.primary[0].background }}",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
           "circle_button_icon": "#1c1c1c"
