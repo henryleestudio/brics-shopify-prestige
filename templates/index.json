@@ -106,7 +106,7 @@
         "collection_JiD3p7": {
           "type": "collection",
           "settings": {
-            "collection": "women",
+            "collection": "bellagio",
             "products_count": 8,
             "title": "Women",
             "link_url": "",
@@ -701,6 +701,43 @@
         "popover_title": "Shop the look"
       }
     },
+    "image_with_text_overlay_Fh6DNw": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_cwdqif": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_7CNCwP": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cwdqif",
+        "richtext_7CNCwP"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/porshe-design.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "multiple_media_with_text_zxW6Bn": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -723,7 +760,6 @@
         "image_ffW9xn",
         "image_zML6GC"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "reveal_on_scroll": true,
@@ -852,6 +888,7 @@
     "video_xGe6Xd",
     "featured_collections_j3yXrn",
     "shop-the-look",
+    "image_with_text_overlay_Fh6DNw",
     "multiple_media_with_text_zxW6Bn",
     "blog-posts",
     "images_with_text_scroll_fHygB4"

@@ -41,7 +41,7 @@
         "menu_open_trigger": "hover",
         "enable_search": true,
         "sidebar_color_scheme": "",
-        "sidebar_text_font": "body",
+        "sidebar_text_font": "heading",
         "sidebar_show_dividers": true,
         "layout": "logo_left_navigation_inline",
         "show_icons": true,
