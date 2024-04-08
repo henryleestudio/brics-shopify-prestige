@@ -218,7 +218,24 @@ LIQUID
 
                 <product-list id="product-list-{{ section.id }}" class="product-list" collection-mobile-layout="{{ products_mobile_grid_mode }}" collection-desktop-layout="{{ products_desktop_grid_mode }}">
                   {%- for product in collection.products -%}
-                    {%- render 'product-card', product: product, reveal: settings.stagger_products_apparition, hide_product_information: section.settings.hide_product_information, stacked: true -%}
+                    
+                    {% unless product.has_only_default_variant %}
+                      {%- for variant in product.variants -%}
+                        {% if product.options.size > 1 %}
+                            {%- render 'product-card', product: product, variant_obj: variant, reveal: settings.stagger_products_apparition, hide_product_information: section.settings.hide_product_information, stacked: true -%}
+                        {% else %}
+                          {%- render 'product-card', product: product, variant_obj: variant, reveal: settings.stagger_products_apparition, hide_product_information: section.settings.hide_product_information, stacked: true -%}
+                        {% endif %}
+                      {%- endfor -%} 
+                    {% else %}
+                      {% assign show_default = true %}
+                    {% endunless %}
+                    
+                    {% if show_default %}
+                      {% assign show_default = false %}
+                      {%- render 'product-card', product: product, reveal: settings.stagger_products_apparition, hide_product_information: section.settings.hide_product_information, stacked: true -%}  
+                    {% endif %}
+                    
                   {%- endfor -%}
                 </product-list>
 
