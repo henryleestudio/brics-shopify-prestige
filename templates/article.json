@@ -3,10 +3,10 @@
     "main": {
       "type": "main-article",
       "settings": {
-        "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
+        "color_scheme": "scheme-2",
         "show_image": true,
         "enable_parallax": true,
-        "image_size": "medium",
+        "image_size": "small",
         "content_width": "sm",
         "show_date": true,
         "show_category": true,
