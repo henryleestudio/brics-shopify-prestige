@@ -434,7 +434,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "background_image": "shopify:\/\/shop_images\/italy-background.webp",
+        "background_image": "shopify:\/\/shop_images\/background-img.jpg",
         "image_position": "start",
         "text_alignment": "center",
         "heading_tag": "h3",
@@ -533,7 +533,7 @@
         "image_FDVdVk"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "reveal_on_scroll": true,
         "separate_section_with_border": true,
         "media_position_desktop": "after_text",
@@ -641,6 +641,7 @@
       "blocks": {
         "collection_RPFAge": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "products_count": 8,
@@ -653,7 +654,6 @@
       "block_order": [
         "collection_RPFAge"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -672,7 +672,7 @@
         "look-1": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_6.04.44_PM.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-08_at_10.08.53_PM.png",
             "hot_spots_background": "#ffffff",
             "product_1": "",
             "product_1_horizontal_position": 69,
@@ -701,6 +701,113 @@
         "popover_title": "Shop the look"
       }
     },
+    "video_jRfahU": {
+      "type": "video",
+      "blocks": {
+        "play_jYQfN8": {
+          "type": "play",
+          "disabled": true,
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_wnmGVD": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_jYQfN8",
+        "heading_wnmGVD"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify:\/\/files\/videos\/positano-collection.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "media_grid_iJHcNM": {
+      "type": "media-grid",
+      "blocks": {
+        "image_Rqgbzw": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-08_at_7.10.04_PM.webp",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hkbK6D": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-08_at_10.17.51_PM.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JjmVcJ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/insta-img-7.webp",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Rqgbzw",
+        "image_hkbK6D",
+        "image_JjmVcJ"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "image_with_text_overlay_Fh6DNw": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -724,6 +831,7 @@
         "heading_cwdqif",
         "richtext_7CNCwP"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "image_size": "auto",
@@ -760,6 +868,7 @@
         "image_ffW9xn",
         "image_zML6GC"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "reveal_on_scroll": true,
@@ -799,6 +908,94 @@
         "content": "",
         "button_link": "shopify:\/\/collections\/porsche-design",
         "button_text": "DISCOVER"
+      }
+    },
+    "shop_the_look_VGAbnX": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_MrcJ4x": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-08_at_7.10.04_PM.webp",
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 35,
+            "product_1_vertical_position": 35,
+            "product_2": "",
+            "product_2_horizontal_position": 34,
+            "product_2_vertical_position": 65,
+            "product_3": "",
+            "product_3_horizontal_position": 66,
+            "product_3_vertical_position": 42,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_gkYfWt": {
+          "type": "look",
+          "settings": {
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 35,
+            "product_2": "",
+            "product_2_horizontal_position": 70,
+            "product_2_vertical_position": 30,
+            "product_3": "",
+            "product_3_horizontal_position": 60,
+            "product_3_vertical_position": 65,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_MrcJ4x",
+        "look_gkYfWt"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Shop the look",
+        "content": "",
+        "popover_title": "Shop the look"
+      }
+    },
+    "video_Wk9iQC": {
+      "type": "video",
+      "blocks": {
+        "play_ke99jT": {
+          "type": "play",
+          "disabled": true,
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_MqdR9k": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_ke99jT",
+        "heading_MqdR9k"
+      ],
+      "disabled": true,
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify:\/\/files\/videos\/BY Ulisse Stop Motion Charging Phone Video.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
       }
     },
     "images_with_text_scroll_fHygB4": {
@@ -888,9 +1085,13 @@
     "video_xGe6Xd",
     "featured_collections_j3yXrn",
     "shop-the-look",
+    "video_jRfahU",
+    "media_grid_iJHcNM",
     "image_with_text_overlay_Fh6DNw",
     "multiple_media_with_text_zxW6Bn",
     "blog-posts",
+    "shop_the_look_VGAbnX",
+    "video_Wk9iQC",
     "images_with_text_scroll_fHygB4"
   ]
 }
