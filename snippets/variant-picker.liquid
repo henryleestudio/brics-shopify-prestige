@@ -126,6 +126,9 @@ Supported variables
 
                 case resolved_option_selector_style
                   when 'variant_image'
+                  assign image = value.variant.featured_media | default:product.variants[forloop.index0].featured_image
+                  render 'option-value', type: 'thumbnail', value: value, image: image, selected: selected, name: name, form: form_id, id_prefix: forloop.index
+                  
                     render 'option-value', type: 'thumbnail', value: value, image: value.variant.featured_media, selected: selected, name: name, form: form_id, id_prefix: forloop.index
                   when 'swatch'
                     if value.swatch.image
