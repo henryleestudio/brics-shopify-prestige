@@ -12,18 +12,28 @@
     box-sizing: border-box;
 }
 
-h1,
-h2,
-h3 {
+.h1,
+.h2,
+.h3 {
     font-family: $bodoni-moda !important;
+    font-weight: 500 !important;
 }
 
-h4,
-h5,
-h6 {
+.h4,
+.h5,
+.h6 {
     font-family: $brandon-grotesque !important;
+    font-weight: 400 !important;
     letter-spacing: 2.7px !important;
 }
+
+.header__primary-nav-item a, .nav-menu-text {
+    font-family: $bodoni-moda !important;
+    font-size: 12.4px;
+    font-weight: 600;
+    letter-spacing: 2.9px;
+    line-height: 1.7;
+  }
 
 // a {
 //     font-family: $brandon-grotesque !important;

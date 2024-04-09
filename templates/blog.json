@@ -3,7 +3,7 @@
     "main": {
       "type": "main-blog",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "show_blog_title": true,
         "show_rss_feed": false,
         "show_tags": true,
