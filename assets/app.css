@@ -27,3 +27,12 @@
   letter-spacing: 2.9px;
   line-height: 1.7;
 }
+
+.product-card__quick-add-button {
+  display: flex;
+  align-items: center;
+}
+
+.product-card__quick-add-button svg.icon {
+  margin-left: 10px;
+}

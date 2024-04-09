@@ -35,6 +35,17 @@
     line-height: 1.7;
   }
 
+  // featured collections section "ADD TO CART" button 
+
+  .product-card__quick-add-button {
+    display: flex;
+    align-items: center;
+  }
+
+  .product-card__quick-add-button svg.icon {
+    margin-left: 10px;
+  }
+
 // a {
 //     font-family: $brandon-grotesque !important;
 //     letter-spacing: 2.5px !important;
