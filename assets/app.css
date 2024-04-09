@@ -36,3 +36,13 @@
 .product-card__quick-add-button svg.icon {
   margin-left: 10px;
 }
+
+.img-title-scroll {
+  font-size: 43px;
+  font-weight: 600 !important;
+}
+
+.img-txt-scroll p {
+  font-size: 14px;
+  font-weight: 40 !important;
+}
