@@ -510,50 +510,6 @@
         "overlay_opacity": 30
       }
     },
-    "multiple_media_with_text_7Je7iC": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image_yFPXmK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3300.webp",
-            "rotation": 0
-          }
-        },
-        "image_FDVdVk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_3.32.49_PM.png",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_yFPXmK",
-        "image_FDVdVk"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "reveal_on_scroll": true,
-        "separate_section_with_border": true,
-        "media_position_desktop": "after_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "overlap",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "center",
-        "subheading": "Tranquility & elegance",
-        "title": "Italian Splendor",
-        "content": "<p>Indulge in the harmonious blend of style and sophistication<\/p>",
-        "button_1_text": "",
-        "button_1_link": "",
-        "button_1_style": "solid",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid"
-      }
-    },
     "before-after": {
       "type": "before-after",
       "blocks": {
@@ -594,6 +550,50 @@
         "cursor_initial_position": 50,
         "cursor_background": "#ffffff",
         "cursor_arrows_color": "#000000"
+      }
+    },
+    "multiple_media_with_text_7Je7iC": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_yFPXmK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3300.webp",
+            "rotation": 0
+          }
+        },
+        "image_FDVdVk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_3.32.49_PM.png",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_yFPXmK",
+        "image_FDVdVk"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Tranquility & elegance",
+        "title": "Italian Splendor",
+        "content": "<p>Indulge in the harmonious blend of style and sophistication<\/p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
       }
     },
     "video_xGe6Xd": {
@@ -1080,8 +1080,8 @@
     "image-with-text-scroll",
     "multiple-media-with-text",
     "countdown_br4Xky",
-    "multiple_media_with_text_7Je7iC",
     "before-after",
+    "multiple_media_with_text_7Je7iC",
     "video_xGe6Xd",
     "featured_collections_j3yXrn",
     "shop-the-look",
