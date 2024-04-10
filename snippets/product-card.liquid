@@ -101,8 +101,6 @@ Supported variables
             <input type="hidden" name="id" value="{{ first_variant.id }}">
             <button type="submit" class="product-card__quick-add-button">
               <span class="sr-only">{{ 'product.general.add_to_cart_button' | t }}</span>
-              {% comment %} ADD TO CART addition {% endcomment %}
-              ADD TO CART
               {%- render 'icon' with 'plus' -%}
             </button>
           {%- endform -%}
@@ -111,8 +109,6 @@ Supported variables
 
           <button type="button" aria-controls="{{ quick_buy_id }}" class="product-card__quick-add-button">
             <span class="sr-only">{{ 'product.general.choose_options' | t }}</span>
-            {% comment %} ADD TO CART addition {% endcomment %}
-            ADD TO CART
             {%- render 'icon' with 'plus' -%}
           </button>
 
