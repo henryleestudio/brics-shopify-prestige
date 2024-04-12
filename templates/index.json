@@ -106,21 +106,21 @@
         "collection_JiD3p7": {
           "type": "collection",
           "settings": {
-            "collection": "bellagio",
+            "collection": "luggage",
             "products_count": 8,
-            "title": "Women",
-            "link_url": "",
-            "link_text": "ALL WOMEN'S BAGS"
+            "title": "Luggage",
+            "link_url": "shopify:\/\/collections\/luggage",
+            "link_text": "VIEW ALL LUGGAGE"
           }
         },
         "collection_pU7dGw": {
           "type": "collection",
           "settings": {
-            "collection": "men",
+            "collection": "bags",
             "products_count": 8,
-            "title": "Men",
-            "link_url": "",
-            "link_text": "ALL MEN'S BAGS"
+            "title": "Bags",
+            "link_url": "shopify:\/\/collections\/bags",
+            "link_text": "VIEW ALL BAGS"
           }
         }
       },
@@ -137,7 +137,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "OUR BEST SELLERS"
+        "subheading": "BEST SELLERS"
       }
     },
     "image_with_text_overlay_njfifb": {
@@ -147,7 +147,7 @@
           "type": "heading",
           "settings": {
             "text": "Bellagio",
-            "heading_tag": "h3"
+            "heading_tag": "h2"
           }
         },
         "richtext_PKnnH7": {
@@ -543,7 +543,7 @@
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": true,
-        "subheading": "GIRASOLE COLLECTION",
+        "subheading": "GIRASOLE",
         "title": "CHOOSE YOUR COLOR",
         "content": "",
         "cursor_direction": "horizontal",
@@ -1005,8 +1005,8 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_3536.webp",
-            "subheading": "Discover a winning combination of performance and luxury with our spring collection of bags and luggage",
-            "title": "Tennis Couture",
+            "subheading": "Performance and luxury",
+            "title": "",
             "content": "<p>Whether you're hitting the tennis courts or exploring the world, our meticulously crafted pieces ensure you're always at the top of your game, both on and off the court<\/p>",
             "link_text": "",
             "link_url": "",
@@ -1063,9 +1063,9 @@
         "mobile_background_image": "shopify:\/\/shop_images\/brics-mobile-banner-1.webp",
         "image_position": "start",
         "text_alignment": "center",
-        "heading_tag": "h3",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "heading_tag": "h2",
+        "overlay_color": "{{ shop.brand.colors.primary[0].background }}",
+        "overlay_opacity": 50
       }
     }
   },
