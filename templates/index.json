@@ -650,7 +650,7 @@
       "settings": {
         "color_scheme": "scheme-2",
         "reveal_on_scroll": true,
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "media_position_desktop": "after_text",
         "media_position_mobile": "before_text",
         "media_layout": "overlap",
