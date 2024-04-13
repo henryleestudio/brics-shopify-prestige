@@ -301,8 +301,8 @@
         "scrolling_speed": 0.3,
         "scroll_direction": "left",
         "text_font": "heading",
-        "text_font_size_mobile": 20,
-        "text_font_size_desktop": 40,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 26,
         "section_vertical_spacing_mobile": 30,
         "section_vertical_spacing_desktop": 60,
         "item_horizontal_spacing_mobile": 40,
@@ -350,8 +350,8 @@
         "scrolling_speed": 0.3,
         "scroll_direction": "right",
         "text_font": "heading",
-        "text_font_size_mobile": 20,
-        "text_font_size_desktop": 40,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 26,
         "section_vertical_spacing_mobile": 30,
         "section_vertical_spacing_desktop": 60,
         "item_horizontal_spacing_mobile": 40,
@@ -360,13 +360,53 @@
         "text_color": "{{ shop.brand.colors.primary[0].background }}"
       }
     },
+    "featured_collections_original_eWAegL": {
+      "type": "featured-collections-original",
+      "blocks": {
+        "collection_bd8dgh": {
+          "type": "collection",
+          "settings": {
+            "collection": "carry-on",
+            "products_count": 8,
+            "title": "CARRY-ON",
+            "link_url": "shopify:\/\/collections\/carry-on",
+            "link_text": "ALL CARRY-ON BAGS"
+          }
+        },
+        "collection_hEc8NU": {
+          "type": "collection",
+          "settings": {
+            "collection": "check-in",
+            "products_count": 8,
+            "title": "CHECK-IN",
+            "link_url": "shopify:\/\/collections\/check-in",
+            "link_text": "ALL CHECK-IN BAGS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_bd8dgh",
+        "collection_hEc8NU"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Traveler Styles"
+      }
+    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "carry-on",
             "products_count": 8,
             "title": "CARRY-ON",
             "link_url": "",
@@ -379,8 +419,8 @@
             "collection": "check-in",
             "products_count": 8,
             "title": "CHECK-IN",
-            "link_url": "",
-            "link_text": "All Check-In Bags"
+            "link_url": "shopify:\/\/collections\/check-in",
+            "link_text": "ALL CHECK-IN BAGS"
           }
         }
       },
@@ -388,6 +428,7 @@
         "collection-1",
         "collection_wRQFqA"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": true,
@@ -1076,6 +1117,7 @@
     "media_grid_k4hyGr",
     "scrolling_content_pEzdNq",
     "scrolling_content_WWTgGm",
+    "featured_collections_original_eWAegL",
     "featured-collections",
     "image-with-text-scroll",
     "multiple-media-with-text",
