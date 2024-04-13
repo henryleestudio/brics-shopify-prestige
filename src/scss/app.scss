@@ -29,11 +29,11 @@
 
 .header__primary-nav-item a, .nav-menu-text {
   font-family: "bodoni-moda-variable", sans-serif !important;
-  font-variation-settings: "wght" 510, "opsz" 11 !important;
-  font-size: 13.5px;
+  font-variation-settings: "wght" 530, "opsz" 8 !important;
+  font-size: 12.5px;
   letter-spacing: 3.9px !important;
   line-height: 1.7;
-  box-shadow: 0px 0px 5px #00000005 inset;
+  box-shadow: 0 0 5px #00000005 inset;
   }
 
   // featured collections section "ADD TO CART" button 
@@ -48,8 +48,17 @@
   }
 
   .img-title-scroll {
-    font-size: 43px;
-    font-weight: 600 !important;
+    font-size: 38px;
+    font-variation-settings: "wght" 600, "opsz" 8 !important;
+    // box-shadow: 9px 10px 101px #00000012 inset;
+  }
+
+  .media-grid-sub-title {
+    font-size: 13px !important; 
+  }
+
+  .multi-media-txt-title {
+    font-size: 40px !important;
   }
 
   .img-txt-scroll p{
@@ -68,6 +77,10 @@
     right: 0;
     bottom: 0;
     left: 0;
+}
+
+.media-grid-sub-title:first-child {
+  font-size: 16px;
 }
 
 // a {
