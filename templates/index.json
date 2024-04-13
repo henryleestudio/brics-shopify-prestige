@@ -3,58 +3,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "subheading": "Tell your story",
-            "title": "Image slide",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "slide-2": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "subheading": "Tell your story",
-            "title": "Image slide",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2) 0%, rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
         "video_fJF3DM": {
           "type": "video",
           "settings": {
@@ -81,12 +29,37 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
+        },
+        "slide-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell your story",
+            "title": "Image slide",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
         }
       },
       "block_order": [
-        "slide-1",
-        "slide-2",
-        "video_fJF3DM"
+        "video_fJF3DM",
+        "slide-1"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -699,7 +672,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
@@ -842,44 +815,6 @@
         "text_color": "#ffffff"
       }
     },
-    "image_with_text_overlay_Fh6DNw": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_cwdqif": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h4"
-          }
-        },
-        "richtext_7CNCwP": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_cwdqif",
-        "richtext_7CNCwP"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/porshe-design.png",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "multiple_media_with_text_zxW6Bn": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -971,7 +906,7 @@
         "look_gkYfWt"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "subheading": "FEATURED COLLECTION",
         "title": "POSITANO",
@@ -1052,6 +987,12 @@
     "rich_text_cLdVNa": {
       "type": "rich-text",
       "blocks": {
+        "subheading_wW974C": {
+          "type": "subheading",
+          "settings": {
+            "text": "Performance and luxury"
+          }
+        },
         "heading_Jzt8iK": {
           "type": "heading",
           "settings": {
@@ -1059,37 +1000,32 @@
             "heading_tag": "h1"
           }
         },
-        "subheading_wW974C": {
-          "type": "subheading",
-          "settings": {
-            "text": "Performance and luxury"
-          }
-        },
         "richtext_H8wJcc": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
-            "content": "<p>Whether you're hitting the tennis courts or exploring the world, our meticulously crafted pieces ensure you're always at the top of your game, both on and off the court<\/p>"
+            "content": "<p>Our meticulously crafted pieces ensure you're always at the top of your game, both on and off the court<\/p>"
           }
         },
         "button_4RVgLX": {
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "SHOP LIFE COLLECTION",
-            "url": "",
+            "text": "SHOP",
+            "url": "shopify:\/\/collections\/life",
             "background": "",
             "text_color": ""
           }
         }
       },
       "block_order": [
-        "heading_Jzt8iK",
         "subheading_wW974C",
+        "heading_Jzt8iK",
         "richtext_H8wJcc",
         "button_4RVgLX"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "content_width": "sm",
         "text_position": "center",
@@ -1127,6 +1063,60 @@
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
       }
+    },
+    "shop_the_look_UbNzhf": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_4EAn8x": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_3.14.53_PM_6405e764-c4d6-44f6-a169-e79ef12e5a5a.png",
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 35,
+            "product_1_vertical_position": 35,
+            "product_2": "",
+            "product_2_horizontal_position": 34,
+            "product_2_vertical_position": 65,
+            "product_3": "",
+            "product_3_horizontal_position": 66,
+            "product_3_vertical_position": 42,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_PhY9Ct": {
+          "type": "look",
+          "settings": {
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 35,
+            "product_2": "",
+            "product_2_horizontal_position": 70,
+            "product_2_vertical_position": 30,
+            "product_3": "",
+            "product_3_horizontal_position": 60,
+            "product_3_vertical_position": 65,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_4EAn8x",
+        "look_PhY9Ct"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Shop the look",
+        "content": "",
+        "popover_title": "Shop the look"
+      }
     }
   },
   "order": [
@@ -1149,11 +1139,11 @@
     "featured_collections_j3yXrn",
     "shop-the-look",
     "video_jRfahU",
-    "image_with_text_overlay_Fh6DNw",
     "multiple_media_with_text_zxW6Bn",
     "shop_the_look_VGAbnX",
     "images_with_text_scroll_fHygB4",
     "rich_text_cLdVNa",
-    "video_Wk9iQC"
+    "video_Wk9iQC",
+    "shop_the_look_UbNzhf"
   ]
 }
