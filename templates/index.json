@@ -533,7 +533,7 @@
         "subheading_bNeYAp": {
           "type": "subheading",
           "settings": {
-            "text": "Image with text block"
+            "text": "we love you, thank you"
           }
         },
         "richtext_Vfzn9A": {
@@ -842,82 +842,6 @@
         "text_color": "#ffffff"
       }
     },
-    "media_grid_iJHcNM": {
-      "type": "media-grid",
-      "blocks": {
-        "image_Rqgbzw": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-08_at_7.10.04_PM.webp",
-            "column_count": "8",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_hkbK6D": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-08_at_10.17.51_PM.png",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_JjmVcJ": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify:\/\/shop_images\/insta-img-7.webp",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_Rqgbzw",
-        "image_hkbK6D",
-        "image_JjmVcJ"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "lg",
-        "spacing": "md",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "image_with_text_overlay_Fh6DNw": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -1049,10 +973,129 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Shop the look",
+        "subheading": "FEATURED COLLECTION",
+        "title": "POSITANO",
         "content": "",
-        "popover_title": "Shop the look"
+        "popover_title": "POSITANO COLLECTION"
+      }
+    },
+    "images_with_text_scroll_fHygB4": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_cndMPc": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3536.webp",
+            "subheading": "",
+            "title": "LIFE",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_RjegAV": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "subheading": "LIFE",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_YLHRXq": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_5.35.32_PM.png",
+            "subheading": "",
+            "title": "#2",
+            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_baAW3C": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "title": "#3",
+            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_cndMPc",
+        "image_with_text_RjegAV",
+        "image_with_text_YLHRXq",
+        "image_with_text_baAW3C"
+      ],
+      "settings": {
+        "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
+        "background_image": "shopify:\/\/shop_images\/IMG_3562.webp",
+        "mobile_background_image": "shopify:\/\/shop_images\/IMG_3562.webp",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h2",
+        "overlay_color": "{{ shop.brand.colors.primary[0].background }}",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_cLdVNa": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_wW974C": {
+          "type": "subheading",
+          "settings": {
+            "text": "Performance and luxury"
+          }
+        },
+        "heading_Jzt8iK": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "LIFE COLLECTION",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_H8wJcc": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Whether you're hitting the tennis courts or exploring the world, our meticulously crafted pieces ensure you're always at the top of your game, both on and off the court<\/p>"
+          }
+        },
+        "button_4RVgLX": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP LIFE",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wW974C",
+        "heading_Jzt8iK",
+        "richtext_H8wJcc",
+        "button_4RVgLX"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "video_Wk9iQC": {
@@ -1082,79 +1125,9 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "md",
-        "video": "shopify:\/\/files\/videos\/BY Ulisse Stop Motion Charging Phone Video.mp4",
+        "video": "shopify:\/\/files\/videos\/b-y-banner-vid-compressed_003bc1c2-2249-4587-beee-58a82e80454b.mp4",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
-      }
-    },
-    "images_with_text_scroll_fHygB4": {
-      "type": "images-with-text-scroll",
-      "blocks": {
-        "image_with_text_cndMPc": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3536.webp",
-            "subheading": "Performance and luxury",
-            "title": "",
-            "content": "<p>Whether you're hitting the tennis courts or exploring the world, our meticulously crafted pieces ensure you're always at the top of your game, both on and off the court<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "image_with_text_YLHRXq": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_5.35.32_PM.png",
-            "subheading": "",
-            "title": "#2",
-            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "image_with_text_RjegAV": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "subheading": "",
-            "title": "Title",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "image_with_text_baAW3C": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "subheading": "",
-            "title": "#3",
-            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "image_with_text_cndMPc",
-        "image_with_text_YLHRXq",
-        "image_with_text_RjegAV",
-        "image_with_text_baAW3C"
-      ],
-      "settings": {
-        "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
-        "background_image": "shopify:\/\/shop_images\/IMG_3562.webp",
-        "mobile_background_image": "shopify:\/\/shop_images\/brics-mobile-banner-1.webp",
-        "image_position": "start",
-        "text_alignment": "center",
-        "heading_tag": "h2",
-        "overlay_color": "{{ shop.brand.colors.primary[0].background }}",
-        "overlay_opacity": 0
       }
     }
   },
@@ -1178,11 +1151,11 @@
     "featured_collections_j3yXrn",
     "shop-the-look",
     "video_jRfahU",
-    "media_grid_iJHcNM",
     "image_with_text_overlay_Fh6DNw",
     "multiple_media_with_text_zxW6Bn",
     "shop_the_look_VGAbnX",
-    "video_Wk9iQC",
-    "images_with_text_scroll_fHygB4"
+    "images_with_text_scroll_fHygB4",
+    "rich_text_cLdVNa",
+    "video_Wk9iQC"
   ]
 }
