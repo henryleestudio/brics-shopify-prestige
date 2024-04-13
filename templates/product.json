@@ -104,7 +104,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,

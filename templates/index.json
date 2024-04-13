@@ -527,8 +527,40 @@
         "button_2_style": "solid"
       }
     },
+    "image_with_text_block_7NUQWR": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_bNeYAp": {
+          "type": "subheading",
+          "settings": {
+            "text": "Image with text block"
+          }
+        },
+        "richtext_Vfzn9A": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_bNeYAp",
+        "richtext_Vfzn9A"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-04-03_at_7.18.54_PM.png",
+        "mobile_image": "shopify:\/\/shop_images\/Screenshot_2024-04-13_at_11.23.44_AM.png",
+        "content_width": "sm",
+        "enable_parallax": true,
+        "remove_vertical_spacing": true
+      }
+    },
     "countdown_br4Xky": {
       "type": "countdown",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": true,
@@ -583,7 +615,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-2",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "subheading": "GIRASOLE",
         "title": "CHOOSE YOUR COLOR",
         "content": "",
@@ -635,6 +667,42 @@
         "button_2_text": "",
         "button_2_link": "",
         "button_2_style": "solid"
+      }
+    },
+    "rich_text_f8F777": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_gUHC6B": {
+          "type": "subheading",
+          "settings": {
+            "text": "Featuring"
+          }
+        },
+        "heading_bdfAdm": {
+          "type": "heading",
+          "settings": {
+            "text": "X-COLLECTION",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_7Ahxnw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>X-COLLECTION<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gUHC6B",
+        "heading_bdfAdm",
+        "richtext_7Ahxnw"
+      ],
+      "settings": {
+        "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "video_xGe6Xd": {
@@ -736,8 +804,8 @@
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": false,
-        "subheading": "SHOP",
-        "title": "X-COLLECTION",
+        "subheading": "",
+        "title": "",
         "content": "",
         "popover_title": "Shop the look"
       }
@@ -837,6 +905,7 @@
         "image_hkbK6D",
         "image_JjmVcJ"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -932,25 +1001,6 @@
         "button_2_style": "solid"
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "blog": "",
-        "posts_count": 3,
-        "stack_on_mobile": false,
-        "show_category": true,
-        "show_excerpt": true,
-        "show_read_more": true,
-        "subheading": "",
-        "title": "Blog posts",
-        "content": "",
-        "button_link": "shopify:\/\/collections\/porsche-design",
-        "button_text": "DISCOVER"
-      }
-    },
     "shop_the_look_VGAbnX": {
       "type": "shop-the-look",
       "blocks": {
@@ -996,7 +1046,6 @@
         "look_MrcJ4x",
         "look_gkYfWt"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -1029,7 +1078,6 @@
         "play_ke99jT",
         "heading_MqdR9k"
       ],
-      "disabled": true,
       "settings": {
         "autoplay": true,
         "show_controls": true,
@@ -1106,7 +1154,7 @@
         "text_alignment": "center",
         "heading_tag": "h2",
         "overlay_color": "{{ shop.brand.colors.primary[0].background }}",
-        "overlay_opacity": 50
+        "overlay_opacity": 0
       }
     }
   },
@@ -1121,9 +1169,11 @@
     "featured-collections",
     "image-with-text-scroll",
     "multiple-media-with-text",
+    "image_with_text_block_7NUQWR",
     "countdown_br4Xky",
     "before-after",
     "multiple_media_with_text_7Je7iC",
+    "rich_text_f8F777",
     "video_xGe6Xd",
     "featured_collections_j3yXrn",
     "shop-the-look",
@@ -1131,7 +1181,6 @@
     "media_grid_iJHcNM",
     "image_with_text_overlay_Fh6DNw",
     "multiple_media_with_text_zxW6Bn",
-    "blog-posts",
     "shop_the_look_VGAbnX",
     "video_Wk9iQC",
     "images_with_text_scroll_fHygB4"
