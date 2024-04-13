@@ -137,7 +137,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "BEST SELLERS"
+        "subheading": "BEST-SELLERS"
       }
     },
     "image_with_text_overlay_njfifb": {
@@ -533,7 +533,7 @@
         "subheading_bNeYAp": {
           "type": "subheading",
           "settings": {
-            "text": "we love you, thank you"
+            "text": "Thank you for your support"
           }
         },
         "richtext_Vfzn9A": {
@@ -688,7 +688,7 @@
         "richtext_7Ahxnw": {
           "type": "richtext",
           "settings": {
-            "content": "<p>X-COLLECTION<\/p>"
+            "content": "<p>Discover Bold Fashion<\/p>"
           }
         }
       },
@@ -1052,23 +1052,21 @@
     "rich_text_cLdVNa": {
       "type": "rich-text",
       "blocks": {
+        "heading_Jzt8iK": {
+          "type": "heading",
+          "settings": {
+            "text": "LIFE COLLECTION",
+            "heading_tag": "h1"
+          }
+        },
         "subheading_wW974C": {
           "type": "subheading",
           "settings": {
             "text": "Performance and luxury"
           }
         },
-        "heading_Jzt8iK": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "LIFE COLLECTION",
-            "heading_tag": "h1"
-          }
-        },
         "richtext_H8wJcc": {
           "type": "richtext",
-          "disabled": true,
           "settings": {
             "content": "<p>Whether you're hitting the tennis courts or exploring the world, our meticulously crafted pieces ensure you're always at the top of your game, both on and off the court<\/p>"
           }
@@ -1077,7 +1075,7 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "SHOP LIFE",
+            "text": "SHOP LIFE COLLECTION",
             "url": "",
             "background": "",
             "text_color": ""
@@ -1085,8 +1083,8 @@
         }
       },
       "block_order": [
-        "subheading_wW974C",
         "heading_Jzt8iK",
+        "subheading_wW974C",
         "richtext_H8wJcc",
         "button_4RVgLX"
       ],
