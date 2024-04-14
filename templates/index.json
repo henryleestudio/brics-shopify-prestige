@@ -1110,25 +1110,6 @@
     "shop_the_look_UbNzhf": {
       "type": "shop-the-look",
       "blocks": {
-        "look_4EAn8x": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_3.14.53_PM_6405e764-c4d6-44f6-a169-e79ef12e5a5a.png",
-            "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 35,
-            "product_1_vertical_position": 35,
-            "product_2": "",
-            "product_2_horizontal_position": 34,
-            "product_2_vertical_position": 65,
-            "product_3": "",
-            "product_3_horizontal_position": 66,
-            "product_3_vertical_position": 42,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        },
         "look_PhY9Ct": {
           "type": "look",
           "settings": {
@@ -1170,7 +1151,7 @@
         "look_dk3j8X": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b-y-collection-look-3.jpg",
+            "image": "shopify:\/\/shop_images\/b-y-collection-look-5.jpg",
             "hot_spots_background": "#ffffff",
             "product_1": "",
             "product_1_horizontal_position": 55,
@@ -1189,7 +1170,7 @@
         "look_aFiJ8V": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b-y-collection-look-6.jpg",
+            "image": "shopify:\/\/shop_images\/b-y-collection-look-4.jpg",
             "hot_spots_background": "#ffffff",
             "product_1": "",
             "product_1_horizontal_position": 55,
@@ -1204,14 +1185,34 @@
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
+        },
+        "look_4EAn8x": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-05_at_3.14.53_PM_6405e764-c4d6-44f6-a169-e79ef12e5a5a.png",
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 35,
+            "product_1_vertical_position": 35,
+            "product_2": "",
+            "product_2_horizontal_position": 34,
+            "product_2_vertical_position": 65,
+            "product_3": "",
+            "product_3_horizontal_position": 66,
+            "product_3_vertical_position": 42,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
         }
       },
       "block_order": [
-        "look_4EAn8x",
         "look_PhY9Ct",
         "look_NUWBDp",
         "look_dk3j8X",
-        "look_aFiJ8V"
+        "look_aFiJ8V",
+        "look_4EAn8x"
       ],
       "settings": {
         "color_scheme": "",
