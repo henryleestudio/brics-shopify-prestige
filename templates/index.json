@@ -522,7 +522,7 @@
         "richtext_Vfzn9A"
       ],
       "settings": {
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
         "image_size": "lg",
         "image": "shopify:\/\/shop_images\/Screenshot_2024-04-03_at_7.18.54_PM.png",
         "mobile_image": "shopify:\/\/shop_images\/Screenshot_2024-04-13_at_11.23.44_AM.png",
@@ -754,7 +754,7 @@
         "look-1": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-08_at_10.08.53_PM.png",
+            "image": "shopify:\/\/shop_images\/x-collection-look-1.jpg",
             "hot_spots_background": "#ffffff",
             "product_1": "",
             "product_1_horizontal_position": 69,
@@ -769,10 +769,72 @@
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
+        },
+        "look_wzPwLB": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/x-collection-look-4.1_2bd903c1-c6c0-4c1d-b0a3-78c98433ddee.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_zwxJkj": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/x-collection-look-2.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_Azp6y7": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/x-collection-look-5.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
         }
       },
       "block_order": [
-        "look-1"
+        "look-1",
+        "look_wzPwLB",
+        "look_zwxJkj",
+        "look_Azp6y7"
       ],
       "settings": {
         "color_scheme": "scheme-2",
@@ -881,29 +943,10 @@
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
-        },
-        "look_gkYfWt": {
-          "type": "look",
-          "settings": {
-            "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 30,
-            "product_1_vertical_position": 35,
-            "product_2": "",
-            "product_2_horizontal_position": 70,
-            "product_2_vertical_position": 30,
-            "product_3": "",
-            "product_3_horizontal_position": 60,
-            "product_3_vertical_position": 65,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
         }
       },
       "block_order": [
-        "look_MrcJ4x",
-        "look_gkYfWt"
+        "look_MrcJ4x"
       ],
       "settings": {
         "color_scheme": "scheme-2",
@@ -1059,7 +1102,7 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "md",
-        "video": "shopify:\/\/files\/videos\/b-y-banner-vid-compressed_003bc1c2-2249-4587-beee-58a82e80454b.mp4",
+        "video": "shopify:\/\/files\/videos\/b-y-into-video.mp4",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
       }
@@ -1089,6 +1132,7 @@
         "look_PhY9Ct": {
           "type": "look",
           "settings": {
+            "image": "shopify:\/\/shop_images\/b-y-collection-look-1.jpg",
             "hot_spots_background": "#ffffff",
             "product_1": "",
             "product_1_horizontal_position": 30,
@@ -1103,11 +1147,71 @@
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
+        },
+        "look_NUWBDp": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b-y-collection-look-2.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_dk3j8X": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b-y-collection-look-3.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_aFiJ8V": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b-y-collection-look-6.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
         }
       },
       "block_order": [
         "look_4EAn8x",
-        "look_PhY9Ct"
+        "look_PhY9Ct",
+        "look_NUWBDp",
+        "look_dk3j8X",
+        "look_aFiJ8V"
       ],
       "settings": {
         "color_scheme": "",
