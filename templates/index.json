@@ -110,7 +110,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "BEST-SELLERS"
+        "subheading": "OFFICIAL BRIC'S"
       }
     },
     "image_with_text_overlay_njfifb": {
@@ -1110,6 +1110,25 @@
     "shop_the_look_UbNzhf": {
       "type": "shop-the-look",
       "blocks": {
+        "look_aFiJ8V": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b-y-collection-look-4.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
         "look_PhY9Ct": {
           "type": "look",
           "settings": {
@@ -1167,25 +1186,6 @@
             "product_4_vertical_position": 85
           }
         },
-        "look_aFiJ8V": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/b-y-collection-look-4.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        },
         "look_4EAn8x": {
           "type": "look",
           "disabled": true,
@@ -1208,10 +1208,10 @@
         }
       },
       "block_order": [
+        "look_aFiJ8V",
         "look_PhY9Ct",
         "look_NUWBDp",
         "look_dk3j8X",
-        "look_aFiJ8V",
         "look_4EAn8x"
       ],
       "settings": {
