@@ -566,7 +566,7 @@
             "image": "shopify://shop_images/before-after-banner-girasole-2.jpg",
             "text": "AVANA",
             "link_text": "View product",
-            "link_url": "shopify://products/girasole-borsa-in-pelle",
+            "link_url": "shopify://products/girasole-avana",
             "link_style": "link"
           }
         },
@@ -577,7 +577,7 @@
             "image": "shopify://shop_images/before-after-banner-girasole-1.jpg",
             "text": "AGRUMI",
             "link_text": "View product",
-            "link_url": "shopify://products/girasole-borsa-in-pelle",
+            "link_url": "shopify://products/girasole-agrumi",
             "link_style": "link"
           }
         }
