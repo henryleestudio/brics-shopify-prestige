@@ -110,7 +110,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "OFFICIAL BRIC'S"
+        "subheading": "BRIC'S OFFICIAL"
       }
     },
     "image_with_text_overlay_njfifb": {
@@ -756,9 +756,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/x-collection-look-1.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 69,
-            "product_1_vertical_position": 30,
+            "product_1": "x-bag-mezzaluna-large",
+            "product_1_horizontal_position": 71,
+            "product_1_vertical_position": 54,
             "product_2": "",
             "product_2_horizontal_position": 25,
             "product_2_vertical_position": 40,
@@ -775,18 +775,18 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/x-collection-look-4.1_2bd903c1-c6c0-4c1d-b0a3-78c98433ddee.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
+            "product_1": "x-bag-spinner-with-frame",
+            "product_1_horizontal_position": 32,
+            "product_1_vertical_position": 72,
+            "product_2": "x-travel-piccolo-city-backpack",
+            "product_2_horizontal_position": 61,
+            "product_2_vertical_position": 49,
+            "product_3": "x-bag-x-urban-case",
+            "product_3_horizontal_position": 71,
+            "product_3_vertical_position": 86,
             "product_4": "",
             "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
+            "product_4_vertical_position": 33
           }
         },
         "look_zwxJkj": {
@@ -930,18 +930,18 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2024-04-08_at_7.10.04_PM.webp",
             "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 35,
-            "product_1_vertical_position": 35,
-            "product_2": "",
-            "product_2_horizontal_position": 34,
-            "product_2_vertical_position": 65,
-            "product_3": "",
-            "product_3_horizontal_position": 66,
-            "product_3_vertical_position": 42,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
+            "product_1": "positano-spinner",
+            "product_1_horizontal_position": 25,
+            "product_1_vertical_position": 66,
+            "product_2": "positano-spinner",
+            "product_2_horizontal_position": 47,
+            "product_2_vertical_position": 60,
+            "product_3": "positano-spinner",
+            "product_3_horizontal_position": 77,
+            "product_3_vertical_position": 74,
+            "product_4": "positano-spinner",
+            "product_4_horizontal_position": 89,
+            "product_4_vertical_position": 54
           }
         }
       },
@@ -951,7 +951,7 @@
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": true,
-        "subheading": "FEATURED COLLECTION",
+        "subheading": "FEATURING",
         "title": "POSITANO",
         "content": "",
         "popover_title": "POSITANO COLLECTION"
@@ -1115,15 +1115,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/b-y-collection-look-4.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
+            "product_1": "b-y-ulisse-spinner",
+            "product_1_horizontal_position": 21,
+            "product_1_vertical_position": 55,
+            "product_2": "b-y-ulisse-spinner",
+            "product_2_horizontal_position": 55,
+            "product_2_vertical_position": 55,
+            "product_3": "b-y-ulisse-spinner",
+            "product_3_horizontal_position": 88,
+            "product_3_vertical_position": 55,
             "product_4": "",
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
@@ -1134,12 +1134,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/b-y-collection-look-1.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 30,
+            "product_1": "b-y-ulisse-expandable-spinner",
+            "product_1_horizontal_position": 29,
             "product_1_vertical_position": 35,
-            "product_2": "",
-            "product_2_horizontal_position": 70,
-            "product_2_vertical_position": 30,
+            "product_2": "b-y-ulisse-expandable-spinner",
+            "product_2_horizontal_position": 45,
+            "product_2_vertical_position": 60,
             "product_3": "",
             "product_3_horizontal_position": 60,
             "product_3_vertical_position": 65,
@@ -1150,6 +1150,7 @@
         },
         "look_NUWBDp": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/b-y-collection-look-2.jpg",
             "hot_spots_background": "#ffffff",
@@ -1172,15 +1173,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/b-y-collection-look-5.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
+            "product_1": "b-y-ulisse-spinner",
+            "product_1_horizontal_position": 21,
+            "product_1_vertical_position": 55,
+            "product_2": "b-y-ulisse-spinner",
+            "product_2_horizontal_position": 54,
+            "product_2_vertical_position": 55,
+            "product_3": "b-y-ulisse-spinner",
+            "product_3_horizontal_position": 85,
+            "product_3_vertical_position": 55,
             "product_4": "",
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
@@ -1215,12 +1216,12 @@
         "look_4EAn8x"
       ],
       "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Shop the look",
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "subheading": "FEATURING",
+        "title": "B|Y Ulisse",
         "content": "",
-        "popover_title": "Shop the look"
+        "popover_title": "B|Y Ulisse"
       }
     }
   },
