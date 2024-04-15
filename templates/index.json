@@ -753,6 +753,7 @@
       "blocks": {
         "look-1": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/x-collection-look-1.jpg",
             "hot_spots_background": "#ffffff",
@@ -772,6 +773,7 @@
         },
         "look_wzPwLB": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/x-collection-look-4.1_2bd903c1-c6c0-4c1d-b0a3-78c98433ddee.jpg",
             "hot_spots_background": "#ffffff",
@@ -811,22 +813,21 @@
         },
         "look_Azp6y7": {
           "type": "look",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/x-collection-look-5.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 55,
+            "product_1": "x-travel-piccolo-city-backpack",
+            "product_1_horizontal_position": 31,
             "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
+            "product_2": "x-bag-x-travel-deluxe-duffel",
+            "product_2_horizontal_position": 58,
             "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
+            "product_3": "x-travel-rolling-shoe-duffle",
+            "product_3_horizontal_position": 49,
             "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
+            "product_4": "x-bag-sportina-large",
+            "product_4_horizontal_position": 82,
+            "product_4_vertical_position": 45
           }
         }
       },
@@ -1112,6 +1113,7 @@
       "blocks": {
         "look_aFiJ8V": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/b-y-collection-look-4.jpg",
             "hot_spots_background": "#ffffff",
@@ -1171,7 +1173,7 @@
         "look_dk3j8X": {
           "type": "look",
           "settings": {
-            "image": "shopify://shop_images/b-y-collection-look-5.jpg",
+            "image": "shopify://shop_images/b-y-collection-look-6.jpg",
             "hot_spots_background": "#ffffff",
             "product_1": "b-y-ulisse-spinner",
             "product_1_horizontal_position": 21,
@@ -1191,7 +1193,7 @@
           "type": "look",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2024-04-05_at_3.14.53_PM_6405e764-c4d6-44f6-a169-e79ef12e5a5a.png",
+            "image": "shopify://shop_images/b-y-collection-look-6.jpg",
             "hot_spots_background": "#ffffff",
             "product_1": "",
             "product_1_horizontal_position": 35,
