@@ -5,16 +5,38 @@
     "cart-drawer": {
       "type": "cart-drawer",
       "settings": {
+        "color_scheme": "",
+        "show_cart_note": true,
+        "show_shipping_text": true,
+        "show_view_cart_button": false,
+        "show_checkout_button": true,
+        "show_price_in_checkout_button": true,
+        "cross_sell_products": [
+
+        ],
+        "cross_sell_title": "Complete with",
+        "cross_sell_stack_products": false
       }
     },
     "newsletter-popup": {
       "type": "newsletter-popup",
       "settings": {
+        "color_scheme": "",
+        "apparition_delay": 5,
+        "show_only_on_index": true,
+        "hide_for_account_holders": true,
+        "show_only_once": true,
+        "title": "SIGN UP FOR OUR NEWSLETTER & 10% OFF",
+        "content": "Subscribe to receive exclusive perks, first-to-know access, & 10% off your next order.",
+        "button_text": "Subscribe"
       }
     },
     "privacy-banner": {
       "type": "privacy-banner",
       "settings": {
+        "color_scheme": "",
+        "title": "🍪 Cookie policy",
+        "content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
       }
     }
   },

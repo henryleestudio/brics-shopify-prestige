@@ -3,6 +3,16 @@
     "main": {
       "type": "main-blog",
       "settings": {
+        "color_scheme": "scheme-2",
+        "show_blog_title": true,
+        "show_rss_feed": false,
+        "show_tags": true,
+        "posts_per_page": 10,
+        "feature_first_blog_post": true,
+        "featured_blog_post_color_scheme": "scheme-4",
+        "show_category": true,
+        "show_excerpt": true,
+        "show_read_more": true
       }
     }
   },

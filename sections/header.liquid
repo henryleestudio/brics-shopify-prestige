@@ -129,7 +129,7 @@
                   <a href="{{ link.url }}" class="block h6" {% if link.current %}aria-current="page"{% endif %}>{{ link.title }}</a>
                 {%- else -%}
                   <details is="{% if mega_menu_block != '' %}mega-menu-disclosure{% else %}dropdown-menu-disclosure{% endif %}" class="header__menu-disclosure" follow-summary-link trigger="{{ section.settings.menu_open_trigger }}">
-                    <summary data-follow-link="{{ link.url }}" class="h6">
+                    <summary data-follow-link="{{ link.url }}" class="h6 nav-menu-text">
                       {{- link.title -}}
                     </summary>
 
