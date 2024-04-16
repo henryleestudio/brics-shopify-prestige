@@ -7,7 +7,6 @@
       "blocks": {
         "message-1": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "Announce something here"
           }
@@ -27,15 +26,49 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_naEPPA": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Shop by Collection",
+            "images_position": "right",
+            "image_1": "shopify://shop_images/Home_-_Text_Scroll_-_Bellagio.jpg",
+            "image_1_heading": "Best Sellers",
+            "image_1_text": "Lorem ipsum dolor.",
+            "image_1_link": "shopify://collections/bellagio",
+            "image_2": "shopify://shop_images/Home_-_Text_Scroll_-_BY.jpg",
+            "image_2_heading": "Promotions",
+            "image_2_text": "Lorem ipsum on sale.",
+            "image_2_link": "shopify://collections/b-y-ullise"
+          }
+        },
+        "mega_menu_HpBej3": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_naEPPA",
+        "mega_menu_HpBej3"
+      ],
       "settings": {
-        "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
+        "color_scheme": "",
         "enable_sticky": true,
-        "hide_on_scroll": true,
-        "show_separation_border": false,
-        "reduce_padding": true,
-        "logo": "shopify:\/\/shop_images\/brics-logo-white.png",
-        "logo_max_width": 95,
-        "logo_mobile_max_width": 80,
+        "hide_on_scroll": false,
+        "show_separation_border": true,
+        "reduce_padding": false,
+        "logo": "{{ shop.brand.logo }}",
+        "logo_max_width": 130,
+        "logo_mobile_max_width": 100,
         "menu": "main-menu",
         "sidebar_menu": "",
         "menu_open_trigger": "hover",
@@ -43,13 +76,14 @@
         "sidebar_color_scheme": "",
         "sidebar_text_font": "heading",
         "sidebar_show_dividers": true,
-        "layout": "logo_left_navigation_inline",
+        "layout": "logo_center_navigation_inline",
         "show_icons": true,
-        "show_country_selector": true,
+        "show_country_selector": false,
         "show_country_name": false,
-        "show_country_flag": true,
+        "show_country_flag": false,
         "show_locale_selector": false,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/Brics_-_Logo_-_White.svg"
       }
     }
   },

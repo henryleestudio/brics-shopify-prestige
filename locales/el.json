@@ -99,7 +99,7 @@
       "view_in_space": "Προβολή στον χώρο σας",
       "taxes_included": "Συμπεριλαμβάνονται φόροι.",
       "taxes_excluded": "Δεν συμπεριλαμβάνονται οι φόροι.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Τα έξοδα αποστολής υπολογίζονται<\/a> στο ταμείο",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Τα έξοδα αποστολής υπολογίζονται</a> στο ταμείο",
       "size_chart": "Πίνακας μεγεθών",
       "available_colors_count": {
         "one": "{{ count }} χρώμα διαθέσιμο",
@@ -347,9 +347,9 @@
       "view_cart": "Προβολή καλαθιού",
       "checkout": "Ταμείο",
       "we_accept": "Δεχόμαστε",
-      "taxes_and_shipping_policy_at_checkout_html": "Οι φόροι και τα <a href=\"{{ link }}\" class=\"link\">έξοδα αποστολής<\/a> υπολογίζονται στο ταμείο",
+      "taxes_and_shipping_policy_at_checkout_html": "Οι φόροι και τα <a href=\"{{ link }}\" class=\"link\">έξοδα αποστολής</a> υπολογίζονται στο ταμείο",
       "taxes_included_but_shipping_at_checkout": "Ο φόρος περιλαμβάνεται και τα έξοδα αποστολής υπολογίζονται στο ταμείο",
-      "taxes_included_and_shipping_policy_html": "Ο φόρος περιλαμβάνεται. <a href=\"{{ link }}}\" class=\"link\">Τα έξοδα αποστολής<\/a> υπολογίζονται στο ταμείο.",
+      "taxes_included_and_shipping_policy_html": "Ο φόρος περιλαμβάνεται. <a href=\"{{ link }}}\" class=\"link\">Τα έξοδα αποστολής</a> υπολογίζονται στο ταμείο.",
       "taxes_and_shipping_at_checkout": "Οι φόροι και τα έξοδα αποστολής υπολογίζονται στο ταμείο"
     },
     "order": {
@@ -448,7 +448,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "Για να δείτε τη σύγκριση πριν\/μετά, προσθέστε περισσότερο περιεχόμενο στην ενότητα.",
+      "not_enough_blocks": "Για να δείτε τη σύγκριση πριν/μετά, προσθέστε περισσότερο περιεχόμενο στην ενότητα.",
       "percentage_shown": "Ποσοστό εμφάνισης της φωτογραφίας μετά"
     },
     "countdown_timer": {

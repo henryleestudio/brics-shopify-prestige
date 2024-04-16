@@ -99,7 +99,7 @@
       "view_in_space": "In deinem Bereich ansehen",
       "taxes_included": "inkl. MwSt.",
       "taxes_excluded": "zzgl. MwSt.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten<\/a> werden an der Kasse berechnet",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten</a> werden an der Kasse berechnet",
       "size_chart": "Größentabelle",
       "available_colors_count": {
         "one": "{{ count }} Farbe verfügbar",
@@ -324,7 +324,7 @@
       "city": "Ort",
       "zip": "PLZ",
       "country": "Land",
-      "province": "Bundesland\/Kanton",
+      "province": "Bundesland/Kanton",
       "set_default": "Als Standardadresse festlegen"
     }
   },
@@ -336,9 +336,9 @@
       "weight": "Gewicht",
       "subtotal": "Zwischensumme",
       "total": "Gesamtbetrag",
-      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" class=\"link\">Versand<\/a> werden beim Checkout berechnet",
+      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" class=\"link\">Versand</a> werden beim Checkout berechnet",
       "taxes_included_but_shipping_at_checkout": "Inklusive Steuern, Versand wird beim Checkout berechnet",
-      "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\" class=\"link\">Versand <\/a> wird beim Checkout berechnet",
+      "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\" class=\"link\">Versand </a> wird beim Checkout berechnet",
       "taxes_and_shipping_at_checkout": "Steuern und Versand werden beim Checkout berechnet",
       "add_order_note": "Bestellhinweis hinzufügen",
       "edit_order_note": "Bestellhinweis bearbeiten",
@@ -363,7 +363,7 @@
     "shipping_estimator": {
       "estimate_shipping": "Versandkosten berechnen",
       "country": "Land",
-      "province": "Bundesland\/Kanton",
+      "province": "Bundesland/Kanton",
       "zip": "PLZ",
       "estimate": "Berechnen",
       "no_results": "Tut uns leid, aber wir verschicken leider nicht an deine Adresse.",
@@ -444,7 +444,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "Um den Vorher-\/Nachher-Vergleich anzuzeigen, fügen Sie bitte weitere Blöcke im Abschnitt hinzu.",
+      "not_enough_blocks": "Um den Vorher-/Nachher-Vergleich anzuzeigen, fügen Sie bitte weitere Blöcke im Abschnitt hinzu.",
       "percentage_shown": "Prozentsatz des angezeigten Nachher-Fotos"
     },
     "countdown_timer": {

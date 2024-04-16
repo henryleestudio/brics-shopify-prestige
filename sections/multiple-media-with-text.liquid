@@ -109,11 +109,11 @@
         <div class="multiple-media-with-text__content-wrapper align-self-{{ section.settings.text_alignment }}">
           <div class="prose">
             {%- if section.settings.subheading != blank -%}
-              <p class="media-grid-sub-title h6">{{ section.settings.subheading }}</p>
+              <p class="h6">{{ section.settings.subheading }}</p>
             {%- endif -%}
 
             {%- if section.settings.title != blank -%}
-              <p class="multi-media-txt-title h3">{{ section.settings.title }}</p>
+              <p class="h3">{{ section.settings.title }}</p>
             {%- endif -%}
 
             {{- section.settings.content -}}

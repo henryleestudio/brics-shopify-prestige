@@ -77,40 +77,15 @@ only way to do it on Shopify right now.
   if product.variants.size > 1
     for media in product.media
       if media.alt contains '#' and media.alt != product.title
-        assign has_size = false
         assign alt_parts = media.alt | split: '#'
-        assign size_variant = alt_parts.last | split: ',' | last | split: '_'
-        assign media_group_parts = alt_parts.last | split: ',' | first | split: '_'
+        assign media_group_parts = alt_parts.last | split: '_'
         assign option = product.options_by_name[media_group_parts.first]
-        assign option_value_color = option.selected_value | downcase
-        assign value_color_alt_txt_downcase = media_group_parts.last | strip | downcase
-        assign option_value_size = 'null'
-        assign value_size_alt_txt_downcase = 'null2'
+        assign option_value = option.selected_value | downcase
+        assign downcase_group_value = media_group_parts.last | strip | downcase
 
-        if alt_parts.last contains ','
-          assign has_size = true
-          assign option2 = product.options_by_name[size_variant.first]
-          assign option_value_size = option2.selected_value | downcase
-          assign value_size_alt_txt_downcase = size_variant.last | strip | downcase
-        endif
-
-
-        if option_value_color != value_color_alt_txt_downcase and media != default_media
-            assign media_position = media.position | sort
-
-          if option_value_size == value_size_alt_txt_downcase and has_size == true
-            assign filtered_indexes = filtered_indexes | concat: media_position
-          else
-            assign filtered_indexes = filtered_indexes | concat: media_position
-          endif
-
-        elsif has_size == true
+        if option_value != downcase_group_value and media != default_media
           assign media_position = media.position | sort
-
-          if option_value_size != value_size_alt_txt_downcase
-            assign filtered_indexes = filtered_indexes | concat: media_position
-          endif
-  
+          assign filtered_indexes = filtered_indexes | concat: media_position
         endif
       endif
     endfor
@@ -169,8 +144,7 @@ only way to do it on Shopify right now.
           -%}
 
           {%- for media in product.media -%}
-            <div class="product-gallery__media snap-center {% if media == default_media %}is-initial{% endif %}" data-media-type="{{ media.media_type }}" data-media-id="{{ media.id }}" role="group" aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: media.position, count: product.media.size }}" 
-              {% if filtered_indexes contains media.position %}hidden{% endif %}>
+            <div class="product-gallery__media snap-center {% if media == default_media %}is-initial{% endif %}" data-media-type="{{ media.media_type }}" data-media-id="{{ media.id }}" role="group" aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: media.position, count: product.media.size }}" {% if filtered_indexes contains media.position %}hidden{% endif %}>
               {%- if default_media == media -%}
                 {%- assign preload = true -%}
               {%- else -%}
@@ -248,9 +222,7 @@ only way to do it on Shopify right now.
         <product-gallery-navigation align-selected aria-controls="{{ product_gallery_carousel_id }}" class="product-gallery__thumbnail-scroller bleed md:unbleed">
           {%- if product != blank -%}
             {%- for media in product.media -%}
-              <button type="button" class="product-gallery__thumbnail" 
-                {% if filtered_indexes contains media.position %}hidden{% endif %} 
-                data-media-type="{{ media.media_type }}" data-media-position="{{ media.position }}" data-media-id="{{ media.id }}" aria-current="{% if media == default_media %}true{% else %}false{% endif %}" aria-label="{{ 'general.accessibility.go_to_item' | t: index: forloop.index | escape }}">
+              <button type="button" class="product-gallery__thumbnail" {% if filtered_indexes contains media.position %}hidden{% endif %} data-media-type="{{ media.media_type }}" data-media-position="{{ media.position }}" data-media-id="{{ media.id }}" aria-current="{% if media == default_media %}true{% else %}false{% endif %}" aria-label="{{ 'general.accessibility.go_to_item' | t: index: forloop.index | escape }}">
                 {{- media | image_url: width: media.preview_image.width | image_tag: loading: 'lazy', sizes: '56px', widths: '56,112,168', class: 'object-contain' -}}
 
                 {%- unless media.media_type == 'image' -%}
@@ -281,9 +253,7 @@ only way to do it on Shopify right now.
       <carousel-navigation class="page-dots align-self-center {% unless mobile_controls == 'dots' %}md-max:hidden{% endunless %} {% unless desktop_layout == 'carousel_dots' %}md:hidden{% endunless %}" aria-controls="{{ product_gallery_carousel_id }}">
         {%- if product != blank -%}
           {%- for media in product.media -%}
-            <button type="button" class="tap-area" 
-              {% if filtered_indexes contains media.position %}hidden{% endif %} 
-              aria-current="{% if media == default_media %}true{% else %}false{% endif %}">
+            <button type="button" class="tap-area" {% if filtered_indexes contains media.position %}hidden{% endif %} aria-current="{% if media == default_media %}true{% else %}false{% endif %}">
               <span class="sr-only">{{ 'general.accessibility.go_to_item' | t: index: media.position }}</span>
             </button>
           {%- endfor -%}

@@ -99,7 +99,7 @@
       "view_in_space": "Vis lokalt",
       "taxes_included": "Inklusiv avgifter.",
       "taxes_excluded": "Eksklusiv avgifter.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frakt beregnes<\/a> i kassen",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frakt beregnes</a> i kassen",
       "size_chart": "Størrelsestabell",
       "available_colors_count": {
         "one": "{{ count }} farge tilgjengelig",
@@ -347,9 +347,9 @@
       "view_cart": "Vis handlekurv",
       "checkout": "Gå til kasse",
       "we_accept": "Vi aksepterer",
-      "taxes_and_shipping_policy_at_checkout_html": "Avgifter og <a href=\"{{ link }}\" class=\"link\">frakt<\/a> beregnes i kassen",
+      "taxes_and_shipping_policy_at_checkout_html": "Avgifter og <a href=\"{{ link }}\" class=\"link\">frakt</a> beregnes i kassen",
       "taxes_included_but_shipping_at_checkout": "Inklusiv avgifter og frakt beregnes i kassen",
-      "taxes_included_and_shipping_policy_html": "Inklusiv avgifter. <a href=\"{{ link }}\" class=\"link\">Frakt<\/a> beregnes i kassen.",
+      "taxes_included_and_shipping_policy_html": "Inklusiv avgifter. <a href=\"{{ link }}\" class=\"link\">Frakt</a> beregnes i kassen.",
       "taxes_and_shipping_at_checkout": "Avgifter og frakt beregnes i kassen"
     },
     "order": {

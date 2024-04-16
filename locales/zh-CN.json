@@ -38,7 +38,7 @@
       "share_email": "通过电子邮件分享"
     },
     "rating": {
-      "info": "{{ rating_value }} \/ {{ rating_max }} 颗星"
+      "info": "{{ rating_value }} / {{ rating_max }} 颗星"
     },
     "newsletter": {
       "email": "电子邮件",
@@ -47,7 +47,7 @@
       "subscribed_successfully": "您已订阅我们的新闻通讯。"
     },
     "localization": {
-      "country": "国家\/地区",
+      "country": "国家/地区",
       "language": "语言"
     },
     "privacy_banner": {
@@ -99,7 +99,7 @@
       "view_in_space": "在您的空间中查看",
       "taxes_included": "含税。",
       "taxes_excluded": "不含税。",
-      "shipping_policy_html": "结账时<a href=\"{{ link }}\" class=\"link\">计算运费<\/a>",
+      "shipping_policy_html": "结账时<a href=\"{{ link }}\" class=\"link\">计算运费</a>",
       "size_chart": "尺码表",
       "available_colors_count": {
         "other": "{{ count }} 种颜色可选"
@@ -319,8 +319,8 @@
       "address2": "地址行 2",
       "city": "城市",
       "zip": "邮编",
-      "country": "国家\/地区",
-      "province": "省\/直辖市\/自治区",
+      "country": "国家/地区",
+      "province": "省/直辖市/自治区",
       "set_default": "设为默认地址"
     }
   },
@@ -341,9 +341,9 @@
       "view_cart": "查看购物车",
       "checkout": "结账",
       "we_accept": "我们接受",
-      "taxes_and_shipping_policy_at_checkout_html": "结账时计算税费和<a href=\"{{ link }}\" class=\"link\">运费<\/a>",
+      "taxes_and_shipping_policy_at_checkout_html": "结账时计算税费和<a href=\"{{ link }}\" class=\"link\">运费</a>",
       "taxes_included_but_shipping_at_checkout": "含税并在结账时计算运费",
-      "taxes_included_and_shipping_policy_html": "含税。在结账时计算<a href=\"{{ link }}\" class=\"link\">运费<\/a>。",
+      "taxes_included_and_shipping_policy_html": "含税。在结账时计算<a href=\"{{ link }}\" class=\"link\">运费</a>。",
       "taxes_and_shipping_at_checkout": "结账时计算税费和运费"
     },
     "order": {
@@ -358,8 +358,8 @@
     },
     "shipping_estimator": {
       "estimate_shipping": "预估运费",
-      "country": "国家\/地区",
-      "province": "省\/直辖市\/自治区",
+      "country": "国家/地区",
+      "province": "省/直辖市/自治区",
       "zip": "邮编",
       "estimate": "预估",
       "no_results": "抱歉，我们无法为您的地址提供配送。",
@@ -438,7 +438,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "若要显示之前\/之后的比较，请在该版块中添加更多内容。",
+      "not_enough_blocks": "若要显示之前/之后的比较，请在该版块中添加更多内容。",
       "percentage_shown": "显示的之后照片的百分比"
     },
     "countdown_timer": {

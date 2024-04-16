@@ -161,7 +161,7 @@
           </div>
         {%- endif -%}
 
-        <p class="heading text-subdued text-xxs">© {{ 'now' | date: '%Y' }} {{ shop.name }} All rights reserved</p>
+        <p class="heading text-subdued text-xxs">© {{ 'now' | date: '%Y' }} - {{ shop.name }} {{ powered_by_link }}</p>
 
         {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
           <div class="payment-methods">

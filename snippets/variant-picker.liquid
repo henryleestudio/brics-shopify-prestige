@@ -26,7 +26,6 @@ Supported variables
 {%- unless product.has_only_default_variant or hide_sold_out_variants and product.available == false -%}
   <variant-picker class="variant-picker v-stack gap-4" handle="{{ product.handle }}" form="{{ form_id }}" {% if update_url %}update-url{% endif %} {% if hide_sold_out_variants %}hide-sold-out-variants{% endif %}>
     {%- for option in product.options_with_values -%}
-      
       {% liquid
         assign option_downcase = option.name | downcase
         assign resolved_option_selector_style = selector_style
@@ -127,8 +126,7 @@ Supported variables
 
                 case resolved_option_selector_style
                   when 'variant_image'
-                    assign image = value.variant.featured_media | default:product.variants[forloop.index0].featured_image
-                    render 'option-value', type: 'thumbnail', value: value, image: image, selected: selected, name: name, form: form_id, id_prefix: forloop.index
+                    render 'option-value', type: 'thumbnail', value: value, image: value.variant.featured_media, selected: selected, name: name, form: form_id, id_prefix: forloop.index
                   when 'swatch'
                     if value.swatch.image
                       render 'option-value', type: 'swatch', value: value, image: value.swatch.image, selected: selected, name: name, form: form_id, id_prefix: forloop.index
