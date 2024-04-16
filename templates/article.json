@@ -3,30 +3,11 @@
     "main": {
       "type": "main-article",
       "settings": {
-        "color_scheme": "scheme-2",
-        "show_image": true,
-        "enable_parallax": true,
-        "image_size": "small",
-        "content_width": "sm",
-        "show_date": true,
-        "show_category": true,
-        "show_author": true,
-        "show_share_buttons": true,
-        "show_sticky_bar": true,
-        "toolbar_color_scheme": "scheme-4"
       }
     },
     "prev-next-blog-posts": {
       "type": "prev-next-blog-posts",
-      "disabled": true,
       "settings": {
-        "color_scheme": "scheme-4",
-        "separate_section_with_border": false,
-        "subheading": "",
-        "title": "Read more",
-        "show_category": true,
-        "show_excerpt": true,
-        "show_read_more": true
       }
     }
   },

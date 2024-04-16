@@ -99,7 +99,7 @@
       "view_in_space": "Vizualizați în spațiul dvs.",
       "taxes_included": "Taxă inclusă.",
       "taxes_excluded": "Fără taxă.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Costul de livrare este calculat<\/a> la finalizarea comenzii",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Costul de livrare este calculat</a> la finalizarea comenzii",
       "size_chart": "Tabel de mărimi",
       "available_colors_count": {
         "one": "{{ count }} culoare disponibilă",
@@ -347,9 +347,9 @@
       "view_cart": "Vezi coșul",
       "checkout": "Finalizează comanda",
       "we_accept": "Acceptăm",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxele și <a href=\"{{ link }}\" class=\"link\">costul de livrare<\/a> sunt calculate la finalizarea comenzii",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxele și <a href=\"{{ link }}\" class=\"link\">costul de livrare</a> sunt calculate la finalizarea comenzii",
       "taxes_included_but_shipping_at_checkout": "Taxa este inclusă și costul de livrare este calculat la finalizarea comenzii",
-      "taxes_included_and_shipping_policy_html": "Taxa este inclusă. <a href=\"{{ link }}\" class=\"link\">Costul de livrare<\/a> este calculat la finalizarea comenzii.",
+      "taxes_included_and_shipping_policy_html": "Taxa este inclusă. <a href=\"{{ link }}\" class=\"link\">Costul de livrare</a> este calculat la finalizarea comenzii.",
       "taxes_and_shipping_at_checkout": "Taxele și costul de livrare sunt calculate la finalizarea comenzii"
     },
     "order": {

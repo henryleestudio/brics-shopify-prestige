@@ -2,55 +2,62 @@
   "current": {
     "section_vertical_spacing": "md",
     "default_color_scheme": "scheme-2",
-    "product_rating_color": "#1c1c1c",
+    "product_rating_color": "{{ shop.brand.colors.primary[0].background }}",
     "product_on_sale_accent": "#e32c2b",
     "product_sold_out_badge_background": "#efefef",
     "product_custom_badge_background": "#1c1c1c",
     "success_color": "#307a07",
     "warning_color": "#ed8a00",
     "error_color": "#cb2b2b",
-    "heading_font": "bauer_bodoni_n4",
-    "heading_font_size_factor": 1.3,
-    "heading_letter_spacing": 18,
+    "heading_font": "bauer_bodoni_n7",
+    "heading_font_size_factor": 1.5,
+    "heading_letter_spacing": 10,
     "text_font": "univers_next_n4",
-    "text_font_size_mobile": 18,
-    "text_font_size_desktop": 18,
-    "text_font_letter_spacing": 4,
+    "text_font_size_desktop": 15,
     "button_letter_spacing": 18,
     "cart_type": "drawer",
     "cart_icon": "shopping_bag",
-    "social_facebook": "https:\/\/www.facebook.com\/bricsusa\/",
-    "social_instagram": "https:\/\/www.instagram.com\/bricsmilano\/",
-    "favicon": "shopify:\/\/shop_images\/emblem-favicon_713f07e4-ac2d-41d7-bc87-5b2e4ec9c218.png",
+    "cart_show_free_shipping_bar": false,
+    "favicon": "shopify://shop_images/Brics_-_Logo_-_Square.svg",
+    "checkout_logo_image": "shopify://shop_images/Brics_-_Logo.svg",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#1d2344",
+    "checkout_heading_font": "PT Serif",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#978b82",
+    "checkout_button_color": "#1d2344",
     "content_for_index": [
 
     ],
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#efefef",
+          "background": "{{ shop.brand.colors.secondary[0].background }}",
           "background_gradient": "",
-          "text_color": "#1c1c1c",
-          "primary_button_background": "{{ shop.brand.colors.primary[0].background }}",
-          "primary_button_text_color": "#ffffff",
-          "circle_button_background": "#ffffff",
-          "circle_button_icon": "#1c1c1c"
+          "text_color": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "primary_button_background": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "primary_button_text_color": "{{ shop.brand.colors.primary[0].foreground }}",
+          "circle_button_background": "{{ shop.brand.colors.primary[0].foreground }}",
+          "circle_button_icon": "{{ shop.brand.colors.secondary[0].foreground }}"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#ffffff",
+          "background": "{{ shop.brand.colors.primary[0].foreground }}",
           "background_gradient": "",
-          "text_color": "{{ shop.brand.colors.primary[0].background }}",
-          "primary_button_background": "{{ shop.brand.colors.primary[0].background }}",
-          "primary_button_text_color": "#ffffff",
-          "circle_button_background": "#ffffff",
-          "circle_button_icon": "#1c1c1c"
+          "text_color": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "primary_button_background": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "primary_button_text_color": "{{ shop.brand.colors.primary[0].foreground }}",
+          "circle_button_background": "{{ shop.brand.colors.primary[0].foreground }}",
+          "circle_button_icon": "{{ shop.brand.colors.secondary[0].foreground }}"
         }
       },
       "scheme-3": {
         "settings": {
-          "background": "#1c1c1c",
+          "background": "{{ shop.brand.colors.secondary[0].foreground }}",
           "background_gradient": "",
           "text_color": "#ffffff",
           "primary_button_background": "#ffffff",
@@ -68,17 +75,6 @@
           "primary_button_text_color": "#1c1c1c",
           "circle_button_background": "#ffffff",
           "circle_button_icon": "#1c1c1c"
-        }
-      },
-      "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522": {
-        "settings": {
-          "background": "{{ shop.brand.colors.primary[0].background }}",
-          "background_gradient": "",
-          "text_color": "{{ shop.brand.colors.primary[0].foreground }}",
-          "primary_button_background": "{{ shop.brand.colors.primary[0].foreground }}",
-          "primary_button_text_color": "{{ shop.brand.colors.primary[0].background }}",
-          "circle_button_background": "#ffffff",
-          "circle_button_icon": "{{ shop.brand.colors.secondary[0].foreground }}"
         }
       }
     }

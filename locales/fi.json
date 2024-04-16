@@ -7,7 +7,7 @@
       "pagination": "Sivutuksen navigointi",
       "go_to_page": "Siirry sivulle {{ index }}",
       "go_to_item": "Siirry kohteeseen {{ index }}",
-      "item_nth_of_count": "Kohde {{ index }}\/{{ count }}",
+      "item_nth_of_count": "Kohde {{ index }}/{{ count }}",
       "drag": "Vedä",
       "close": "Sulje",
       "next": "Seuraava",
@@ -38,7 +38,7 @@
       "share_email": "Jaa sähköpostitse"
     },
     "rating": {
-      "info": "{{ rating_value }}\/{{ rating_max }} tähteä"
+      "info": "{{ rating_value }}/{{ rating_max }} tähteä"
     },
     "newsletter": {
       "email": "Sähköposti",
@@ -99,7 +99,7 @@
       "view_in_space": "Näytä omassa tilassasi",
       "taxes_included": "Sisältää verot.",
       "taxes_excluded": "Ei sisällä veroja.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Toimituskulut lasketaan<\/a> maksun yhteydessä",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Toimituskulut lasketaan</a> maksun yhteydessä",
       "size_chart": "Kokotaulukko",
       "available_colors_count": {
         "one": "{{ count }} väri saatavilla",
@@ -347,9 +347,9 @@
       "view_cart": "Näytä ostoskori",
       "checkout": "Kassalle",
       "we_accept": "Maksutavat",
-      "taxes_and_shipping_policy_at_checkout_html": "Verot ja <a href=\"{{ link }}\" class=\"link\">toimituskulut<\/a> lasketaan maksun yhteydessä",
+      "taxes_and_shipping_policy_at_checkout_html": "Verot ja <a href=\"{{ link }}\" class=\"link\">toimituskulut</a> lasketaan maksun yhteydessä",
       "taxes_included_but_shipping_at_checkout": "Sisältyvät verot ja toimituskululut lasketaan maksun yhteydessä",
-      "taxes_included_and_shipping_policy_html": "Verot sisältyvät hintaan. <a href=\"{{ link }}\" class=\"link\">Toimituskulut<\/a> lasketaan maksun yhteydessä.",
+      "taxes_included_and_shipping_policy_html": "Verot sisältyvät hintaan. <a href=\"{{ link }}\" class=\"link\">Toimituskulut</a> lasketaan maksun yhteydessä.",
       "taxes_and_shipping_at_checkout": "Verot ja toimituskululut lasketaan maksun yhteydessä"
     },
     "order": {
@@ -448,7 +448,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "Lisää enemmän lohkoja osioon ennen\/jälkeen-vertailun näyttämiseksi.",
+      "not_enough_blocks": "Lisää enemmän lohkoja osioon ennen/jälkeen-vertailun näyttämiseksi.",
       "percentage_shown": "Näytetyn jälkeen-kuvan prosenttiosuus"
     },
     "countdown_timer": {

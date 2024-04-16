@@ -99,7 +99,7 @@
       "view_in_space": "Ogled v vašem prostoru",
       "taxes_included": "Z davkom.",
       "taxes_excluded": "Brez davka.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Stroški pošiljanja<\/a> bodo izračunani v košarici",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Stroški pošiljanja</a> bodo izračunani v košarici",
       "size_chart": "Tabela velikosti",
       "available_colors_count": {
         "one": "{{ count }} razpoložljiva barva",
@@ -357,9 +357,9 @@
       "view_cart": "Ogled košarice",
       "checkout": "Dokončanje nakupa",
       "we_accept": "Načini plačila",
-      "taxes_and_shipping_policy_at_checkout_html": "Davki in <a href=\"{{ link }}\" class=\"link\">stroški pošiljanja<\/a> bodo izračunani v košarici",
+      "taxes_and_shipping_policy_at_checkout_html": "Davki in <a href=\"{{ link }}\" class=\"link\">stroški pošiljanja</a> bodo izračunani v košarici",
       "taxes_included_but_shipping_at_checkout": "Davki in stroški pošiljanja bodo izračunani v košarici",
-      "taxes_included_and_shipping_policy_html": "Davki so vključeni. <a href=\"{{ link }}\" class=\"link\">Stroški pošiljanja<\/a> bodo izračunani v košarici.",
+      "taxes_included_and_shipping_policy_html": "Davki so vključeni. <a href=\"{{ link }}\" class=\"link\">Stroški pošiljanja</a> bodo izračunani v košarici.",
       "taxes_and_shipping_at_checkout": "Davki in stroški pošiljanja bodo izračunani v košarici"
     },
     "order": {
@@ -462,7 +462,7 @@
   },
   "sections": {
     "before_after": {
-      "not_enough_blocks": "Če želite prikazati primerjavo pred\/potem, dodajte več vsebine v razdelek.",
+      "not_enough_blocks": "Če želite prikazati primerjavo pred/potem, dodajte več vsebine v razdelek.",
       "percentage_shown": "Odstotek prikaza slike potem"
     },
     "countdown_timer": {

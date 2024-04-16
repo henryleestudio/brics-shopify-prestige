@@ -4,8 +4,8 @@
     "theme_name": "Prestige",
     "theme_author": "Maestrooo",
     "theme_version": "9.2.1",
-    "theme_documentation_url": "https:\/\/prestige-theme.helpscoutdocs.com",
-    "theme_support_url": "https:\/\/prestige-theme.helpscoutdocs.com\/article\/500-contact-us"
+    "theme_documentation_url": "https://prestige-theme.helpscoutdocs.com",
+    "theme_support_url": "https://prestige-theme.helpscoutdocs.com/article/500-contact-us"
   },
   {
     "name": "t:theme_settings.appearance.name",
@@ -700,7 +700,7 @@
         "type": "url",
         "id": "cart_empty_cart_link",
         "label": "t:theme_settings.cart.empty_cart_link",
-        "default": "\/collections\/all"
+        "default": "/collections/all"
       },
       {
         "type": "header",
