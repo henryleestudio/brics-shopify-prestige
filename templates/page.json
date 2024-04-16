@@ -2,11 +2,88 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "video_7cRWXT": {
+      "type": "video",
+      "blocks": {
+        "subheading_9KJxXz": {
+          "type": "subheading",
+          "settings": {
+            "text": "Made in Italy"
+          }
+        },
+        "heading_d8cAtF": {
+          "type": "heading",
+          "settings": {
+            "text": "finest handmade",
+            "heading_tag": "h2"
+          }
+        },
+        "play_aRdyfW": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9KJxXz",
+        "heading_d8cAtF",
+        "play_aRdyfW"
+      ],
+      "disabled": true,
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/brics-banner-video-edit.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "poster": "shopify://shop_images/bric_s-video-banner-img.webp",
+        "text_color": "#ffffff"
+      }
+    },
+    "video_qKrXCV": {
+      "type": "video",
+      "blocks": {
+        "play_p97kC7": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_K7JxQ7": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_p97kC7",
+        "heading_K7JxQ7"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/brics-about-video-compressed.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "poster": "shopify://shop_images/Screenshot_2024-04-13_at_10.44.06_AM.png",
+        "text_color": "#ffffff"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "video_7cRWXT",
+    "video_qKrXCV"
   ]
 }

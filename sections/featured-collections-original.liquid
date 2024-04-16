@@ -49,21 +49,7 @@
                 {%- endif -%}
 
                 {%- for product in block.settings.collection.products limit: block.settings.products_count -%}
-                  {% unless product.has_only_default_variant %}
-                    {%- for variant in product.variants -%}
-                      {% if product.options.size > 1 %}
-                        {%- render 'product-card', product: product, variant_obj: variant, reveal: should_reveal, hide_product_information: section.settings.hide_product_information, block: block -%}
-                      {% else %}
-                        {%- render 'product-card', product: product, variant_obj: variant, reveal: should_reveal, hide_product_information: section.settings.hide_product_information, block: block -%}
-                      {% endif %}
-                    {%- endfor -%} 
-                  {% else %}
-                    {% assign show_default = true %}
-                  {% endunless %}
-                  {% if show_default %}
-                    {% assign show_default = false %}
-                    {%- render 'product-card', product: product, reveal: should_reveal, hide_product_information: section.settings.hide_product_information, block: block -%}
-                  {% endif %}
+                  {%- render 'product-card', product: product, reveal: should_reveal, hide_product_information: section.settings.hide_product_information, block: block -%}
                 {%- else -%}
                   {%- for i in (1..block.settings.products_count) -%}
                     {%- render 'product-card-placeholder', reveal: should_reveal, loop_index: forloop.index0, hide_product_information: section.settings.hide_product_information -%}
@@ -112,8 +98,8 @@
 
 {% schema %}
 {
-  "name": "t:sections.featured_collections.name",
-  "class": "shopify-section--featured-collections",
+  "name": "Featured collections main",
+  "class": "original-shopify-section--featured-collections",
   "tag": "section",
   "disabled_on": {
     "templates": ["password"],
@@ -249,7 +235,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "name": "Original featured collections",
       "blocks": [
         {
           "type": "collection"
