@@ -134,7 +134,7 @@
           "settings": {
             "style": "solid",
             "text": "SHOP",
-            "url": "shopify://collections/sale-bellagio",
+            "url": "shopify://collections/bellagio",
             "background": "",
             "text_color": ""
           }
@@ -931,16 +931,16 @@
           "settings": {
             "image": "shopify://shop_images/Screenshot_2024-04-08_at_7.10.04_PM.webp",
             "hot_spots_background": "#ffffff",
-            "product_1": "positano-spinner",
+            "product_1": "positano-trolley-spinner",
             "product_1_horizontal_position": 25,
             "product_1_vertical_position": 66,
-            "product_2": "positano-spinner",
+            "product_2": "positano-trolley-spinner-expandable",
             "product_2_horizontal_position": 47,
             "product_2_vertical_position": 60,
-            "product_3": "positano-spinner",
+            "product_3": "positano-trolley-spinner",
             "product_3_horizontal_position": 77,
             "product_3_vertical_position": 74,
-            "product_4": "positano-spinner",
+            "product_4": "positano-trolley-spinner-w-pocket",
             "product_4_horizontal_position": 89,
             "product_4_vertical_position": 54
           }
