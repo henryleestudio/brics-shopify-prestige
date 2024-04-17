@@ -73,6 +73,46 @@
         "controls_color": "#ffffff"
       }
     },
+    "featured_collections_original_WRDiAf": {
+      "type": "featured-collections-original",
+      "blocks": {
+        "collection_zXUdRp": {
+          "type": "collection",
+          "settings": {
+            "collection": "luggage",
+            "products_count": 8,
+            "title": "LUGGAGE",
+            "link_url": "shopify://collections/luggage",
+            "link_text": "VIEW ALL LUGGAGE"
+          }
+        },
+        "collection_mPER4H": {
+          "type": "collection",
+          "settings": {
+            "collection": "bags",
+            "products_count": 8,
+            "title": "Bags",
+            "link_url": "shopify://collections/bags",
+            "link_text": "VIEW ALL BAGS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_zXUdRp",
+        "collection_mPER4H"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "BRIC'S OFFICIAL"
+      }
+    },
     "featured_collections_rpVDar": {
       "type": "featured-collections",
       "blocks": {
@@ -101,6 +141,7 @@
         "collection_JiD3p7",
         "collection_pU7dGw"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": false,
@@ -878,51 +919,6 @@
         "text_color": "#ffffff"
       }
     },
-    "multiple_media_with_text_zxW6Bn": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image_ffW9xn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PORSCHE_DESIGN_SS_2021_M24_182_final_Web.jpg",
-            "rotation": 0
-          }
-        },
-        "image_zML6GC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PORSCHE_DESIGN_SS_2021_M17_072_final_Web.jpg",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_ffW9xn",
-        "image_zML6GC"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "reveal_on_scroll": true,
-        "separate_section_with_border": true,
-        "media_position_desktop": "after_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "overlap",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "center",
-        "subheading": "PORSCHE DESIGN",
-        "title": "Precision engineering, stunning design, & clever functionality",
-        "content": "",
-        "button_1_text": "Discover",
-        "button_1_link": "shopify://collections/porsche-design",
-        "button_1_style": "solid",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid"
-      }
-    },
     "shop_the_look_VGAbnX": {
       "type": "shop-the-look",
       "blocks": {
@@ -1229,6 +1225,7 @@
   },
   "order": [
     "slideshow",
+    "featured_collections_original_WRDiAf",
     "featured_collections_rpVDar",
     "image_with_text_overlay_njfifb",
     "media_grid_k4hyGr",
@@ -1247,7 +1244,6 @@
     "featured_collections_j3yXrn",
     "shop-the-look",
     "video_jRfahU",
-    "multiple_media_with_text_zxW6Bn",
     "shop_the_look_VGAbnX",
     "images_with_text_scroll_fHygB4",
     "rich_text_cLdVNa",
