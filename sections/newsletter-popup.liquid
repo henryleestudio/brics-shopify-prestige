@@ -30,7 +30,9 @@
           </div>
         {%- endif -%}
 
-        {%- form 'customer', id: newsletter_id, class: 'form' -%}
+        <div class="klaviyo-form-WkZjXP form"></div>
+
+        {% comment %} {%- form 'customer', id: newsletter_id, class: 'form' -%}
           {%- if form.posted_successfully? -%}
             {%- capture success_message -%}{{ 'general.newsletter.subscribed_successfully' | t }}{%- endcapture -%}
             {%- render 'banner', content: success_message, status: 'success', text_alignment: 'center' -%}
@@ -53,7 +55,7 @@
 
             {%- render 'button', content: section.settings.button_text, type: 'submit' -%}
           {%- endif -%}
-        {%- endform -%}
+        {%- endform -%} {% endcomment %}
       </div>
     </newsletter-popup>
   {%- endunless -%}

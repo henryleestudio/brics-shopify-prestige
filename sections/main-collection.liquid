@@ -218,31 +218,7 @@ LIQUID
 
                 <product-list id="product-list-{{ section.id }}" class="product-list" collection-mobile-layout="{{ products_mobile_grid_mode }}" collection-desktop-layout="{{ products_desktop_grid_mode }}">
                   {%- for product in collection.products -%}
-                    {% assign has_color = false %}
-                    {% for option in product.options %}
-                      {% assign store_name = option | downcase %}
-                      {% if store_name == 'color' %}
-                        {% assign has_color = true %}
-                      {% endif %}
-                    {% endfor %}
-                    {% unless product.has_only_default_variant %}
-                      {% assign first_variant = product.selected_or_first_available_variant.title %}
-                      {% assign first_option_size = first_variant | split:'/' | first | strip %}
-                      {%- for variant in product.variants -%}
-                        {% if product.options.size > 1 %}
-                            {%- render 'product-card', product: product, variant_obj: variant, reveal: settings.stagger_products_apparition, hide_product_information: section.settings.hide_product_information, stacked: true -%}
-                        {% else %}
-                          {%- render 'product-card', product: product, variant_obj: variant, reveal: settings.stagger_products_apparition, hide_product_information: section.settings.hide_product_information, stacked: true -%}
-                        {% endif %}
-                      {%- endfor -%} 
-                    {% else %}
-                      {% assign show_default = true %}
-                    {% endunless %}
-                    {% if show_default %}
-                      {% assign show_default = false %}
-                      {%- render 'product-card', product: product, reveal: settings.stagger_products_apparition, hide_product_information: section.settings.hide_product_information, stacked: true -%}  
-                    {% endif %}
-                    
+                    {%- render 'product-card', product: product, reveal: settings.stagger_products_apparition, hide_product_information: section.settings.hide_product_information, stacked: true -%}
                   {%- endfor -%}
                 </product-list>
 
