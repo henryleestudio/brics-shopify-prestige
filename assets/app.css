@@ -76,3 +76,11 @@
 .img-with-txt-block-container {
   background: rgba(29, 35, 68, 0.631372549) !important;
 }
+
+.shopify-installments {
+  display: none !important;
+}
+
+.shopify-installments__content {
+  display: none !important;
+}
