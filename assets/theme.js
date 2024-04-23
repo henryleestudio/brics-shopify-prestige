@@ -3476,7 +3476,7 @@ getFilteredMediaIndexes_fn = function(product, variant) {
           color_value = mediaGroupParts[0].split("_");
           size_value = mediaGroupParts[1].split("_");
         } else {
-          // Tushar edits for product thumbnails
+          // Henry Lee - Edits for product thumbnails
           // mediaGroupParts = altParts.pop().split("_");
           mediaGroupParts = altParts.split("_");
         }
