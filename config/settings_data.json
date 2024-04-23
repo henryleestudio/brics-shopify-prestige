@@ -19,9 +19,9 @@
     "button_letter_spacing": 18,
     "cart_type": "drawer",
     "cart_icon": "shopping_bag",
-    "social_facebook": "https://www.facebook.com/bricsusa/",
-    "social_instagram": "https://www.instagram.com/bricsmilano/",
-    "favicon": "shopify://shop_images/emblem-favicon_713f07e4-ac2d-41d7-bc87-5b2e4ec9c218.png",
+    "social_facebook": "https:\/\/www.facebook.com\/bricsusa\/",
+    "social_instagram": "https:\/\/www.instagram.com\/bricsmilano\/",
+    "favicon": "shopify:\/\/shop_images\/emblem-favicon_713f07e4-ac2d-41d7-bc87-5b2e4ec9c218.png",
     "content_for_index": [
 
     ],
