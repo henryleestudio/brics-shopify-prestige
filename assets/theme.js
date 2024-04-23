@@ -3476,7 +3476,9 @@ getFilteredMediaIndexes_fn = function(product, variant) {
           color_value = mediaGroupParts[0].split("_");
           size_value = mediaGroupParts[1].split("_");
         } else {
-          mediaGroupParts = altParts.pop().split("_");
+          // Tushar edits for product thumbnails
+          // mediaGroupParts = altParts.pop().split("_");
+          mediaGroupParts = altParts.split("_");
         }
         if (altParts.indexOf(',') > -1 && color_option && size_option) {
           if (color_option["name"].toLowerCase() === color_value[0].toLowerCase()) {

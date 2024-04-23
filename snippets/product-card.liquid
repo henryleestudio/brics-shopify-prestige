@@ -154,8 +154,12 @@ Supported variables
             {%- endif -%}
 
             {%- if show_prices -%}
-              {%- render 'price-list', product: product, context: 'card' -%}
-            {%- endif -%}
+              {% comment %} {%- render 'price-list', product: product, context: 'card' -%} {% endcomment %}
+              {% if variant_obj != blank %}
+                {%- render 'price-list', variant: variant_obj, context: 'card' -%}
+                {% else %}
+                {%- render 'price-list', product: product, context: 'card' -%}
+                {% endif %}
           </div>
         {%- endif -%}
       </div>
