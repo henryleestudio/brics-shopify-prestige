@@ -37,6 +37,12 @@
             "show_below_gallery": false
           }
         },
+        "text_VaMUnm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>.{{ product.metafields.custom.dimensions | metafield_tag }}<\/p>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -81,6 +87,7 @@
         "payment_terms",
         "separator",
         "description",
+        "text_VaMUnm",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
