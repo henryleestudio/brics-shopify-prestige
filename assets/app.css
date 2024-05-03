@@ -84,3 +84,39 @@
 .shopify-installments__content {
   display: none !important;
 }
+
+/* Image issue fix ( prduct and thumbnail image size sqaure image ) custom code - added white background */
+.thumbnail-swatch {
+  background-color: white;
+}
+
+.product-gallery__media > * {
+  aspect-ratio: 1;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.product-gallery[allow-zoom] .product-gallery__media {
+  background-color: white;
+}
+
+.product-gallery__thumbnail img.object-contain {
+  aspect-ratio: 1;
+}
+
+.product-gallery__thumbnail {
+  background-color: white;
+}
+
+.product-card__figure {
+  aspect-ratio: 1;
+  background-color: #FFF;
+}
+
+.product-card__media {
+  height: 100%;
+}
+
+.product-card__image {
+  height: 100%;
+}

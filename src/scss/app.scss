@@ -91,6 +91,10 @@
 
 .shopify-installments__content {display: none ! important;}
 
+// .product-gallery__carousel {
+//   aspect-ratio: 1 / 1 !important;
+// }
+
 // a {
 //     font-family: $brandon-grotesque !important;
 //     letter-spacing: 2.5px !important;
@@ -119,3 +123,60 @@
 // .header__dropdown-menu:hover {
 //     background: #1d23444a;
 // }
+
+
+
+
+
+/* Image issue fix ( prduct and thumbnail image size sqaure image ) custom code - added white background */
+
+.thumbnail-swatch {
+  // --swatch-size: 3rem;
+  // --swatch-disabled-strike-color: rgb(var(--border-color));
+  // width: var(--swatch-size);
+  // height: var(--swatch-size);
+  // border-radius: min(4px, var(--input-border-radius));
+  // border-width: 1px;
+  // display: block;
+  // position: relative;
+  background-color: white;
+}
+
+.product-gallery__media > * {
+  // width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.product-gallery[allow-zoom] .product-gallery__media {
+  // cursor: var(--cursor-zoom-in-svg-url) 18 18, zoom-in;
+  background-color: white;
+}
+
+.product-gallery__thumbnail img.object-contain{
+  aspect-ratio: 1;
+}
+
+.product-gallery__thumbnail {
+  // border: 1px solid #0000;
+  // padding: 1px;
+  // transition: border-color .1s;
+  // position: relative;
+  background-color: white;
+}
+
+// image sqaure wht background for searched products
+
+.product-card__figure {
+  aspect-ratio: 1;
+  background-color: #FFF;
+}
+
+.product-card__media{
+  height: 100%;
+}
+  
+.product-card__image{
+height: 100%;
+}
+
