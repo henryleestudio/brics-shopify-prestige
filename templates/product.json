@@ -40,7 +40,7 @@
         "text_VaMUnm": {
           "type": "text",
           "settings": {
-            "text": "<p>.{{ product.metafields.custom.dimensions | metafield_tag }}<\/p>"
+            "text": "<p>{{ product.metafields.custom.dimensions | metafield_tag }}<\/p>"
           }
         },
         "variant_picker": {
