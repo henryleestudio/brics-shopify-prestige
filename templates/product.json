@@ -78,6 +78,12 @@
             "stack_products": false,
             "show_quick_buy": true
           }
+        },
+        "liquid_TtdKwG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.selected_variant %} \n {{ product.selected_variant.metafields.custom.custom.variant_dimensions_v2 }}\n{% else %}\n  <p>No variant selected.<\/p>\n{% endif %}"
+          }
         }
       },
       "block_order": [
@@ -91,7 +97,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "complementary_products"
+        "complementary_products",
+        "liquid_TtdKwG"
       ],
       "settings": {
         "color_scheme": "scheme-2",
