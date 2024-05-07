@@ -1,1 +1,32 @@
-{"sections":{"main":{"type":"main-list-collections","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "show_title": false,
+        "collections": [
+          "bellagio",
+          "capri",
+          "b-y-ulisse",
+          "firenze",
+          "life",
+          "positano",
+          "life-pelle",
+          "x-collection",
+          "gondola"
+        ],
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "image_size": "auto",
+        "content_position": "place-self-end-start text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

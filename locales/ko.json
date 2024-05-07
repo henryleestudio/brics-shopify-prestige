@@ -7,7 +7,7 @@
       "pagination": "페이지 매김 탐색",
       "go_to_page": "페이지 {{ index }}(으)로 이동",
       "go_to_item": "아이템 {{ index }}(으)로 이동",
-      "item_nth_of_count": "아이템 {{ index }}\/{{ count }}",
+      "item_nth_of_count": "아이템 {{ index }}/{{ count }}",
       "drag": "끌기",
       "close": "닫기",
       "next": "다음",
@@ -38,7 +38,7 @@
       "share_email": "이메일로 공유"
     },
     "rating": {
-      "info": "별점 {{ rating_value }}\/{{ rating_max }}"
+      "info": "별점 {{ rating_value }}/{{ rating_max }}"
     },
     "newsletter": {
       "email": "이메일",
@@ -99,7 +99,7 @@
       "view_in_space": "사용자 공간에서 보기",
       "taxes_included": "세금 포함.",
       "taxes_excluded": "세금 별도.",
-      "shipping_policy_html": "체크아웃 시 <a href=\"{{ link }}\" class=\"link\">배송료 계산<\/a>",
+      "shipping_policy_html": "체크아웃 시 <a href=\"{{ link }}\" class=\"link\">배송료 계산</a>",
       "size_chart": "사이즈 차트",
       "available_colors_count": {
         "other": "{{ count }}개 색상 가능"
@@ -107,7 +107,7 @@
     },
     "gallery": {
       "close": "갤러리 닫기",
-      "zoom": "확대\/축소",
+      "zoom": "확대/축소",
       "error": "사진을 불러 올 수 없습니다"
     },
     "price": {
@@ -317,7 +317,7 @@
       "phone": "전화번호",
       "address1": "주소 1",
       "address2": "주소 2",
-      "city": "시\/군\/구",
+      "city": "시/군/구",
       "zip": "우편번호",
       "country": "국가",
       "province": "도",
@@ -341,9 +341,9 @@
       "view_cart": "장바구니 보기",
       "checkout": "체크아웃",
       "we_accept": "결제 방법:",
-      "taxes_and_shipping_policy_at_checkout_html": "체크아웃 시 세금과 <a href=\"{{ link }}\" class=\"link\">배송료<\/a> 계산",
+      "taxes_and_shipping_policy_at_checkout_html": "체크아웃 시 세금과 <a href=\"{{ link }}\" class=\"link\">배송료</a> 계산",
       "taxes_included_but_shipping_at_checkout": "세금 포함 및 체크아웃 시 배송료 계산",
-      "taxes_included_and_shipping_policy_html": "세금 포함. 체크아웃 시 <a href=\"{{ link }}\" class=\"link\">배송료<\/a> 계산.",
+      "taxes_included_and_shipping_policy_html": "세금 포함. 체크아웃 시 <a href=\"{{ link }}\" class=\"link\">배송료</a> 계산.",
       "taxes_and_shipping_at_checkout": "체크아웃 시 세금과 배송료 계산"
     },
     "order": {

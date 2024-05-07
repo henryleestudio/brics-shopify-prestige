@@ -99,7 +99,7 @@
       "view_in_space": "العرض في مساحتك",
       "taxes_included": "شامل الضريبة.",
       "taxes_excluded": "شامل الضريبة.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">يتم حساب رسوم الضرائب<\/a> عند إتمام الطلب",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">يتم حساب رسوم الضرائب</a> عند إتمام الطلب",
       "size_chart": "مخطط المقاسات",
       "available_colors_count": {
         "one": "الألوان المتاحة: {{ count }}",
@@ -347,9 +347,9 @@
       "view_cart": "عرض سلة المشتريات",
       "checkout": "إتمام الشراء",
       "we_accept": "نحن نقبل",
-      "taxes_and_shipping_policy_at_checkout_html": "يتم حساب الضرائب ورسوم <a href=\"{{ link }}\" class=\"link\">الشحن<\/a> عند إتمام الطلب",
+      "taxes_and_shipping_policy_at_checkout_html": "يتم حساب الضرائب ورسوم <a href=\"{{ link }}\" class=\"link\">الشحن</a> عند إتمام الطلب",
       "taxes_included_but_shipping_at_checkout": "السعر شامل الضرائب ويتم حساب رسوم الشحن عند إتمام الطلب",
-      "taxes_included_and_shipping_policy_html": "السعر شامل الضرائب. ويتم حساب رسوم <a href=\"{{ link }}\" class=\"link\">الشحن<\/a> عند إتمام الطلب.",
+      "taxes_included_and_shipping_policy_html": "السعر شامل الضرائب. ويتم حساب رسوم <a href=\"{{ link }}\" class=\"link\">الشحن</a> عند إتمام الطلب.",
       "taxes_and_shipping_at_checkout": "يتم حساب الضرائب ورسوم الشحن عند إتمام الطلب"
     },
     "order": {

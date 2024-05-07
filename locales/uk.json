@@ -99,7 +99,7 @@
       "view_in_space": "Переглянути у своєму просторі",
       "taxes_included": "Податок враховано.",
       "taxes_excluded": "Податок не враховано.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Вартість доставки<\/a> обчислюється під час оформлення замовлення",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Вартість доставки</a> обчислюється під час оформлення замовлення",
       "size_chart": "Таблиця розмірів",
       "available_colors_count": {
         "one": "Доступно кольорів: {{ count }}",
@@ -347,9 +347,9 @@
       "view_cart": "Переглянути кошик",
       "checkout": "Оформити замовлення",
       "we_accept": "Ми приймаємо",
-      "taxes_and_shipping_policy_at_checkout_html": "Податки й <a href=\"{{ link }}\" class=\"link\">вартість доставки<\/a> обчислюються під час оформлення замовлення",
+      "taxes_and_shipping_policy_at_checkout_html": "Податки й <a href=\"{{ link }}\" class=\"link\">вартість доставки</a> обчислюються під час оформлення замовлення",
       "taxes_included_but_shipping_at_checkout": "Податок враховано, і вартість доставки обчислюється під час оформлення замовлення",
-      "taxes_included_and_shipping_policy_html": "Податок враховано. <a href=\"{{ link }}\" class=\"link\">Вартість доставки<\/a> обчислюється під час оформлення замовлення.",
+      "taxes_included_and_shipping_policy_html": "Податок враховано. <a href=\"{{ link }}\" class=\"link\">Вартість доставки</a> обчислюється під час оформлення замовлення.",
       "taxes_and_shipping_at_checkout": "Податки та вартість доставки обчислюються під час оформлення замовлення"
     },
     "order": {

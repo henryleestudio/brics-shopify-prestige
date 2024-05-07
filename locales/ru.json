@@ -99,7 +99,7 @@
       "view_in_space": "Просматривайте в реальных условиях",
       "taxes_included": "Цена указана с учетом налогов.",
       "taxes_excluded": "Цена указана без учета налогов.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Стоимость доставки рассчитывается<\/a> при оформлении заказа",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Стоимость доставки рассчитывается</a> при оформлении заказа",
       "size_chart": "Размерная сетка",
       "available_colors_count": {
         "one": "{{ count }} цвет доступен",
@@ -357,9 +357,9 @@
       "view_cart": "Просмотреть корзину",
       "checkout": "Оформить заказ",
       "we_accept": "Мы принимаем следующие виды оплаты:",
-      "taxes_and_shipping_policy_at_checkout_html": "Налоги и <a href=\"{{ link }}\" class=\"link\">стоимость доставки<\/a> рассчитываются при оформлении заказа",
+      "taxes_and_shipping_policy_at_checkout_html": "Налоги и <a href=\"{{ link }}\" class=\"link\">стоимость доставки</a> рассчитываются при оформлении заказа",
       "taxes_included_but_shipping_at_checkout": "Включенные в цену налоги и стоимость доставки рассчитываются при оформлении заказа",
-      "taxes_included_and_shipping_policy_html": "Налог включен в цену. <a href=\"{{ link }}\" class=\"link\">Стоимость доставки<\/a> рассчитывается при оформлении заказа.",
+      "taxes_included_and_shipping_policy_html": "Налог включен в цену. <a href=\"{{ link }}\" class=\"link\">Стоимость доставки</a> рассчитывается при оформлении заказа.",
       "taxes_and_shipping_at_checkout": "Налоги и стоимость доставки рассчитываются при оформлении доставки"
     },
     "order": {

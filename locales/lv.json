@@ -99,7 +99,7 @@
       "view_in_space": "View in your space",
       "taxes_included": "Ieskaitot nodokļus.",
       "taxes_excluded": "Neieskaitot nodokļus.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Piegādes izmaksas tiek aprēķinātas<\/a> pirms apmaksas",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Piegādes izmaksas tiek aprēķinātas</a> pirms apmaksas",
       "size_chart": "Izmēru tabula",
       "available_colors_count": {
         "one": "Pieejama {{ count }} krāsa",
@@ -347,9 +347,9 @@
       "view_cart": "Skatīt grozu",
       "checkout": "Noformēt pasūtījumu",
       "we_accept": "Mēs pieņemam",
-      "taxes_and_shipping_policy_at_checkout_html": "Nodokļi un <a href=\"{{ link }}\" class=\"link\">piegādes izmaksas tiek aprēķinātas<\/a> pirms apmaksas",
+      "taxes_and_shipping_policy_at_checkout_html": "Nodokļi un <a href=\"{{ link }}\" class=\"link\">piegādes izmaksas tiek aprēķinātas</a> pirms apmaksas",
       "taxes_included_but_shipping_at_checkout": "Nodokļi ir iekļauti, un piegādes izmaksas tiks aprēķinātas pirms apmaksas",
-      "taxes_included_and_shipping_policy_html": "Nodokļi iekļauti. <a href=\"{{ link }}\" class=\"link\">Piegādes izmaksas<\/a> tiek aprēķinātas pirms apmaksas.",
+      "taxes_included_and_shipping_policy_html": "Nodokļi iekļauti. <a href=\"{{ link }}\" class=\"link\">Piegādes izmaksas</a> tiek aprēķinātas pirms apmaksas.",
       "taxes_and_shipping_at_checkout": "Nodokļi un piegādes izmaksas tiks aprēķinātas pirms apmaksas"
     },
     "order": {

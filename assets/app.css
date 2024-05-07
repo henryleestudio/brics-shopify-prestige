@@ -1,1 +1,122 @@
+@import url(https://use.typekit.net/pmr0rci.css);
+@import url(https://use.typekit.net/pmr0rci.css);
+@import url(https://fonts.cdnfonts.com/css/univers-next-pro);
+* {
+  box-sizing: border-box;
+}
 
+.h1,
+.h2,
+.h3 {
+  font-family: "bodoni-moda-variable", sans-serif !important;
+  font-variation-settings: "wght" 400, "opsz" 11 !important;
+}
+
+.h4,
+.h5,
+.h6 {
+  font-family: "brandon-grotesque", sans-serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 2.7px !important;
+}
+
+.header__primary-nav-item a, .nav-menu-text {
+  font-family: "bodoni-moda-variable", sans-serif !important;
+  font-variation-settings: "wght" 530, "opsz" 8 !important;
+  font-size: 12.5px;
+  letter-spacing: 3.9px !important;
+  line-height: 1.7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.0196078431) inset;
+}
+
+.product-card__quick-add-button {
+  display: flex;
+  align-items: center;
+}
+
+.product-card__quick-add-button svg.icon {
+  margin-left: 10px;
+}
+
+.img-title-scroll {
+  font-size: 35px;
+  font-variation-settings: "wght" 600, "opsz" 8 !important;
+}
+
+.media-grid-sub-title {
+  font-size: 12px !important;
+}
+
+.multi-media-txt-title {
+  font-size: 40px !important;
+}
+
+.img-txt-scroll p {
+  font-size: 14px;
+  font-weight: 40 !important;
+}
+
+.content-over-media:before {
+  content: "";
+  background: rgba(29, 35, 68, 0.2901960784);
+  border-radius: inherit;
+  z-index: 1;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.media-grid-sub-title:first-child {
+  font-size: 16px;
+}
+
+.img-with-txt-block-container {
+  background: rgba(29, 35, 68, 0.631372549) !important;
+}
+
+.shopify-installments {
+  display: none !important;
+}
+
+.shopify-installments__content {
+  display: none !important;
+}
+
+/* Image issue fix ( prduct and thumbnail image size sqaure image ) custom code - added white background */
+.thumbnail-swatch {
+  background-color: white;
+}
+
+.product-gallery__media > * {
+  aspect-ratio: 1;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.product-gallery[allow-zoom] .product-gallery__media {
+  background-color: white;
+}
+
+.product-gallery__thumbnail img.object-contain {
+  aspect-ratio: 1;
+}
+
+.product-gallery__thumbnail {
+  background-color: white;
+}
+
+.product-card__figure {
+  aspect-ratio: 1;
+  background-color: #FFF;
+}
+
+.product-card__media {
+  height: 100%;
+}
+
+.product-card__image {
+  height: 100%;
+}

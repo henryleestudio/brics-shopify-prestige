@@ -99,7 +99,7 @@
       "view_in_space": "自分のスペースで見る",
       "taxes_included": "税込み価格",
       "taxes_excluded": "税抜き価格",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">配送料<\/a>は購入手続き時に計算されます。",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">配送料</a>は購入手続き時に計算されます。",
       "size_chart": "サイズ表",
       "available_colors_count": {
         "one": "{{ count }} カラー対応",

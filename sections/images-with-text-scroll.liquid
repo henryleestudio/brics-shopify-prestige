@@ -58,10 +58,10 @@
               {%- endif -%}
 
               {%- if block.settings.title != blank -%}
-                <p class="{{ section.settings.heading_tag }}">{{ block.settings.title }}</p>
+                <p class="{{ section.settings.heading_tag }} img-title-scroll">{{ block.settings.title }}</p>
               {%- endif -%}
 
-              {{- block.settings.content -}}
+              <p class="img-txt-scroll">{{- block.settings.content -}}</p>
 
               {%- if block.settings.link_text != blank -%}
                 {%- render 'button', href: block.settings.link_url, content: block.settings.link_text, style: block.settings.link_style -%}

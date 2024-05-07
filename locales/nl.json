@@ -99,7 +99,7 @@
       "view_in_space": "Bekijk in je ruimte",
       "taxes_included": "Inclusief btw.",
       "taxes_excluded": "Exclusief btw.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Verzendkosten berekend<\/a> bij het afrekenen",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Verzendkosten berekend</a> bij het afrekenen",
       "size_chart": "Maattabel",
       "available_colors_count": {
         "one": "{{ count }} kleur beschikbaar",
@@ -108,7 +108,7 @@
     },
     "gallery": {
       "close": "Galerie sluiten",
-      "zoom": "In-\/uitzoomen",
+      "zoom": "In-/uitzoomen",
       "error": "Afbeelding kan niet worden geladen"
     },
     "price": {
@@ -347,9 +347,9 @@
       "view_cart": "Winkelwagen bekijken",
       "checkout": "Afrekenen",
       "we_accept": "We accepteren",
-      "taxes_and_shipping_policy_at_checkout_html": "Btw en <a href=\"{{ link }}\" class=\"link\">verzendkosten<\/a> berekend bij het afrekenen",
+      "taxes_and_shipping_policy_at_checkout_html": "Btw en <a href=\"{{ link }}\" class=\"link\">verzendkosten</a> berekend bij het afrekenen",
       "taxes_included_but_shipping_at_checkout": "Btw inbegrepen en verzendkosten berekend bij het afrekenen",
-      "taxes_included_and_shipping_policy_html": "Btw inbegrepen. <a href=\"{{ link }}\" class=\"link\">Verzendkosten<\/a> berekend bij het afrekenen.",
+      "taxes_included_and_shipping_policy_html": "Btw inbegrepen. <a href=\"{{ link }}\" class=\"link\">Verzendkosten</a> berekend bij het afrekenen.",
       "taxes_and_shipping_at_checkout": "Btw en verzendkosten berekend bij het afrekenen"
     },
     "order": {

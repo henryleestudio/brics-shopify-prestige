@@ -3442,7 +3442,7 @@ onCarouselClick_fn = function(event) {
 _getFilteredMediaIndexes = new WeakSet();
 getFilteredMediaIndexes_fn = function(product, variant) {
   const filteredMediaIds = [];
-  product["media"].forEach((media) => {
+  /*product["media"].forEach((media) => {
     let matchMedia = variant["featured_media"] && media["position"] === variant["featured_media"]["position"];
     if (media["alt"]?.includes("#") && media["alt"] !== product["title"]) {
       if (!matchMedia) {
@@ -3454,6 +3454,57 @@ getFilteredMediaIndexes_fn = function(product, variant) {
             }
           }
         });
+      }
+    }
+  });*/
+  let size_option,color_option;
+  product["options"].forEach((option) => {
+    if(option["name"].toLowerCase() == 'color'){
+      color_option = option;
+    }else if(option["name"].toLowerCase() == 'size'){
+      size_option = option;
+    }
+  })
+  product["media"].forEach((media) => {
+    let matchMedia = variant["featured_media"] && media["position"] === variant["featured_media"]["position"];
+    if (media["alt"]?.includes("#") && media["alt"] !== product["title"]) {
+      if (!matchMedia) {
+        let altParts = media["alt"].split("#")[1];
+        let mediaGroupParts, color_value, size_value;
+        if (altParts.indexOf(',') > -1 && color_option && size_option) {
+          mediaGroupParts = altParts.split(",");
+          color_value = mediaGroupParts[0].split("_");
+          size_value = mediaGroupParts[1].split("_");
+        } else {
+          // Henry Lee - Edits for product thumbnails
+          // mediaGroupParts = altParts.pop().split("_");
+          mediaGroupParts = altParts.split("_");
+        }
+        if (altParts.indexOf(',') > -1 && color_option && size_option) {
+          if (color_option["name"].toLowerCase() === color_value[0].toLowerCase()) {
+            if (variant["options"][color_option["position"] - 1].toLowerCase() !== color_value[1].trim().toLowerCase()) {
+              if (size_option["name"].toLowerCase() === size_value[0].toLowerCase()) {
+                if (variant["options"][size_option["position"] - 1].toLowerCase() == size_value[1].trim().toLowerCase()) {
+                  filteredMediaIds.push(media["position"] - 1);
+                } else {
+                  filteredMediaIds.push(media["position"] - 1);
+                }
+              }
+            } else if (size_option["name"].toLowerCase() === size_value[0].toLowerCase()) {
+              if (variant["options"][size_option["position"] - 1].toLowerCase() !== size_value[1].trim().toLowerCase()) {
+                filteredMediaIds.push(media["position"] - 1);
+              }
+            }
+          }
+        } else {
+          product["options"].forEach((option) => {
+            if (option["name"].toLowerCase() === mediaGroupParts[0].toLowerCase()) {
+              if (variant["options"][option["position"] - 1].toLowerCase() !== mediaGroupParts[1].trim().toLowerCase()) {
+                filteredMediaIds.push(media["position"] - 1);
+              }
+            }
+          });
+        }
       }
     }
   });
@@ -3529,7 +3580,10 @@ onMediaObserve_fn = function(entries) {
   if (!firstEntry || __privateGet(this, _hasProgrammaticScroll)) {
     return;
   }
-  const selectedItem = this.items.find((item) => item.getAttribute("aria-current") === "true"), candidateItem = this.items.find((item) => item.getAttribute("data-media-id") === firstEntry.target.getAttribute("data-media-id"));
+  let selectedItem = this.items.find((item) => item.getAttribute("aria-current") === "true"), candidateItem = this.items.find((item) => item.getAttribute("data-media-id") === firstEntry.target.getAttribute("data-media-id"));
+  if(selectedItem == undefined){
+    selectedItem = this.items.find((item) => item.getAttribute("hidden") == null);
+  }
   if (__privateGet(this, _scrollDirection) === "bottom" && parseInt(candidateItem.getAttribute("data-media-position")) > parseInt(selectedItem.getAttribute("data-media-position"))) {
     selectedItem.setAttribute("aria-current", "false");
     candidateItem.setAttribute("aria-current", "true");

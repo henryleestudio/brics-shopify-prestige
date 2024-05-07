@@ -99,7 +99,7 @@
       "view_in_space": "Zobrazit ve vašem prostoru",
       "taxes_included": "Včetně DPH.",
       "taxes_excluded": "Bez DPH.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Poštovné<\/a> se vypočítá při dokončení objednávky",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Poštovné</a> se vypočítá při dokončení objednávky",
       "size_chart": "Tabulka velikostí",
       "available_colors_count": {
         "one": "Dostupné v {{ count }} barvě",
@@ -357,9 +357,9 @@
       "view_cart": "Zobrazit košík",
       "checkout": "Přejít k placení",
       "we_accept": "Přijímáme",
-      "taxes_and_shipping_policy_at_checkout_html": "Daně a <a href=\"{{ link }}\" class=\"link\">poštovné<\/a> se vypočítají při placení",
+      "taxes_and_shipping_policy_at_checkout_html": "Daně a <a href=\"{{ link }}\" class=\"link\">poštovné</a> se vypočítají při placení",
       "taxes_included_but_shipping_at_checkout": "Daň je zahrnuta v ceně, poštovné se vypočítá při placení",
-      "taxes_included_and_shipping_policy_html": "Daň je zahrnuta v ceně. <a href=\"{{ link }}\" class=\"link\">Poštovné<\/a> se vypočítá při placení.",
+      "taxes_included_and_shipping_policy_html": "Daň je zahrnuta v ceně. <a href=\"{{ link }}\" class=\"link\">Poštovné</a> se vypočítá při placení.",
       "taxes_and_shipping_at_checkout": "Daň a poštovné se vypočítají při placení"
     },
     "order": {

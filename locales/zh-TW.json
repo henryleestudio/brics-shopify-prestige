@@ -38,7 +38,7 @@
       "share_email": "透過電子郵件分享"
     },
     "rating": {
-      "info": "{{ rating_value }} \/ {{ rating_max }} 顆星"
+      "info": "{{ rating_value }} / {{ rating_max }} 顆星"
     },
     "newsletter": {
       "email": "電子郵件",
@@ -47,7 +47,7 @@
       "subscribed_successfully": "您已訂閱我們的電子報。"
     },
     "localization": {
-      "country": "國家\/地區",
+      "country": "國家/地區",
       "language": "語言"
     },
     "privacy_banner": {
@@ -99,7 +99,7 @@
       "view_in_space": "在您的空間查看",
       "taxes_included": "含稅。",
       "taxes_excluded": "未含稅。",
-      "shipping_policy_html": "結帳時<a href=\"{{ link }}\" class=\"link\">已計算運費<\/a>",
+      "shipping_policy_html": "結帳時<a href=\"{{ link }}\" class=\"link\">已計算運費</a>",
       "size_chart": "尺寸表",
       "available_colors_count": {
         "one": "有 {{ count }} 種顏色",
@@ -320,8 +320,8 @@
       "address2": "地址行 2",
       "city": "城市",
       "zip": "郵遞區號",
-      "country": "國家\/地區",
-      "province": "省\/州",
+      "country": "國家/地區",
+      "province": "省/州",
       "set_default": "設為預設地址"
     }
   },
@@ -342,9 +342,9 @@
       "view_cart": "查看購物車",
       "checkout": "結帳",
       "we_accept": "我們接受",
-      "taxes_and_shipping_policy_at_checkout_html": "結帳時計算稅費和<a href=\"{{ link }}\" class=\"link\">運費<\/a>",
+      "taxes_and_shipping_policy_at_checkout_html": "結帳時計算稅費和<a href=\"{{ link }}\" class=\"link\">運費</a>",
       "taxes_included_but_shipping_at_checkout": "含稅並於結帳時計算運費",
-      "taxes_included_and_shipping_policy_html": "含稅。在結帳時計算<a href=\"{{ link }}\" class=\"link\">運費<\/a>。",
+      "taxes_included_and_shipping_policy_html": "含稅。在結帳時計算<a href=\"{{ link }}\" class=\"link\">運費</a>。",
       "taxes_and_shipping_at_checkout": "結帳時計算稅費運費"
     },
     "order": {
@@ -359,8 +359,8 @@
     },
     "shipping_estimator": {
       "estimate_shipping": "預估運費",
-      "country": "國家\/地區",
-      "province": "省\/州",
+      "country": "國家/地區",
+      "province": "省/州",
       "zip": "郵遞區號",
       "estimate": "預估",
       "no_results": "很抱歉，我們無法配送至您的地址。",

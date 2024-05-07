@@ -99,7 +99,7 @@
       "view_in_space": "Afficher dans votre espace",
       "taxes_included": "Taxes inclues",
       "taxes_excluded": "Taxes exclues",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais d'envoi calculés<\/a> à la caisse",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais d'envoi calculés</a> à la caisse",
       "size_chart": "Guide des tailles",
       "available_colors_count": {
         "one": "{{ count }} couleur",

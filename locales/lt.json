@@ -99,7 +99,7 @@
       "view_in_space": "Peržiūra savo erdvėje",
       "taxes_included": "Į kainą įtrauktas mokestis.",
       "taxes_excluded": "Mokestis į kainą neįtrauktas.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Siuntimo išlaidos apskaičiuojamos<\/a> pateikiant užsakymą",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Siuntimo išlaidos apskaičiuojamos</a> pateikiant užsakymą",
       "size_chart": "Dydžių lentelė",
       "available_colors_count": {
         "one": "Parduodama {{ count }} spalvos",
@@ -352,9 +352,9 @@
       "view_cart": "Peržiūrėti krepšelį",
       "checkout": "Pateikti užsakymą",
       "we_accept": "Priimame",
-      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\" class=\"link\">siuntimo išlaidos<\/a> apskaičiuojami pateikiant užsakymą",
+      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\" class=\"link\">siuntimo išlaidos</a> apskaičiuojami pateikiant užsakymą",
       "taxes_included_but_shipping_at_checkout": "Į kainą įtrauktas mokestis ir siuntimo išlaidos apskaičiuojami pateikiant užsakymą",
-      "taxes_included_and_shipping_policy_html": "Į kainą įtrauktas mokestis. <a href=\"{{ link }}\" class=\"link\">Siuntimo išlaidos<\/a> apskaičiuojamos pateikiant užsakymą.",
+      "taxes_included_and_shipping_policy_html": "Į kainą įtrauktas mokestis. <a href=\"{{ link }}\" class=\"link\">Siuntimo išlaidos</a> apskaičiuojamos pateikiant užsakymą.",
       "taxes_and_shipping_at_checkout": "Mokesčiai ir siuntimo išlaidos apskaičiuojami pateikiant užsakymą"
     },
     "order": {

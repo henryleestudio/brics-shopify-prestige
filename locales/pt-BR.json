@@ -99,7 +99,7 @@
       "view_in_space": "Veja em seu ambiente",
       "taxes_included": "Tributo incluído.",
       "taxes_excluded": "Tributo excluído.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frete<\/a> calculado no checkout",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frete</a> calculado no checkout",
       "size_chart": "Guia de medidas",
       "available_colors_count": {
         "one": "{{ count }} cor disponível",

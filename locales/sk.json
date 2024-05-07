@@ -99,7 +99,7 @@
       "view_in_space": "Zobraziť vo vašom priestore",
       "taxes_included": "Vrátane dane.",
       "taxes_excluded": "Bez dane.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Doprava sa vypočíta<\/a> pri pokladni",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Doprava sa vypočíta</a> pri pokladni",
       "size_chart": "Tabuľka veľkostí",
       "available_colors_count": {
         "zero": "{{ count }} farieb k dispozícii",
@@ -358,9 +358,9 @@
       "view_cart": "Zobraziť košík",
       "checkout": "Zaplatiť",
       "we_accept": "Prijímame",
-      "taxes_and_shipping_policy_at_checkout_html": "Dane a <a href=\"{{ link }}\" class=\"link\">doprava<\/a> sa vypočítajú pri pokladni",
+      "taxes_and_shipping_policy_at_checkout_html": "Dane a <a href=\"{{ link }}\" class=\"link\">doprava</a> sa vypočítajú pri pokladni",
       "taxes_included_but_shipping_at_checkout": "Vrátane dane a dopravy vypočítanej pri pokladni",
-      "taxes_included_and_shipping_policy_html": "Vrátane dane. <a href=\"{{ link }}\" class=\"link\">Doprava<\/a> sa vypočíta pri pokladni.",
+      "taxes_included_and_shipping_policy_html": "Vrátane dane. <a href=\"{{ link }}\" class=\"link\">Doprava</a> sa vypočíta pri pokladni.",
       "taxes_and_shipping_at_checkout": "Dane a doprava sa vypočítajú pri pokladni"
     },
     "order": {

@@ -2,18 +2,176 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "newsletter_L9ynMc": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "md",
+        "image": "shopify://shop_images/posito.png",
+        "subheading": "JOIN THE CONVERSATION",
+        "title": "Newsletter",
+        "content": "<p>Sign up to our newsletter to receive exclusive offers.</p>",
+        "button_text": "Subscribe",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multi_column_3Yqzfm": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_GEEcKV": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/insta-img-3.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_qyEBzC": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/insta-img-2.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_XkgfWg": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/insta-img-1.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_9jGEbF": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/insta-img-7.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_wGcJQV": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/insta-img-4.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_GEEcKV",
+        "image_with_text_qyEBzC",
+        "image_with_text_XkgfWg",
+        "image_with_text_9jGEbF",
+        "image_with_text_wGcJQV"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "columns_per_row": 5,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "JOIN US",
+        "title": "@bricsmilano",
+        "content": ""
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Free delivery worldwide",
+            "content": "<p>Short content about your store</p>"
+          }
+        },
+        "icon-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Satisfied or refunded",
+            "content": "<p>Short content about your store</p>"
+          }
+        },
+        "icon-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Top-notch support",
+            "content": "<p>Short content about your store</p>"
+          }
+        },
+        "icon-4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Secure payments",
+            "content": "<p>Short content about your store</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon-1",
+        "icon-2",
+        "icon-3",
+        "icon-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
-        "links": {
-          "type": "links",
+        "newsletter": {
+          "type": "newsletter",
           "settings": {
-            "menu": "footer",
-            "show_menu_title": true,
-            "menu_title": "Customer Care"
+            "title": "JOIN THE CONVERSATION",
+            "content": "<p>Sign up for our newsletter</p>",
+            "button_background": "",
+            "button_text_color": ""
           }
         },
-        "links_L7eJer": {
+        "links": {
           "type": "links",
           "settings": {
             "menu": "footer",
@@ -21,26 +179,34 @@
             "menu_title": ""
           }
         },
-        "newsletter": {
-          "type": "newsletter",
+        "links_BxVkNd": {
+          "type": "links",
           "settings": {
-            "title": "Newsletter",
-            "content": "<p>Sign up to our newsletter to receive exclusive offers.<\/p>",
-            "button_background": "",
-            "button_text_color": ""
+            "menu": "resources",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "BRIC'S MILANO",
+            "content": "<p>Founded in 1952 by Mario Briccola, BRIC’S Milano has been hand-crafting travel bags and fine leather goods for over seventy years.</p>",
+            "enable_follow_on_shop": false
           }
         }
       },
       "block_order": [
+        "newsletter",
         "links",
-        "links_L7eJer",
-        "newsletter"
+        "links_BxVkNd",
+        "text"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "separate_section_with_border": false,
         "show_social_media": true,
-        "show_payment_icons": false,
+        "show_payment_icons": true,
         "show_country_selector": true,
         "show_country_name": true,
         "show_country_flag": true,
@@ -49,6 +215,9 @@
     }
   },
   "order": [
+    "newsletter_L9ynMc",
+    "multi_column_3Yqzfm",
+    "text-with-icons",
     "footer"
   ]
 }

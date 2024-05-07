@@ -3,17 +3,17 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide-2": {
-          "type": "image",
+        "video_fJF3DM": {
+          "type": "video",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_-_Banner_-_Bellagio_-_DESK_adff169d-3f52-4aa5-85a5-e5e4fca3ac2f.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Home_-_Banner_-_Bellagio_-_MOB.jpg",
-            "subheading": "The iconic collection",
-            "title": "Bellagio",
+            "video": "shopify://files/videos/iconic-dream-edited-compressed.mp4",
+            "allow_sound": true,
+            "subheading": "",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "Shop Now",
+            "button_1_text": "",
             "button_1_link": "",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
@@ -32,38 +32,14 @@
         },
         "slide-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "subheading": "Crafted of a durable nylon, trimmed with Tuscan full-grain leather.",
-            "title": "X-Collection",
+            "subheading": "Tell your story",
+            "title": "Image slide",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "Explore",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "image_zbfJtt": {
-          "type": "image",
-          "settings": {
-            "subheading": "Striking shades of the Italian sea",
-            "title": "Positano",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Shop Now",
+            "button_1_text": "",
             "button_1_link": "",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
@@ -82,9 +58,8 @@
         }
       },
       "block_order": [
-        "slide-2",
-        "slide-1",
-        "image_zbfJtt"
+        "video_fJF3DM",
+        "slide-1"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -93,107 +68,351 @@
         "show_initial_transition": true,
         "autoplay": true,
         "autoplay_pause_on_video": true,
-        "cycle_speed": 6,
+        "cycle_speed": 5,
         "background": "#000000",
         "controls_color": "#ffffff"
       }
     },
-    "scrolling_content_jfEQVV": {
+    "featured_collections_original_WRDiAf": {
+      "type": "featured-collections-original",
+      "blocks": {
+        "collection_zXUdRp": {
+          "type": "collection",
+          "settings": {
+            "collection": "luggage",
+            "products_count": 8,
+            "title": "LUGGAGE",
+            "link_url": "shopify://collections/luggage",
+            "link_text": "VIEW ALL LUGGAGE"
+          }
+        },
+        "collection_mPER4H": {
+          "type": "collection",
+          "settings": {
+            "collection": "bags",
+            "products_count": 8,
+            "title": "Bags",
+            "link_url": "shopify://collections/bags",
+            "link_text": "VIEW ALL BAGS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_zXUdRp",
+        "collection_mPER4H"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "BRIC'S OFFICIAL"
+      }
+    },
+    "featured_collections_rpVDar": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_JiD3p7": {
+          "type": "collection",
+          "settings": {
+            "collection": "luggage",
+            "products_count": 8,
+            "title": "Luggage",
+            "link_url": "shopify://collections/luggage",
+            "link_text": "VIEW ALL LUGGAGE"
+          }
+        },
+        "collection_pU7dGw": {
+          "type": "collection",
+          "settings": {
+            "collection": "bags",
+            "products_count": 8,
+            "title": "Bags",
+            "link_url": "shopify://collections/bags",
+            "link_text": "VIEW ALL BAGS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_JiD3p7",
+        "collection_pU7dGw"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "BRIC'S OFFICIAL"
+      }
+    },
+    "image_with_text_overlay_njfifb": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_ryaWz9": {
+          "type": "heading",
+          "settings": {
+            "text": "Bellagio",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_PKnnH7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Timeless Sophistication: Pioneering Italian Craftsmanship</p>"
+          }
+        },
+        "button_YU7xiq": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP",
+            "url": "shopify://collections/bellagio",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ryaWz9",
+        "richtext_PKnnH7",
+        "button_YU7xiq"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "lg",
+        "image": "shopify://shop_images/brics-banner--4.webp",
+        "mobile_image": "shopify://shop_images/DSC07702.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_grid_k4hyGr": {
+      "type": "media-grid",
+      "blocks": {
+        "image_jXJQ46": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Screenshot_2024-04-10_at_8.57.17_PM.png",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rm3dcw": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Screenshot_2024-04-05_at_2.42.28_PM.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_QejYQr": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
+            "image": "shopify://shop_images/brics-catalog-2.webp",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_jXJQ46",
+        "image_rm3dcw",
+        "image_QejYQr"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "OUR SELECTION",
+        "title": "QUALITY & STYLE",
+        "content": ""
+      }
+    },
+    "scrolling_content_pEzdNq": {
       "type": "scrolling-content",
       "blocks": {
-        "text_fpAjb4": {
+        "text_bF9YyH": {
           "type": "text",
           "settings": {
             "text": "Pack for your next adventure"
           }
         },
-        "image_UPfAbx": {
+        "image_dniBtT": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/B0CH98HQ8B.01.jpg"
+            "image": "shopify://shop_images/B0CH98HQ8B.01.jpg"
           }
         },
-        "text_Ac8RJB": {
+        "text_wbGfU6": {
           "type": "text",
           "settings": {
             "text": "Explore in Style"
           }
         },
-        "image_ybQRya": {
+        "image_p3mwgC": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/B0BB7Y5C7R.01_0411b0e7-6787-485b-97d3-bdcc6036a60d.jpg"
+            "image": "shopify://shop_images/B0BB7Y5C7R.01_0411b0e7-6787-485b-97d3-bdcc6036a60d.jpg"
           }
         }
       },
       "block_order": [
-        "text_fpAjb4",
-        "image_UPfAbx",
-        "text_Ac8RJB",
-        "image_ybQRya"
+        "text_bF9YyH",
+        "image_dniBtT",
+        "text_wbGfU6",
+        "image_p3mwgC"
       ],
       "settings": {
-        "separate_section_with_border": false,
-        "scrolling_speed": 0.2,
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
         "scroll_direction": "left",
         "text_font": "heading",
-        "text_font_size_mobile": 20,
-        "text_font_size_desktop": 40,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 26,
         "section_vertical_spacing_mobile": 30,
         "section_vertical_spacing_desktop": 60,
         "item_horizontal_spacing_mobile": 40,
         "item_horizontal_spacing_desktop": 80,
-        "background": "",
-        "text_color": ""
+        "background": "rgba(0,0,0,0)",
+        "text_color": "{{ shop.brand.colors.primary[0].background }}"
       }
     },
-    "scrolling_content_E6mKdg": {
+    "scrolling_content_WWTgGm": {
       "type": "scrolling-content",
       "blocks": {
-        "text_BmyMkj": {
+        "text_XV7x9Y": {
           "type": "text",
           "settings": {
             "text": "Elegance on the Go"
           }
         },
-        "image_JGKTir": {
+        "image_bTqLxJ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/B0CH98HQ8B.01.jpg"
+            "image": "shopify://shop_images/B0CH98HQ8B.01.jpg"
           }
         },
-        "text_DwGd6c": {
+        "text_eQj3DA": {
           "type": "text",
           "settings": {
             "text": "Sophistication in Every Journey"
           }
         },
-        "image_cDBk6b": {
+        "image_eqbaYA": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/B0BB7Y5C7R.01.jpg"
+            "image": "shopify://shop_images/B0BB7Y5C7R.01.jpg"
           }
         }
       },
       "block_order": [
-        "text_BmyMkj",
-        "image_JGKTir",
-        "text_DwGd6c",
-        "image_cDBk6b"
+        "text_XV7x9Y",
+        "image_bTqLxJ",
+        "text_eQj3DA",
+        "image_eqbaYA"
       ],
       "settings": {
         "separate_section_with_border": true,
-        "scrolling_speed": 0.2,
+        "scrolling_speed": 0.3,
         "scroll_direction": "right",
         "text_font": "heading",
-        "text_font_size_mobile": 20,
-        "text_font_size_desktop": 40,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 26,
         "section_vertical_spacing_mobile": 30,
         "section_vertical_spacing_desktop": 60,
         "item_horizontal_spacing_mobile": 40,
         "item_horizontal_spacing_desktop": 80,
         "background": "",
-        "text_color": ""
+        "text_color": "{{ shop.brand.colors.primary[0].background }}"
+      }
+    },
+    "featured_collections_original_eWAegL": {
+      "type": "featured-collections-original",
+      "blocks": {
+        "collection_bd8dgh": {
+          "type": "collection",
+          "settings": {
+            "collection": "carry-on",
+            "products_count": 8,
+            "title": "CARRY-ON",
+            "link_url": "shopify://collections/carry-on",
+            "link_text": "ALL CARRY-ON BAGS"
+          }
+        },
+        "collection_hEc8NU": {
+          "type": "collection",
+          "settings": {
+            "collection": "check-in",
+            "products_count": 8,
+            "title": "CHECK-IN",
+            "link_url": "shopify://collections/check-in",
+            "link_text": "ALL CHECK-IN BAGS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_bd8dgh",
+        "collection_hEc8NU"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Traveler Styles"
       }
     },
     "featured-collections": {
@@ -202,41 +421,30 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "products_count": 4,
-            "title": "Luggage",
+            "collection": "carry-on",
+            "products_count": 8,
+            "title": "CARRY-ON",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "All Carry-On Bags"
           }
         },
-        "collection_R8DRem": {
+        "collection_wRQFqA": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "products_count": 4,
-            "title": "Bags",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        },
-        "collection_BQwcYx": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "products_count": 4,
-            "title": "Accessories",
-            "link_url": "",
-            "link_text": "View all"
+            "collection": "check-in",
+            "products_count": 8,
+            "title": "CHECK-IN",
+            "link_url": "shopify://collections/check-in",
+            "link_text": "ALL CHECK-IN BAGS"
           }
         }
       },
       "block_order": [
         "collection-1",
-        "collection_R8DRem",
-        "collection_BQwcYx"
+        "collection_wRQFqA"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
@@ -244,23 +452,341 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Best Selling"
+        "subheading": "Traveler Styles"
       }
     },
-    "image_with_text_overlay_iLhRMr": {
-      "type": "image-with-text-overlay",
+    "image-with-text-scroll": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "item-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/brics-2webp.webp",
+            "subheading": "",
+            "title": "Italian wanderlust",
+            "content": "<p>As the world blooms anew, immerse yourself in the spirit of adventure with our exquisite collection of bags and luggage.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "item-2": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/brics-1.webp",
+            "subheading": "",
+            "title": "Fresh allure",
+            "content": "<p>Embark on a journey filled with sophistication and grace, each piece invites you to rediscover the joy of travel.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2"
+      ],
       "settings": {
         "color_scheme": "",
-        "image_size": "xs",
-        "image": "shopify:\/\/shop_images\/Brics_-_PORSCHE_DESIGN_SS_2021_M24_182_final_Web.jpg",
-        "allow_transparent_header": false,
+        "background_image": "shopify://shop_images/background-img.jpg",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multiple-media-with-text": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3167.webp",
+            "rotation": 0
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-04-03_at_7.25.42_PM.png",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
         "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
-        "content_width": "xs",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Spring & Serenity",
+        "title": "Luxury redefined",
+        "content": "<p>Infused with Italian flair, each piece redefines luxury travel</p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    },
+    "image_with_text_block_7NUQWR": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_bNeYAp": {
+          "type": "subheading",
+          "settings": {
+            "text": "Thank you for your support"
+          }
+        },
+        "richtext_Vfzn9A": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_bNeYAp",
+        "richtext_Vfzn9A"
+      ],
+      "settings": {
+        "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
+        "image_size": "lg",
+        "image": "shopify://shop_images/Screenshot_2024-04-03_at_7.18.54_PM.png",
+        "mobile_image": "shopify://shop_images/Screenshot_2024-04-13_at_11.23.44_AM.png",
+        "content_width": "sm",
+        "enable_parallax": true,
+        "remove_vertical_spacing": true
+      }
+    },
+    "countdown_br4Xky": {
+      "type": "countdown",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/brics-banner-2.webp",
+        "mobile_image": "shopify://shop_images/Screenshot_2024-04-03_at_7.26.23_PM.png",
+        "image_size": "md",
+        "subheading": "LIMITED TIME ONLY",
+        "title": "PROMOTIONS UP TO 40% OFF",
+        "content": "<p>Shop our selection of exclusive handbags and backpacks at reduced price during promotions!</p>",
+        "button_link": "#",
+        "button_text": "Shop now",
+        "expiration_date": "",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "before-after": {
+      "type": "before-after",
+      "blocks": {
+        "after": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/before-after-banner-girasole-2.jpg",
+            "text": "AVANA",
+            "link_text": "View product",
+            "link_url": "shopify://products/girasole-avana",
+            "link_style": "link"
+          }
+        },
+        "before": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/before-after-banner-girasole-1.jpg",
+            "text": "AGRUMI",
+            "link_text": "View product",
+            "link_url": "shopify://products/girasole-agrumi",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "after",
+        "before"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "subheading": "GIRASOLE",
+        "title": "CHOOSE YOUR COLOR",
+        "content": "",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
+    },
+    "multiple_media_with_text_7Je7iC": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_yFPXmK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3300.webp",
+            "rotation": 0
+          }
+        },
+        "image_FDVdVk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-04-05_at_3.32.49_PM.png",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_yFPXmK",
+        "image_FDVdVk"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": false,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Tranquility & elegance",
+        "title": "Italian Splendor",
+        "content": "<p>Indulge in the harmonious blend of style and sophistication</p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    },
+    "rich_text_f8F777": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_gUHC6B": {
+          "type": "subheading",
+          "settings": {
+            "text": "Featuring"
+          }
+        },
+        "heading_bdfAdm": {
+          "type": "heading",
+          "settings": {
+            "text": "X-COLLECTION",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_7Ahxnw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Discover Bold Fashion</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gUHC6B",
+        "heading_bdfAdm",
+        "richtext_7Ahxnw"
+      ],
+      "settings": {
+        "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_xGe6Xd": {
+      "type": "video",
+      "blocks": {
+        "subheading_YyqNKU": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Made in Italy"
+          }
+        },
+        "heading_ayU7wm": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "X-Collection",
+            "heading_tag": "h2"
+          }
+        },
+        "play_YyDc8A": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YyqNKU",
+        "heading_ayU7wm",
+        "play_YyDc8A"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/orizzontale-compresed.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "poster": "shopify://shop_images/Screenshot_2024-04-05_at_5.52.23_PM.png",
+        "text_color": "#ffffff"
+      }
+    },
+    "featured_collections_j3yXrn": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_RPFAge": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_RPFAge"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Featured collection"
       }
     },
     "shop-the-look": {
@@ -268,26 +794,49 @@
       "blocks": {
         "look-1": {
           "type": "look",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_-_Shop_the_Look_-_1.jpg",
+            "image": "shopify://shop_images/x-collection-look-1.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "test-product",
-            "product_1_horizontal_position": 25,
-            "product_1_vertical_position": 40,
-            "product_2": "test-product",
-            "product_2_horizontal_position": 37,
-            "product_2_vertical_position": 49,
-            "product_3": "test-product",
-            "product_3_horizontal_position": 50,
-            "product_3_vertical_position": 64,
+            "product_1": "x-bag-mezzaluna-large",
+            "product_1_horizontal_position": 71,
+            "product_1_vertical_position": 54,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
             "product_4": "",
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
         },
-        "look_xy8k3a": {
+        "look_wzPwLB": {
           "type": "look",
+          "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/x-collection-look-4.1_2bd903c1-c6c0-4c1d-b0a3-78c98433ddee.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "x-bag-spinner-with-frame",
+            "product_1_horizontal_position": 32,
+            "product_1_vertical_position": 72,
+            "product_2": "x-travel-piccolo-city-backpack",
+            "product_2_horizontal_position": 61,
+            "product_2_vertical_position": 49,
+            "product_3": "x-bag-x-urban-case",
+            "product_3_horizontal_position": 71,
+            "product_3_vertical_position": 86,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 33
+          }
+        },
+        "look_zwxJkj": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/x-collection-look-2.jpg",
             "hot_spots_background": "#ffffff",
             "product_1": "",
             "product_1_horizontal_position": 55,
@@ -302,79 +851,156 @@
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
+        },
+        "look_Azp6y7": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/x-collection-look-5.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "x-travel-piccolo-city-backpack",
+            "product_1_horizontal_position": 31,
+            "product_1_vertical_position": 30,
+            "product_2": "x-bag-x-travel-deluxe-duffel",
+            "product_2_horizontal_position": 58,
+            "product_2_vertical_position": 40,
+            "product_3": "x-travel-rolling-shoe-duffle",
+            "product_3_horizontal_position": 49,
+            "product_3_vertical_position": 60,
+            "product_4": "x-bag-sportina-large",
+            "product_4_horizontal_position": 82,
+            "product_4_vertical_position": 45
+          }
         }
       },
       "block_order": [
         "look-1",
-        "look_xy8k3a"
+        "look_wzPwLB",
+        "look_zwxJkj",
+        "look_Azp6y7"
       ],
       "settings": {
         "color_scheme": "scheme-2",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "subheading": "",
-        "title": "Shop the look",
+        "title": "",
         "content": "",
         "popover_title": "Shop the look"
       }
     },
-    "image-with-text-scroll": {
+    "video_jRfahU": {
+      "type": "video",
+      "blocks": {
+        "play_jYQfN8": {
+          "type": "play",
+          "disabled": true,
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_wnmGVD": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_jYQfN8",
+        "heading_wnmGVD"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/positano-collection.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "shop_the_look_VGAbnX": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_MrcJ4x": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-04-08_at_7.10.04_PM.webp",
+            "hot_spots_background": "#ffffff",
+            "product_1": "positano-trolley-spinner",
+            "product_1_horizontal_position": 25,
+            "product_1_vertical_position": 66,
+            "product_2": "positano-trolley-spinner-expandable",
+            "product_2_horizontal_position": 47,
+            "product_2_vertical_position": 60,
+            "product_3": "positano-trolley-spinner",
+            "product_3_horizontal_position": 77,
+            "product_3_vertical_position": 74,
+            "product_4": "positano-trolley-spinner-w-pocket",
+            "product_4_horizontal_position": 89,
+            "product_4_vertical_position": 54
+          }
+        }
+      },
+      "block_order": [
+        "look_MrcJ4x"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "subheading": "FEATURING",
+        "title": "POSITANO",
+        "content": "",
+        "popover_title": "POSITANO COLLECTION"
+      }
+    },
+    "images_with_text_scroll_fHygB4": {
       "type": "images-with-text-scroll",
       "blocks": {
-        "item-1": {
+        "image_with_text_cndMPc": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_BY.jpg",
-            "subheading": "About Us",
-            "title": "Our Heritage",
+            "image": "shopify://shop_images/IMG_3536.webp",
+            "subheading": "",
+            "title": "LIFE",
             "content": "",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
           }
         },
-        "item-2": {
+        "image_with_text_RjegAV": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_Bellagio.jpg",
-            "subheading": "",
-            "title": "Bellagio",
-            "content": "<p>Named Travel & Leisure Magazine's 'Best Carry-On Bag,\" this iconic collection is ultra-lightweight made with durable polycarbonate – and trimmed with our vegetable tanned, Tuscan full grain leather.<\/p>",
+            "subheading": "LIFE",
+            "title": "",
+            "content": "",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
           }
         },
-        "item-3": {
+        "image_with_text_YLHRXq": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_BY.jpg",
+            "image": "shopify://shop_images/Screenshot_2024-04-05_at_5.35.32_PM.png",
             "subheading": "",
-            "title": "Monza",
-            "content": "<p>With up to 14 interior pockets and a USB battery hub, Monza is designed with the urban lifestyle in mind. This collection will take you from office to city life in style.<\/p>",
+            "title": "#2",
+            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
           }
         },
-        "image_with_text_VBRTQY": {
+        "image_with_text_baAW3C": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_Bellagio.jpg",
             "subheading": "",
-            "title": "Capri",
-            "content": "<p>Trimmed in Full Grain Tuscan leather, Japanese Hinomoto spinner wheels, and durable German Quality polycarbonate, this collection is elegant as it is functional.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "image_with_text_3774hj": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Home_-_Text_Scroll_-_BY.jpg",
-            "subheading": "",
-            "title": "X-Collection",
-            "content": "<p>Create your signature style with a range of core and seasonal colors. Join the legions of savvy travelers who have made X-BAG their go-to for water-resistant, washable, and effortlessly stylish travel.<\/p>",
+            "title": "#3",
+            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -382,253 +1008,246 @@
         }
       },
       "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "image_with_text_VBRTQY",
-        "image_with_text_3774hj"
+        "image_with_text_cndMPc",
+        "image_with_text_RjegAV",
+        "image_with_text_YLHRXq",
+        "image_with_text_baAW3C"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
+        "background_image": "shopify://shop_images/IMG_3562.webp",
+        "mobile_background_image": "shopify://shop_images/IMG_3562.webp",
         "image_position": "start",
         "text_alignment": "center",
-        "heading_tag": "h3",
-        "overlay_color": "#000000",
+        "heading_tag": "h2",
+        "overlay_color": "{{ shop.brand.colors.primary[0].background }}",
         "overlay_opacity": 0
       }
     },
-    "multiple-media-with-text": {
-      "type": "multiple-media-with-text",
+    "rich_text_cLdVNa": {
+      "type": "rich-text",
       "blocks": {
-        "image-1": {
-          "type": "image",
+        "subheading_wW974C": {
+          "type": "subheading",
           "settings": {
-            "rotation": 0
+            "text": "Performance and luxury"
           }
         },
-        "image-2": {
-          "type": "image",
+        "heading_Jzt8iK": {
+          "type": "heading",
           "settings": {
-            "rotation": 0
+            "text": "LIFE COLLECTION",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_H8wJcc": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Our meticulously crafted pieces ensure you're always at the top of your game, both on and off the court</p>"
+          }
+        },
+        "button_4RVgLX": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP",
+            "url": "shopify://collections/life",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "image-1",
-        "image-2"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "reveal_on_scroll": true,
-        "separate_section_with_border": true,
-        "media_position_desktop": "before_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "overlap",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "center",
-        "subheading": "About",
-        "title": "Showcase your product",
-        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.<\/p>",
-        "button_1_text": "",
-        "button_1_link": "",
-        "button_1_style": "solid",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid"
-      }
-    },
-    "multi-column": {
-      "type": "multi-column",
-      "blocks": {
-        "column-1": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/green-and-white-marbled-coloring.jpg",
-            "title": "1952",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "column-2": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "1960s-2000s",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "column-3": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Today",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-1",
-        "column-2",
-        "column-3"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "columns_per_row": 3,
-        "stack_on_mobile": false,
-        "overlap_image": false,
-        "content_alignment": "center",
-        "text_alignment": "start",
-        "spacing": "md",
-        "subheading": "About",
-        "title": "Our Heritage",
-        "content": ""
-      }
-    },
-    "timeline_xFbCEB": {
-      "type": "timeline",
-      "blocks": {
-        "item_Ff7xwQ": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Brics_-_PORSCHE_DESIGN_SS_2021_M24_182_final_Web.jpg",
-            "label": "Porsche Design",
-            "subheading": "Engineered Sophistication",
-            "title": "Porsche Design",
-            "content": "<p>Use this text to share information about what happened to your brand at a specific time.<\/p>",
-            "link_text": "Shop Now",
-            "link_url": "",
-            "link_style": "outline",
-            "mobile_text_color": "#ffffff"
-          }
-        },
-        "item_dktTx3": {
-          "type": "item",
-          "settings": {
-            "label": "Other Bric's Collections?",
-            "subheading": "Subheading",
-            "title": "2010",
-            "content": "<p>Use this text to share information about what happened to your brand at a specific time.<\/p>",
-            "link_text": "Button",
-            "link_url": "",
-            "link_style": "link",
-            "mobile_text_color": "#ffffff"
-          }
-        },
-        "item_kiVXnF": {
-          "type": "item",
-          "settings": {
-            "label": "B|Y Ulisse",
-            "subheading": "Subheading",
-            "title": "Be Young. Be Brics.",
-            "content": "<p>Use this text to share information about what happened to your brand at a specific time.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "mobile_text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "item_Ff7xwQ",
-        "item_dktTx3",
-        "item_kiVXnF"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "item_color_scheme": "",
-        "separate_section_with_border": true
-      }
-    },
-    "testimonials_QEkXdT": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_iPAtxB": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": ""
-          }
-        },
-        "testimonial_F7pBdw": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
-            "image": "shopify:\/\/shop_images\/New_York_Times.svg",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": ""
-          }
-        },
-        "testimonial_JHM6mj": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
-            "image": "shopify:\/\/shop_images\/B0CJB1QWJH.01.jpg",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": ""
-          }
-        },
-        "testimonial_dBHKyd": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": ""
-          }
-        },
-        "testimonial_tjtDPK": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": ""
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_iPAtxB",
-        "testimonial_F7pBdw",
-        "testimonial_JHM6mj",
-        "testimonial_dBHKyd",
-        "testimonial_tjtDPK"
+        "subheading_wW974C",
+        "heading_Jzt8iK",
+        "richtext_H8wJcc",
+        "button_4RVgLX"
       ],
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": true,
-        "auto_rotate_between_testimonials": false,
-        "cycle_speed": 5,
-        "font_size_factor": 1,
-        "subheading": "",
-        "title": "",
-        "content": ""
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_Wk9iQC": {
+      "type": "video",
+      "blocks": {
+        "play_ke99jT": {
+          "type": "play",
+          "disabled": true,
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_MqdR9k": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_ke99jT",
+        "heading_MqdR9k"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/b-y-into-video.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "shop_the_look_UbNzhf": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_aFiJ8V": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/b-y-collection-look-4.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "b-y-ulisse-spinner",
+            "product_1_horizontal_position": 21,
+            "product_1_vertical_position": 55,
+            "product_2": "b-y-ulisse-spinner",
+            "product_2_horizontal_position": 55,
+            "product_2_vertical_position": 55,
+            "product_3": "b-y-ulisse-spinner",
+            "product_3_horizontal_position": 88,
+            "product_3_vertical_position": 55,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_PhY9Ct": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/b-y-collection-look-1.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "b-y-ulisse-expandable-spinner",
+            "product_1_horizontal_position": 29,
+            "product_1_vertical_position": 35,
+            "product_2": "b-y-ulisse-expandable-spinner",
+            "product_2_horizontal_position": 45,
+            "product_2_vertical_position": 60,
+            "product_3": "",
+            "product_3_horizontal_position": 60,
+            "product_3_vertical_position": 65,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_NUWBDp": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/b-y-collection-look-2.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_dk3j8X": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/b-y-collection-look-6.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "b-y-ulisse-spinner",
+            "product_1_horizontal_position": 21,
+            "product_1_vertical_position": 55,
+            "product_2": "b-y-ulisse-spinner",
+            "product_2_horizontal_position": 54,
+            "product_2_vertical_position": 55,
+            "product_3": "b-y-ulisse-spinner",
+            "product_3_horizontal_position": 85,
+            "product_3_vertical_position": 55,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_4EAn8x": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/b-y-collection-look-6.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 35,
+            "product_1_vertical_position": 35,
+            "product_2": "",
+            "product_2_horizontal_position": 34,
+            "product_2_vertical_position": 65,
+            "product_3": "",
+            "product_3_horizontal_position": 66,
+            "product_3_vertical_position": 42,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_aFiJ8V",
+        "look_PhY9Ct",
+        "look_NUWBDp",
+        "look_dk3j8X",
+        "look_4EAn8x"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "subheading": "FEATURING",
+        "title": "B|Y Ulisse",
+        "content": "",
+        "popover_title": "B|Y Ulisse"
       }
     }
   },
   "order": [
     "slideshow",
-    "scrolling_content_jfEQVV",
-    "scrolling_content_E6mKdg",
+    "featured_collections_original_WRDiAf",
+    "featured_collections_rpVDar",
+    "image_with_text_overlay_njfifb",
+    "media_grid_k4hyGr",
+    "scrolling_content_pEzdNq",
+    "scrolling_content_WWTgGm",
+    "featured_collections_original_eWAegL",
     "featured-collections",
-    "image_with_text_overlay_iLhRMr",
-    "shop-the-look",
     "image-with-text-scroll",
     "multiple-media-with-text",
-    "multi-column",
-    "timeline_xFbCEB",
-    "testimonials_QEkXdT"
+    "image_with_text_block_7NUQWR",
+    "countdown_br4Xky",
+    "before-after",
+    "multiple_media_with_text_7Je7iC",
+    "rich_text_f8F777",
+    "video_xGe6Xd",
+    "featured_collections_j3yXrn",
+    "shop-the-look",
+    "video_jRfahU",
+    "shop_the_look_VGAbnX",
+    "images_with_text_scroll_fHygB4",
+    "rich_text_cLdVNa",
+    "video_Wk9iQC",
+    "shop_the_look_UbNzhf"
   ]
 }
