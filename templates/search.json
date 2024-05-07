@@ -3,7 +3,7 @@
     "main": {
       "type": "main-search",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "show_sort_by": true,
         "products_per_page": 24,
         "horizontal_spacing_factor": 1,
