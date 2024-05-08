@@ -88,7 +88,7 @@ Supported variables
               {%- render 'icon' with 'dropdown-chevron' -%}
             </button>
 
-            <x-popover id="{{ popover_id }}" class="popover popover--bottom-start color-scheme color-scheme--dialog" close-on-listbox-select initial-focus="[aria-selected='true']">
+            <x-popover id="{{ popover_id }}" class="popover popover--bottom-start color-scheme color-scheme--dialog option-{{ option.name | downcase }}" close-on-listbox-select initial-focus="[aria-selected='true']">
               <p class="h5" slot="header">{{ option.name }}</p>
 
               <x-listbox data-option-selector class="popover__value-list" aria-owns="{{ popover_id }}-selected-value">
