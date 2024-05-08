@@ -239,7 +239,7 @@ Supported variables
                   var sizes = document.getElementById("size-desc").textContent;
                   const sizeArray = sizes.split("###");
                   var sizelist = "";
-                  const slides = document.getElementsByClassName("option-size");
+                  const sizebuttons = document.getElementsByClassName("option-size");
 
                   for (i in sizeArray) {
                       sizelist += "<li>"+sizeArray[i]+"</li>";
@@ -250,7 +250,7 @@ Supported variables
                   document.getElementsByClassName("option-size");
 
                   
-                  for (let i = 0; i < slides.length; i++) {
+                  for (let i = 0; i < sizebuttons.length; i++) {
                      Distribute(slides.item(i));
                   }
                 }
