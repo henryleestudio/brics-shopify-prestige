@@ -166,13 +166,25 @@ Supported variables
       </div>
     {%- endif -%}
 
-    {%- if show_swatches and settings.product_color_display != 'hide' and variant_obj == blank -%}
+    {% comment %} 5.8.2024 {% endcomment %}
+    {% comment %} {%- if show_swatches and settings.product_color_display != 'hide' and variant_obj == blank -%} {% endcomment %}
+    {%- if show_swatches and settings.product_color_display != 'hide'  -%}
       {%- assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ',' -%}
+      
+      {% comment %} added if variant assigning variant id instead of product id 5.8.2024 {% endcomment %}
+      {% assign prod_id = product.id %}
+      {% if variant_obj != blank %}
+        {% assign prod_id = variant_obj.id %}
+      {% endif %}
 
       {%- for color_label in color_label_list -%}
         {%- if product.options_by_name[color_label] != blank -%}
           {%- assign product_option = product.options_by_name[color_label] -%}
-          {%- capture name -%}swatch-{{ quick_buy_context }}-{{ section.id }}-{{ product.id }}-{{ product_option.position }}{%- endcapture -%}
+
+          {% comment %} adding prod_id in replace of product.id 5.8.2024 {% endcomment %}
+
+          {% comment %} {%- capture name -%}swatch-{{ quick_buy_context }}-{{ section.id }}-{{ product.id }}-{{ product_option.position }}{%- endcapture -%} {% endcomment %}
+          {%- capture name -%}swatch-{{ quick_buy_context }}-{{ section.id }}-{{ prod_id }}-{{ product_option.position }}{%- endcapture -%}
 
           {%- case settings.product_color_display -%}
             {%- when 'count' -%}
