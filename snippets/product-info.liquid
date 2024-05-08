@@ -215,8 +215,8 @@ Supported variables
             {%- endif -%}
 
             {%- if product.metafields.custom.size_description != blank -%}
-              <div class="size-desc hidden">{{ product.metafields.custom.size_description }}</div>
-              <ul class="size-display">
+              <div id="size-desc" class="hidden">{{ product.metafields.custom.size_description }}</div>
+              <ul id="size-display">
                 <li>1</li>
                 <li>2</li>
                 <li>3</li>
