@@ -217,6 +217,7 @@ Supported variables
             {%- if product.metafields.custom.size_description != blank -%}
               <div id="size-desc" class="hidden">{{ product.metafields.custom.size_description }}</div>
               <ul id="size-display"></ul>
+
               <style>
                 #size-display {
                   list-style: none;
@@ -231,7 +232,6 @@ Supported variables
                 #size-display li.show {
                   display: block;
                 }
-                
               </style>
 
               <script>
