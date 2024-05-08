@@ -179,7 +179,8 @@ Supported variables
               <p class="smallcaps text-subdued">{{- 'product.general.available_colors_count' | t: count: product_option.values.size -}}</p>
 
             {%- when 'swatch' -%}
-              <fieldset class="h-stack wrap justify-center gap-1" data-option-position="{{ product_option.position }}">
+              {% comment %} adding value for the variant 5.8.2024{% endcomment %}
+              <fieldset class="h-stack wrap justify-center gap-1" data-option-position="{{ product_option.position }}" {% if selected_val != blank %}data-option-position-size="{{ selected_val | escape }}"{% endif %}>
                 {%- liquid
                   for option_value in product_option.values
                     if forloop.first or first_variant.matched and option_value == product_option.selected_value
