@@ -259,19 +259,18 @@ Supported variables
                     }
 
                     e.onclick = function() {
-                      var elems = document.querySelectorAll("#size-display li");
-
-                      [].forEach.call(elems, function(el) {
-                          el.classList.remove("show");
-                      });
+                      hideListItems();
                       document.getElementById("size-item-"+i).classList.add('show');
                     }
                   }
                 }
 
-                
-                
-
+                function hideListItems() {
+                  var elems = document.querySelectorAll("#size-display li");
+                  [].forEach.call(elems, function(el) {
+                      el.classList.remove("show");
+                  });
+                }
               </script>
 
             {%- endif -%}
