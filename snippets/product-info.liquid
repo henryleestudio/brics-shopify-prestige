@@ -238,9 +238,9 @@ Supported variables
                 window.onload = function(){ 
                   var sizes = document.getElementById("size-desc").textContent;
                   var sizeArray = sizes.split("###");
-                  var 
+                  var sizelist = "";
 
-                  sizeArray.forEach((size) => console.log(size));
+                  sizeArray.forEach((size) => sizelist += "<li>"+size+"</li>";));
 
                 }
 
