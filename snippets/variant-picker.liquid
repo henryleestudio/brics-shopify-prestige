@@ -88,14 +88,14 @@ Supported variables
               {%- render 'icon' with 'dropdown-chevron' -%}
             </button>
 
-            <x-popover id="{{ popover_id }}" class="popover popover--bottom-start color-scheme color-scheme--dialog option-{{ option.name | downcase }}" close-on-listbox-select initial-focus="[aria-selected='true']">
+            <x-popover id="{{ popover_id }}" class="popover popover--bottom-start color-scheme color-scheme--dialog" close-on-listbox-select initial-focus="[aria-selected='true']">
               <p class="h5" slot="header">{{ option.name }}</p>
 
               <x-listbox data-option-selector class="popover__value-list" aria-owns="{{ popover_id }}-selected-value">
                 <input type="hidden" id="{{ popover_id }}-input" name="option{{ option.position }}" form="{{ form_id }}" value="{{ option.selected_value | escape }}">
 
                 {%- for value in option.values -%}
-                  <button type="button" data-index="{{ forloop.index | minus: 1 }}" class="h-stack justify-between gap-2" role="option" value="{{ value | escape }}" title="{{ value | escape }}" aria-selected="{% if value == option.selected_value %}true{% else %}false{% endif %}" data-option-value>
+                  <button type="button" data-index="{{ forloop.index | minus: 1 }}" class="h-stack justify-between gap-2 option-{{ option.name | downcase }}" role="option" value="{{ value | escape }}" title="{{ value | escape }}" aria-selected="{% if value == option.selected_value %}true{% else %}false{% endif %}" data-option-value>
                     <span>{{- value -}}</span>
                     <span class="variant-picker__dropdown-sold-out-label">{{- 'product.general.sold_out_badge' | t -}}</span>
                   </button>
