@@ -214,6 +214,11 @@ Supported variables
               {%- endif -%}
             {%- endif -%}
 
+            {%- if product.metafields.custom.size_description != blank -%}
+              {{ product.metafields.custom.size_description }}
+
+            {%- endif -%}
+
           {%- when 'variant_picker' -%}
             {%- if product != blank -%}
               {%- render 'variant-picker',
