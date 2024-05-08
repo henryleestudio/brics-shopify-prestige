@@ -249,7 +249,7 @@ Supported variables
 
                   for (let i = 0; i < sizebuttons.length; i++) {
                     var e = sizebuttons[i];
-                    if(e.getAttribute("aria-selected")) {
+                    if(e.getAttribute("aria-selected") == "true") {
                       document.getElementById("size-item-"+i).classList.add('show');
                     }
                   }
