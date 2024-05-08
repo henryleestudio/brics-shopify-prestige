@@ -240,8 +240,8 @@ Supported variables
                   var sizeArray = sizes.split("###");
                   var sizelist = "";
 
-                  for (size in sizeArray) {
-                      sizelist += "<li>"+size+"</li>";
+                  for (i in sizeArray as size) {
+                      sizelist += "<li>"+size[i]+"</li>";
                   }
 
                   document.getElementById("size-display").innerHTML = sizelist;
