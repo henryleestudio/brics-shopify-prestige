@@ -242,7 +242,7 @@ Supported variables
                   const sizebuttons = document.getElementsByClassName("option-size");
 
                   for (i in sizeArray) {
-                    sizelist += '<li class="size-item-'+i+'">'+sizeArray[i]+'</li>';
+                    sizelist += '<li id="size-item-'+i+'">'+sizeArray[i]+'</li>';
                   }
 
                   document.getElementById("size-display").innerHTML = sizelist;
@@ -250,7 +250,7 @@ Supported variables
                   for (let i = 0; i < sizebuttons.length; i++) {
                     var e = sizebuttons[i];
                     if(e.getAttribute("aria-selected")) {
-                      document.getElementsByClassName("size-item-"+i).classList.add('show');
+                      document.getElementsById("size-item-"+i).classList.add('show');
                     }
                   }
                 }
