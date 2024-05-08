@@ -50,13 +50,40 @@
 
                 {%- for product in block.settings.collection.products limit: block.settings.products_count -%}
                   {% unless product.has_only_default_variant %}
-                    {%- for variant in product.variants -%}
+                    
+                    {% comment %} commented out 5.8.24 {% endcomment %}
+
+                    {% comment %} {%- for variant in product.variants -%}
                       {% if product.options.size > 1 %}
                         {%- render 'product-card', product: product, variant_obj: variant, reveal: should_reveal, hide_product_information: section.settings.hide_product_information, block: block -%}
                       {% else %}
                         {%- render 'product-card', product: product, variant_obj: variant, reveal: should_reveal, hide_product_information: section.settings.hide_product_information, block: block -%}
                       {% endif %}
-                    {%- endfor -%} 
+                    {%- endfor -%}  {% endcomment %}
+
+                    {% comment %} added from main-collection.liquid 5.8.24 {% endcomment %}
+                    {% for option in product.options_with_values %}
+                      {% assign temp_val = option.name | downcase %}
+                      {% assign option_index = forloop.index0 %}
+                      {% if temp_val == "size" %}
+                      
+                      {% for value in option.values %}
+                      {%- for variant in product.variants -%}
+                      {% if variant.options[option_index] == value %}
+                      {%- render 'product-card', product: product, variant_obj: variant, selected_val:value, reveal: settings.stagger_products_apparition, 
+                      hide_product_information: section.settings.hide_product_information, stacked: true -%}
+                      {% break %}
+                      {% endif %}
+                      {%- endfor -%}
+                      {% endfor %}
+                      
+                      {% else %} 
+                      {% if forloop.length == 1 %}
+                      {% assign show_default = true %}
+                      {% endif %}
+                      {% endif %}
+                      {% endfor %}
+
                   {% else %}
                     {% assign show_default = true %}
                   {% endunless %}
