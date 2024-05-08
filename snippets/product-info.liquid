@@ -248,7 +248,9 @@ Supported variables
                   document.getElementById("size-display").innerHTML = sizelist;
 
                   for (let i = 0; i < sizebuttons.length; i++) {
-                      
+                    var e = sizebuttons[i];
+
+                    console.log(e.getAttribute("aria-selected"));
                   }
                 }
 
