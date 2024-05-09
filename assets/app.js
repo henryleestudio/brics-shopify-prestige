@@ -5,9 +5,18 @@
 /*!***********************!*\
   !*** ./src/js/app.js ***!
   \***********************/
-/***/ (() => {
+/***/ (function() {
 
-
+// For collection page and featured product section  updating title and price 5.9.2024 - custom code from theme.js
+this.querySelector('.product-card__info .product-title').innerText = this.product["title"] + " - " + firstMatchingVariant["title"];
+var price_html = "";
+if (firstMatchingVariant.price < firstMatchingVariant.compare_at_price) {
+  price_html += "<sale-price class=\"h6 text-on-sale\">".concat(formatMoney(firstMatchingVariant["price"], currencyFormat), "</sale-price><compare-at-price class=\"h6 text-subdued line-through\">").concat(formatMoney(firstMatchingVariant["compare_at_price"], currencyFormat), "</compare-at-price>");
+} else {
+  price_html += "<sale-price class=\"h6 text-subdued\">".concat(formatMoney(firstMatchingVariant["price"], currencyFormat), "</sale-price>");
+}
+this.querySelector('.product-card__info price-list').innerHTML = price_html;
+// end of the code
 
 /***/ }),
 
@@ -44,7 +53,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
