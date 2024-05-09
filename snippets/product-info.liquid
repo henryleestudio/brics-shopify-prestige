@@ -214,6 +214,62 @@ Supported variables
               {%- endif -%}
             {%- endif -%}
 
+            {%- if product.metafields.custom.size_description != blank -%}
+              <div id="size-desc" class="hidden">{{ product.metafields.custom.size_description }}</div>
+              <ul id="size-display"></ul>
+
+              <style>
+                #size-display {
+                  list-style: none;
+                  margin: 0;
+                }
+
+                #size-display li {
+                  padding: 0;
+                  display: none;
+                }
+
+                #size-display li.show {
+                  display: block;
+                }
+              </style>
+
+              <script>
+                window.onload = function(){ 
+                  var sizes = document.getElementById("size-desc").textContent;
+                  const sizeArray = sizes.split("###");
+                  var sizelist = "";
+                  const sizebuttons = document.getElementsByClassName("option-size");
+
+                  for (i in sizeArray) {
+                    sizelist += '<li id="size-item-'+i+'">'+sizeArray[i]+'</li>';
+                  }
+
+                  document.getElementById("size-display").innerHTML = sizelist;
+
+                  for (let i = 0; i < sizebuttons.length; i++) {
+                    var e = sizebuttons[i];
+                    if(e.getAttribute("aria-selected") == "true") {
+                      hideListItems();
+                      document.getElementById("size-item-"+i).classList.add('show');
+                    }
+
+                    e.onclick = function() {
+                      hideListItems();
+                      document.getElementById("size-item-"+i).classList.add('show');
+                    }
+                  }
+                }
+
+                function hideListItems() {
+                  var elements = document.querySelectorAll("#size-display li");
+                  [].forEach.call(elements, function(e) {
+                      e.classList.remove("show");
+                  });
+                }
+              </script>
+            {%- endif -%}
+
           {%- when 'variant_picker' -%}
             {%- if product != blank -%}
               {%- render 'variant-picker',
