@@ -95,7 +95,7 @@ Supported variables
                 <input type="hidden" id="{{ popover_id }}-input" name="option{{ option.position }}" form="{{ form_id }}" value="{{ option.selected_value | escape }}">
 
                 {%- for value in option.values -%}
-                  <button type="button" class="h-stack justify-between gap-2" role="option" value="{{ value | escape }}" title="{{ value | escape }}" aria-selected="{% if value == option.selected_value %}true{% else %}false{% endif %}" data-option-value>
+                  <button type="button" data-index="{{ forloop.index | minus: 1 }}" class="h-stack justify-between gap-2 option-{{ option.name | downcase }}" role="option" value="{{ value | escape }}" title="{{ value | escape }}" aria-selected="{% if value == option.selected_value %}true{% else %}false{% endif %}" data-option-value>
                     <span>{{- value -}}</span>
                     <span class="variant-picker__dropdown-sold-out-label">{{- 'product.general.sold_out_badge' | t -}}</span>
                   </button>
