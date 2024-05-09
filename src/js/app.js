@@ -1,4 +1,4 @@
-  // For collection page and featured product section  updating title and price 5.9.2024 - custom code
+  // For collection page and featured product section  updating title and price 5.9.2024 - custom code from theme.js
   this.querySelector('.product-card__info .product-title').innerText = this.product["title"] + " - " + firstMatchingVariant["title"];
  var price_html = ``;
  if(firstMatchingVariant.price < firstMatchingVariant.compare_at_price){

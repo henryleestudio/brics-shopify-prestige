@@ -236,7 +236,7 @@ LIQUID
                         {% endif %}
                       {%- endfor -%}  {% endcomment %}
                       
-                      {% comment %} adding for product variant swatches {% endcomment %}
+                      {% comment %} adding for product variant swatches 5.8.2024 {% endcomment %}
                       {% for option in product.options_with_values %}
                         {% assign temp_val = option.name | downcase %}
                         {% assign option_index = forloop.index0 %}
@@ -258,6 +258,7 @@ LIQUID
                         {% endif %}
                         {% endif %}
                         {% endfor %}
+                        {% comment %} end code {% endcomment %}
                     {% else %}
                       {% assign show_default = true %}
                     {% endunless %}
