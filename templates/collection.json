@@ -36,7 +36,7 @@
         "show_results_count": false,
         "show_filter_group_name": false,
         "show_filter_values_count": false,
-        "open_filters_by_default": false
+        "open_filters_by_default": true
       }
     }
   },
