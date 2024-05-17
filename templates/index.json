@@ -530,9 +530,9 @@
         "media_alignment_offset": 0,
         "media_mobile_alignment_offset": 0,
         "text_alignment": "center",
-        "subheading": "Spring & Serenity",
+        "subheading": "Spring Serenity",
         "title": "Luxury redefined",
-        "content": "<p>Infused with Italian flair, each piece redefines luxury travel<\/p>",
+        "content": "<p>Infused with Italian flair, each piece redefines luxury travel with unparalleled craftsmanship and timeless sophistication.<\/p>",
         "button_1_text": "",
         "button_1_link": "",
         "button_1_style": "solid",
@@ -1065,7 +1065,7 @@
         "button_4RVgLX"
       ],
       "settings": {
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-3",
         "separate_section_with_border": true,
         "content_width": "sm",
         "text_position": "center",
@@ -1095,6 +1095,7 @@
         "play_ke99jT",
         "heading_MqdR9k"
       ],
+      "disabled": true,
       "settings": {
         "autoplay": true,
         "show_controls": true,
@@ -1213,6 +1214,7 @@
         "look_dk3j8X",
         "look_4EAn8x"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": false,
