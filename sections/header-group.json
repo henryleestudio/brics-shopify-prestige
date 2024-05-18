@@ -27,16 +27,76 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_bQdhTK": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "luggage",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_bqphFG": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "backpacks",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_a8AAYm": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "bags",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_WpaBet": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "accessories",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_bQdhTK",
+        "mega_menu_bqphFG",
+        "mega_menu_a8AAYm",
+        "mega_menu_WpaBet"
+      ],
       "settings": {
         "color_scheme": "scheme-10d1f3af-8dca-448f-b408-e5b1685b9522",
         "enable_sticky": true,
         "hide_on_scroll": true,
         "show_separation_border": false,
         "reduce_padding": true,
-        "logo": "shopify://shop_images/brics-logo-white-flag-3.png",
+        "logo": "shopify:\/\/shop_images\/brics-logo-white-flag-3.png",
         "logo_max_width": 60,
         "logo_mobile_max_width": 80,
-        "menu": "main-menu",
+        "menu": "main-mega-menu",
         "sidebar_menu": "",
         "menu_open_trigger": "hover",
         "enable_search": true,
