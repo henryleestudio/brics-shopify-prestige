@@ -32,7 +32,7 @@
           "type": "mega_menu",
           "settings": {
             "menu_item": "luggage",
-            "images_position": "right",
+            "images_position": "left",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
