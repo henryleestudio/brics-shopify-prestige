@@ -131,13 +131,13 @@
   height: 100%;
 }
 
-/* New icon Css megamenu - from theme.css */
+/* New icon CSS megamenu - from theme.css */
 ul.mega-menu__linklist li ul li ul {
   margin: 0;
   margin-left: 20px;
   margin-top: 24px;
   list-style: none;
-  border-left: 1px solid #000;
+  border-left: 1px solid #fff;
   padding-left: 20px;
 }
 
@@ -179,7 +179,7 @@ ul.mega-menu__linklist li ul li a.link-faded .combine-data {
   letter-spacing: normal;
 }
 
-/* collection megamenu css */
+/* collection megamenu CSS */
 .mega-menu.coll {
   flex-direction: column;
 }
@@ -210,4 +210,4 @@ ul.mega-menu__linklist li ul li a.link-faded .combine-data {
   letter-spacing: normal;
 }
 
-/* collection megamenu css END */
+/* collection megamenu CSS END */

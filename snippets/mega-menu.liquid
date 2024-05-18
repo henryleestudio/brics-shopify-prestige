@@ -16,10 +16,11 @@
 {%- endcomment -%}
 
 <div
-  class="mega-menu {% if block.settings.images_position == 'left' %}mega-menu--reverse{% endif %}"
+  class="mega-menu {% if block.settings.images_position == 'left' %}mega-menu--reverse{% endif %}" style="flex-wrap:wrap;"
   {{ block.shopify_attributes }}
 >
-  {% if block.type == 'collection' %}
+  {% comment %} Custom code 5.18 commented out if condition {% endcomment %}
+  {% comment %} {% if block.type == 'collection' %}
     <div class="coll-box container">
       <ul>
         {% for i in (1..8) %}
@@ -37,18 +38,51 @@
         {% endfor %}
       </ul>
     </div>
-  {% endif %}
+  {% endif %} {% endcomment %}
 
-  {%- if link.levels > 0 -%}
+    {% comment %} end custom code {% endcomment %}
+
+  {% assign link_obj = link %}
+ {% assign coll_blocks = section.blocks | where:'type','collection' %}
+ {% for block in coll_blocks %}
+ {% assign coll_handle = block.settings.menu_item | handleize %}
+ {% if coll_handle == link_obj.handle %}
+ <div class="coll-box container">
+ <ul>
+ {% for i in (1..11) %}
+ {% capture img %}img-{{ i }}{% endcapture %}
+ {% capture title %}title-{{ i }}{% endcapture %}
+ {% capture sub-text %}des-{{ i }}{% endcapture %}
+ {% capture link %}link-{{ i }}{% endcapture %}
+ {% if block.settings[img] != blank %}
+ <li>
+ <a href="{% if block.settings[link] != blank %}{{ block.settings[link] }}{% else %}#{% endif %}">
+ <img src="{{ block.settings[img] | image_url }}" height="auto" width="auto">
+ <span>{{ block.settings[title] }}</span>
+ {{ block.settings[sub-text] }}
+ </a>
+ </li>
+ {% endif %}
+ {% endfor %}
+ </ul>
+ </div>
+ {% endif %}
+ {% endfor %}
+
+  {%- if link_obj.levels > 0 -%}
     <ul class="mega-menu__linklist unstyled-list">
-      {%- for sub_link in link.links -%}
+      {%- for sub_link in link_obj.links -%}
         <li class="v-stack justify-items-start gap-5">
           <a href="{{ sub_link.url }}" class="h6">{{ sub_link.title }}</a>
 
           {%- if sub_link.links.size > 0 -%}
             <ul class="v-stack gap-2.5 unstyled-list">
               {%- for sub_sub_link in sub_link.links -%}
+                {% comment %} custom icon code 5.18 {% endcomment %}
+                {% assign down_title = sub_link.title | downcase %}
                 <li>
+                  {% comment %} <a href="{{ sub_sub_link.url }}" class="link-faded">{{ sub_sub_link.title }}  {% endcomment %}
+                  {% comment %} custom code 5.18{% endcomment %}
                   <a href="{{ sub_sub_link.url }}" class="link-faded">
                     {% if down_title == 'shop by construction' %}
                       {% assign icon_construction_blocks = section.blocks | where: 'type', 'Construction' %}
@@ -125,12 +159,41 @@
                       {% if chk_status_material == false %}
                         {{ sub_sub_link.title }}
                       {% endif %}
+
+                      {% comment %} Custom code for second level menu item icon 5.18 {% endcomment %}
+                      {% elsif down_title == 'shop by size' %}
+                        {% assign icon_size_blocks = section.blocks | where: 'type', 'size' %}
+                        {% assign chk_status_size = false %}
+                        {% for block in icon_size_blocks %}
+                        {% for i in (1..10) %}
+                        {% capture menu_title_handle %}menu-{{ i }}{% endcapture %}
+                        {% capture menu_icon %}icon-{{ i }}{% endcapture %}
+                        {% assign convert_menu_title = block.settings[menu_title_handle] | handleize %}
+                        {% if convert_menu_title == sub_sub_link.handle %}
+                        <div class="image-data">
+                        <img src="{{ block.settings[menu_icon] | image_url }}" height="auto" width="auto">
+                        </div>
+                        <div class="combine-data">
+                        <span>{{ sub_sub_link.title }}</span>
+                        </div>
+                        {% assign chk_status_size = true %}
+                        {% break %}
+                        {% endif %}
+                        {% endfor %}
+                        {% endfor %}
+                        {% if chk_status_size == false %}
+                        {{ sub_sub_link.title }}
+                        {% endif %}
+                        {% comment %} end second menu item code 5.18 {% endcomment %}
+                       
                     {% else %}
                       {{ sub_sub_link.title }}
                     {% endif %}
                   </a>
 
-                  {% assign make-handle = link.handle
+                  {% comment %} Custom code 5.18 {% endcomment %}
+                  {% comment %} {% assign make-handle = link.handle {% endcomment %}
+                  {% assign make-handle = link_obj.handle
                     | append: '-'
                     | append: sub_link.handle
                     | append: '-'
@@ -148,6 +211,7 @@
                       {% endfor %}
                     </ul>
                   {% endif %}
+                  {% comment %} end custom code {% endcomment %}
                 </li>
               {%- endfor -%}
             </ul>

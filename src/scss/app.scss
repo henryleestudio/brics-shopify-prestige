@@ -190,8 +190,8 @@
 height: 100%;
 }
 
-/* New icon Css megamenu - from theme.css */
-ul.mega-menu__linklist li ul li ul{margin:0;margin-left:20px;margin-top: 24px;list-style:none;border-left:1px solid #000;padding-left:20px}
+/* New icon CSS megamenu - from theme.css */
+ul.mega-menu__linklist li ul li ul{margin:0;margin-left:20px;margin-top: 24px;list-style:none;border-left:1px solid #fff;padding-left:20px}
 ul.mega-menu__linklist li ul li ul li{padding:0;display:flex;flex-direction:column;margin-bottom: 20px;}
 ul.mega-menu__linklist li ul li ul li a {font-size: 16px;line-height: normal;text-transform: capitalize;letter-spacing: normal !important;}
 ul.mega-menu__linklist li ul li ul li span {font-size: 12px;line-height: normal;opacity: 60%;}
@@ -200,10 +200,10 @@ ul.mega-menu__linklist li ul li a.link-faded {display: flex;align-items: center;
 ul.mega-menu__linklist li ul li a.link-faded .image-data {margin-right: 14px;max-width: 32px;}
 ul.mega-menu__linklist li ul li a.link-faded .combine-data {letter-spacing: normal;}
 
-/* collection megamenu css */
+/* collection megamenu CSS */
 .mega-menu.coll{flex-direction:column}
 .coll-box.container ul{display:flex;flex-wrap:wrap}
 .coll-box.container ul li{width:25%;list-style:none;padding:0 16px;margin-bottom:20px}
 .coll-box.container ul li a span{margin-top:20px;display:block;letter-spacing:normal;font-weight:600;font-size:18px}
 .coll-box.container ul li a p{margin-bottom:20px;display:block;letter-spacing:normal}
-/* collection megamenu css END */
+/* collection megamenu CSS END */
