@@ -85,6 +85,16 @@
   display: none !important;
 }
 
+a.link-faded {
+  font-family: brandon-grotesque, sans-serif !important;
+  font-size: 15px !important;
+  color: #FFF;
+}
+
+.v-stack .h6 {
+  font-family: brandon-grotesque, sans-serif !important;
+}
+
 /* Image issue fix ( prduct and thumbnail image size sqaure image ) custom code - added white background */
 .thumbnail-swatch {
   background-color: white;
