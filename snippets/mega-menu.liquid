@@ -19,7 +19,6 @@
   class="mega-menu {% if block.settings.images_position == 'left' %}mega-menu--reverse{% endif %}"
   {{ block.shopify_attributes }}
 >
-  {% comment %} Custom code 5.18 {% endcomment %}
   {% if block.type == 'collection' %}
     <div class="coll-box container">
       <ul>
@@ -40,7 +39,6 @@
     </div>
   {% endif %}
 
-  {% comment %} end custom code {% endcomment %}
   {%- if link.levels > 0 -%}
     <ul class="mega-menu__linklist unstyled-list">
       {%- for sub_link in link.links -%}
@@ -51,8 +49,6 @@
             <ul class="v-stack gap-2.5 unstyled-list">
               {%- for sub_sub_link in sub_link.links -%}
                 <li>
-                  {% comment %} <a href="{{ sub_sub_link.url }}" class="link-faded">{{ sub_sub_link.title }}  {% endcomment %}
-                  {% comment %} custom code 5.18{% endcomment %}
                   <a href="{{ sub_sub_link.url }}" class="link-faded">
                     {% if down_title == 'shop by construction' %}
                       {% assign icon_construction_blocks = section.blocks | where: 'type', 'Construction' %}
@@ -134,7 +130,6 @@
                     {% endif %}
                   </a>
 
-                  {% comment %} Custom code 5.18 {% endcomment %}
                   {% assign make-handle = link.handle
                     | append: '-'
                     | append: sub_link.handle
@@ -153,7 +148,6 @@
                       {% endfor %}
                     </ul>
                   {% endif %}
-                  {% comment %} end custom code {% endcomment %}
                 </li>
               {%- endfor -%}
             </ul>

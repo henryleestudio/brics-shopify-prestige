@@ -178,3 +178,36 @@ ul.mega-menu__linklist li ul li a.link-faded .image-data {
 ul.mega-menu__linklist li ul li a.link-faded .combine-data {
   letter-spacing: normal;
 }
+
+/* collection megamenu css */
+.mega-menu.coll {
+  flex-direction: column;
+}
+
+.coll-box.container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coll-box.container ul li {
+  width: 25%;
+  list-style: none;
+  padding: 0 16px;
+  margin-bottom: 20px;
+}
+
+.coll-box.container ul li a span {
+  margin-top: 20px;
+  display: block;
+  letter-spacing: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.coll-box.container ul li a p {
+  margin-bottom: 20px;
+  display: block;
+  letter-spacing: normal;
+}
+
+/* collection megamenu css END */
