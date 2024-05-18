@@ -1,21 +1,46 @@
 {%- comment -%}
-----------------------------------------------------------------------------------------------------------------------
-MEGA MENU COMPONENT
-----------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------
+  MEGA MENU COMPONENT
+  ----------------------------------------------------------------------------------------------------------------------
 
-Render the mega-menu. The mega-menu is a kind of menu optimized for showing a large number of items into several
-columns.
+  Render the mega-menu. The mega-menu is a kind of menu optimized for showing a large number of items into several
+  columns.
 
-********************************************
-Supported variables
-********************************************
+  ********************************************
+  Supported variables
+  ********************************************
 
-* link: the link from which we need to render the mega-menu. The link must always be a second level link, but it can
-        also be empty (no links), which is the case if the merchant only want to show images, for instance.
-* block: the block containing all the information about the menu to render
+  * link: the link from which we need to render the mega-menu. The link must always be a second level link, but it can
+          also be empty (no links), which is the case if the merchant only want to show images, for instance.
+  * block: the block containing all the information about the menu to render
 {%- endcomment -%}
 
-<div class="mega-menu {% if block.settings.images_position == 'left' %}mega-menu--reverse{% endif %}" {{ block.shopify_attributes }}>
+<div
+  class="mega-menu {% if block.settings.images_position == 'left' %}mega-menu--reverse{% endif %}"
+  {{ block.shopify_attributes }}
+>
+  {% comment %} Custom code 5.18 {% endcomment %}
+  {% if block.type == 'collection' %}
+    <div class="coll-box container">
+      <ul>
+        {% for i in (1..8) %}
+          {% capture img %}img-{{ i }}{% endcapture %}
+          {% capture title %}title-{{ i }}{% endcapture %}
+          {% capture sub-text %}des-{{ i }}{% endcapture %}
+          {% capture link %}link-{{ i }}{% endcapture %}
+          <li>
+            <a href="{% if block.settings[link] != blank %}{{ block.settings[link] }}{% else %}#{% endif %}">
+              <img src="{{ block.settings[img] | image_url }}" height="auto" width="auto">
+              <span>{{ block.settings[title] }}</span>
+              {{ block.settings[sub-text] }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+  {% comment %} end custom code {% endcomment %}
   {%- if link.levels > 0 -%}
     <ul class="mega-menu__linklist unstyled-list">
       {%- for sub_link in link.links -%}
@@ -26,7 +51,109 @@ Supported variables
             <ul class="v-stack gap-2.5 unstyled-list">
               {%- for sub_sub_link in sub_link.links -%}
                 <li>
-                  <a href="{{ sub_sub_link.url }}" class="link-faded">{{ sub_sub_link.title }}</a>
+                  {% comment %} <a href="{{ sub_sub_link.url }}" class="link-faded">{{ sub_sub_link.title }}  {% endcomment %}
+                  {% comment %} custom code 5.18{% endcomment %}
+                  <a href="{{ sub_sub_link.url }}" class="link-faded">
+                    {% if down_title == 'shop by construction' %}
+                      {% assign icon_construction_blocks = section.blocks | where: 'type', 'Construction' %}
+                      {% assign chk_status_con = false %}
+                      {% for block in icon_construction_blocks %}
+                        {% for i in (1..10) %}
+                          {% capture menu_title_handle %}menu-{{ i }}{% endcapture %}
+                          {% capture menu_icon %}icon-{{ i }}{% endcapture %}
+                          {% capture menu_subtitle %}small-title-{{ i }}{% endcapture %}
+                          {% assign convert_menu_title = block.settings[menu_title_handle] | handleize %}
+                          {% if convert_menu_title == sub_sub_link.handle %}
+                            <div class="image-data">
+                              <img src="{{ block.settings[menu_icon] | image_url }}" height="auto" width="auto">
+                            </div>
+                            <div class="combine-data">
+                              <span>{{ sub_sub_link.title }}</span>
+                              <p>{{ block.settings[menu_subtitle] }}</p>
+                            </div>
+                            {% assign chk_status_con = true %}
+                            {% break %}
+                          {% endif %}
+                        {% endfor %}
+                      {% endfor %}
+                      {% if chk_status_con == false %}
+                        {{ sub_sub_link.title }}
+                      {% endif %}
+                    {% elsif down_title == 'shop by material' %}
+                      {% assign icon_materiyal_blocks = section.blocks | where: 'type', 'Material' %}
+                      {% assign chk_status_material = false %}
+                      {% for block in icon_materiyal_blocks %}
+                        {% for i in (1..10) %}
+                          {% capture menu_title_handle %}menu-{{ i }}{% endcapture %}
+                          {% capture menu_icon %}icon-{{ i }}{% endcapture %}
+                          {% capture menu_subtitle %}small-title-{{ i }}{% endcapture %}
+                          {% assign convert_menu_title = block.settings[menu_title_handle] | handleize %}
+                          {% if convert_menu_title == sub_sub_link.handle %}
+                            <div class="image-data">
+                              <img src="{{ block.settings[menu_icon] | image_url }}" height="auto" width="auto">
+                            </div>
+                            <div class="combine-data">
+                              <span>{{ sub_sub_link.title }}</span>
+                              <p>{{ block.settings[menu_subtitle] }}</p>
+                            </div>
+                            {% assign chk_status_material = true %}
+                            {% break %}
+                          {% endif %}
+                        {% endfor %}
+                      {% endfor %}
+                      {% if chk_status_material == false %}
+                        {{ sub_sub_link.title }}
+                      {% endif %}
+                    {% elsif down_title == 'shop by category' %}
+                      {% assign icon_materiyal_blocks = section.blocks | where: 'type', 'Category' %}
+                      {% assign chk_status_material = false %}
+                      {% for block in icon_materiyal_blocks %}
+                        {% for i in (1..10) %}
+                          {% capture menu_title_handle %}menu-{{ i }}{% endcapture %}
+                          {% capture menu_icon %}icon-{{ i }}{% endcapture %}
+                          {% capture menu_subtitle %}small-title-{{ i }}{% endcapture %}
+                          {% assign convert_menu_title = block.settings[menu_title_handle] | handleize %}
+                          {% if convert_menu_title == sub_sub_link.handle %}
+                            <div class="image-data">
+                              <img src="{{ block.settings[menu_icon] | image_url }}" height="auto" width="auto">
+                            </div>
+                            <div class="combine-data">
+                              <span>{{ sub_sub_link.title }}</span>
+                              <p>{{ block.settings[menu_subtitle] }}</p>
+                            </div>
+                            {% assign chk_status_material = true %}
+                            {% break %}
+                          {% endif %}
+                        {% endfor %}
+                      {% endfor %}
+                      {% if chk_status_material == false %}
+                        {{ sub_sub_link.title }}
+                      {% endif %}
+                    {% else %}
+                      {{ sub_sub_link.title }}
+                    {% endif %}
+                  </a>
+
+                  {% comment %} Custom code 5.18 {% endcomment %}
+                  {% assign make-handle = link.handle
+                    | append: '-'
+                    | append: sub_link.handle
+                    | append: '-'
+                    | append: sub_sub_link.handle
+                  %}
+                  {% if linklists[make-handle].title != blank %}
+                    <ul>
+                      {% for in_link in linklists[make-handle].links %}
+                        <li>
+                          <a href="{{ in_link.url }}">{{ in_link.title }}</a>
+                          {% for sub_in_link in in_link.links %}
+                            <span>{{ sub_in_link.title }}</span>
+                          {% endfor %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                  {% comment %} end custom code {% endcomment %}
                 </li>
               {%- endfor -%}
             </ul>
