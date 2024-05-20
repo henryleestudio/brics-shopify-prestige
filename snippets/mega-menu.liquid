@@ -184,30 +184,79 @@
                         {% if chk_status_size == false %}
                         {{ sub_sub_link.title }}
                         {% endif %}
+
+                        {% elsif down_title == 'shop by purpose' %}
+                          {% assign icon_purpose_blocks = section.blocks | where: 'type', 'purpose' %}
+                          {% assign chk_status_purpose = false %}
+                          {% for block in icon_purpose_blocks %}
+                          {% for i in (1..10) %}
+                          {% capture menu_title_handle %}menu-{{ i }}{% endcapture %}
+                          {% capture menu_icon %}icon-{{ i }}{% endcapture %}
+                          {% assign convert_menu_title = block.settings[menu_title_handle] | handleize %}
+                          {% if convert_menu_title == sub_sub_link.handle %}
+                          <div class="image-data">
+                          <img src="{{ block.settings[menu_icon] | image_url }}" height="auto" width="auto">
+                          </div>
+                          <div class="combine-data">
+                          <span>{{ sub_sub_link.title }}</span>
+                          </div>
+                          {% assign chk_status_purpose = true %}
+                          {% break %}
+                          {% endif %}
+                          {% endfor %}
+                          {% endfor %}
+                          {% if chk_status_purpose == false %}
+                          {{ sub_sub_link.title }}
+                          {% endif %}
+
+                          {% elsif down_title == 'shop by type' %}
+                            {% assign icon_type_blocks = section.blocks | where: 'type', 'type' %}
+                            {% assign chk_status_type = false %}
+                            {% for block in icon_type_blocks %}
+                            {% for i in (1..10) %}
+                            {% capture menu_title_handle %}menu-{{ i }}{% endcapture %}
+                            {% capture menu_icon %}icon-{{ i }}{% endcapture %}
+                            {% assign convert_menu_title = block.settings[menu_title_handle] | handleize %}
+                            {% if convert_menu_title == sub_sub_link.handle %}
+                            <div class="image-data">
+                            <img src="{{ block.settings[menu_icon] | image_url }}" height="auto" width="auto">
+                            </div>
+                            <div class="combine-data">
+                            <span>{{ sub_sub_link.title }}</span>
+                            </div>
+                            {% assign chk_status_type = true %}
+                            {% break %}
+                            {% endif %}
+                            {% endfor %}
+                            {% endfor %}
+                            {% if chk_status_type == false %}
+                            {{ sub_sub_link.title }}
+                            {% endif %}
+    
+                            {% elsif down_title == 'shop by style' %}
+                              {% assign icon_style_blocks = section.blocks | where: 'type', 'style' %}
+                              {% assign chk_status_style = false %}
+                              {% for block in icon_style_blocks %}
+                              {% for i in (1..10) %}
+                              {% capture menu_title_handle %}menu-{{ i }}{% endcapture %}
+                              {% capture menu_icon %}icon-{{ i }}{% endcapture %}
+                              {% assign convert_menu_title = block.settings[menu_title_handle] | handleize %}
+                              {% if convert_menu_title == sub_sub_link.handle %}
+                              <div class="image-data">
+                              <img src="{{ block.settings[menu_icon] | image_url }}" height="auto" width="auto">
+                              </div>
+                              <div class="combine-data">
+                              <span>{{ sub_sub_link.title }}</span>
+                              </div>
+                              {% assign chk_status_style = true %}
+                              {% break %}
+                              {% endif %}
+                              {% endfor %}
+                              {% endfor %}
+                              {% if chk_status_style == false %}
+                              {{ sub_sub_link.title }}
+                              {% endif %}
                         {% comment %} end second menu item code 5.18 {% endcomment %}
-                        {% elsif down_title == 'shop by size' %}
- {% assign icon_size_blocks = section.blocks | where: 'type', 'size' %}
- {% assign chk_status_size = false %}
- {% for block in icon_size_blocks %}
- {% for i in (1..10) %}
- {% capture menu_title_handle %}menu-{{ i }}{% endcapture %}
- {% capture menu_icon %}icon-{{ i }}{% endcapture %}
- {% assign convert_menu_title = block.settings[menu_title_handle] | handleize %}
- {% if convert_menu_title == sub_sub_link.handle %}
- <div class="image-data">
- <img src="{{ block.settings[menu_icon] | image_url }}" height="auto" width="auto">
- </div>
- <div class="combine-data">
- <span>{{ sub_sub_link.title }}</span>
- </div>
- {% assign chk_status_size = true %}
- {% break %}
- {% endif %}
- {% endfor %}
- {% endfor %}
- {% if chk_status_size == false %}
- {{ sub_sub_link.title }}
- {% endif %}
                     {% else %}
                       {{ sub_sub_link.title }}
                     {% endif %}
