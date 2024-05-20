@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 // @font-face {
 //     font-family: "NAME OF FONT";
@@ -9,74 +9,75 @@
 //     Add Classes here with comma { font-family: "NAME OF FONT"!important; }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .h1,
 .h2,
 .h3 {
-    font-family: $bodoni-moda !important;
-    font-variation-settings: 'wght' 400, 'opsz' 11 !important;
+  font-family: $bodoni-moda !important;
+  font-variation-settings: "wght" 400, "opsz" 11 !important;
 }
 
 .h4,
 .h5,
 .h6 {
-    font-family: $brandon-grotesque !important;
-    font-weight: 400 !important;
-    letter-spacing: 2.7px !important;
+  font-family: $brandon-grotesque !important;
+  font-weight: 400 !important;
+  letter-spacing: 2.7px !important;
 }
 
-.header__primary-nav-item a, .nav-menu-text {
+.header__primary-nav-item a,
+.nav-menu-text {
   font-family: "bodoni-moda-variable", sans-serif !important;
   font-variation-settings: "wght" 530, "opsz" 8 !important;
   font-size: 12.5px;
   letter-spacing: 3.9px !important;
   line-height: 1.7;
   box-shadow: 0 0 5px #00000005 inset;
-  }
+}
 
-  // featured collections section "ADD TO CART" button 
+// featured collections section "ADD TO CART" button
 
-  .product-card__quick-add-button {
-    display: flex;
-    align-items: center;
-  }
+.product-card__quick-add-button {
+  display: flex;
+  align-items: center;
+}
 
-  .product-card__quick-add-button svg.icon {
-    margin-left: 10px;
-  }
+.product-card__quick-add-button svg.icon {
+  margin-left: 10px;
+}
 
-  .img-title-scroll {
-    font-size: 35px;
-    font-variation-settings: "wght" 600, "opsz" 8 !important;
-    // box-shadow: 9px 10px 101px #00000012 inset;
-  }
+.img-title-scroll {
+  font-size: 35px;
+  font-variation-settings: "wght" 600, "opsz" 8 !important;
+  // box-shadow: 9px 10px 101px #00000012 inset;
+}
 
-  .media-grid-sub-title {
-    font-size: 12px !important; 
-  }
+.media-grid-sub-title {
+  font-size: 12px !important;
+}
 
-  .multi-media-txt-title {
-    font-size: 40px !important;
-  }
+.multi-media-txt-title {
+  font-size: 40px !important;
+}
 
-  .img-txt-scroll p{
-    font-size: 14px;
-    font-weight: 40 !important;
-  }
+.img-txt-scroll p {
+  font-size: 14px;
+  font-weight: 40 !important;
+}
 
-  .content-over-media:before {
-    content: "";
-    background: #1d23444a;;
-    border-radius: inherit;
-    z-index: 1;
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+.content-over-media:before {
+  content: "";
+  background: #1d23444a;
+  border-radius: inherit;
+  z-index: 1;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .media-grid-sub-title:first-child {
@@ -87,14 +88,18 @@
   background: #1d2344a1 !important;
 }
 
-.shopify-installments {display: none ! important;}
+.shopify-installments {
+  display: none !important;
+}
 
-.shopify-installments__content {display: none ! important;}
+.shopify-installments__content {
+  display: none !important;
+}
 
 .header__primary-nav-item a.link-faded {
   font-family: brandon-grotesque, sans-serif !important;
   font-size: 15px !important;
-  color: #FFF !important;
+  color: #fff !important;
 }
 
 .v-stack .h6 {
@@ -134,10 +139,6 @@
 //     background: #1d23444a;
 // }
 
-
-
-
-
 /* Image issue fix ( prduct and thumbnail image size sqaure image ) custom code - added white background */
 
 .thumbnail-swatch {
@@ -163,7 +164,7 @@
   background-color: white;
 }
 
-.product-gallery__thumbnail img.object-contain{
+.product-gallery__thumbnail img.object-contain {
   aspect-ratio: 1;
 }
 
@@ -179,31 +180,86 @@
 
 .product-card__figure {
   aspect-ratio: 1;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
-.product-card__media{
+.product-card__media {
   height: 100%;
 }
-  
-.product-card__image{
-height: 100%;
+
+.product-card__image {
+  height: 100%;
 }
 
 /* New icon CSS megamenu - from theme.css */
-ul.mega-menu__linklist li ul li ul{margin:0;margin-left:20px;margin-top: 24px;list-style:none;border-left:1px solid #fff;padding-left:20px}
-ul.mega-menu__linklist li ul li ul li{padding:0;display:flex;flex-direction:column;margin-bottom: 20px;}
-ul.mega-menu__linklist li ul li ul li a {font-size: 16px;line-height: normal;text-transform: capitalize;letter-spacing: normal !important;}
-ul.mega-menu__linklist li ul li ul li span {font-size: 12px;line-height: normal;opacity: 60%;}
-ul.mega-menu__linklist li ul li ul li:last-child {margin-bottom: 0;}
-ul.mega-menu__linklist li ul li a.link-faded {display: flex;align-items: center;}
-ul.mega-menu__linklist li ul li a.link-faded .image-data {margin-right: 14px;max-width: 32px;}
-ul.mega-menu__linklist li ul li a.link-faded .combine-data {letter-spacing: normal;}
+ul.mega-menu__linklist li ul li ul {
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 24px;
+  list-style: none;
+  border-left: 1px solid #fff;
+  padding-left: 20px;
+}
+ul.mega-menu__linklist li ul li ul li {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+ul.mega-menu__linklist li ul li ul li a {
+  font-size: 16px;
+  line-height: normal;
+  // text-transform: capitalize;
+  letter-spacing: normal !important;
+}
+ul.mega-menu__linklist li ul li ul li span {
+  font-size: 12px;
+  line-height: normal;
+  opacity: 60%;
+}
+ul.mega-menu__linklist li ul li ul li:last-child {
+  margin-bottom: 0;
+}
+ul.mega-menu__linklist li ul li a.link-faded {
+  display: flex;
+  align-items: center;
+}
+ul.mega-menu__linklist li ul li a.link-faded .image-data {
+  margin-right: 14px;
+  max-width: 32px;
+}
+ul.mega-menu__linklist li ul li a.link-faded .combine-data {
+  letter-spacing: normal;
+}
 
 /* collection megamenu CSS */
-.mega-menu.coll{flex-direction:column}
-.coll-box.container ul{display:flex;flex-wrap:wrap}
-.coll-box.container ul li{width:25%;list-style:none;padding:0 16px;margin-bottom:20px}
-.coll-box.container ul li a span{margin-top:20px;display:block;letter-spacing:normal;font-weight:600;font-size:18px}
-.coll-box.container ul li a p{margin-bottom:20px;display:block;letter-spacing:normal}
+.mega-menu.coll {
+  flex-direction: column;
+}
+.coll-box.container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.coll-box.container ul li {
+  width: 25%;
+  list-style: none;
+  padding: 0 16px;
+  margin-bottom: 20px;
+  font-family: brandon-grotesque, sans-serif !important;
+}
+.coll-box.container ul li a span {
+  margin-top: 20px;
+  display: block;
+  letter-spacing: normal;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: brandon-grotesque, sans-serif !important;
+}
+.coll-box.container ul li a p {
+  margin-bottom: 20px;
+  display: block;
+  letter-spacing: normal;
+  font-family: brandon-grotesque, sans-serif !important;
+  font-size: 15px;
+}
 /* collection megamenu CSS END */

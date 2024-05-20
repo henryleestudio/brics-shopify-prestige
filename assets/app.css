@@ -20,7 +20,8 @@
   letter-spacing: 2.7px !important;
 }
 
-.header__primary-nav-item a, .nav-menu-text {
+.header__primary-nav-item a,
+.nav-menu-text {
   font-family: "bodoni-moda-variable", sans-serif !important;
   font-variation-settings: "wght" 530, "opsz" 8 !important;
   font-size: 12.5px;
@@ -88,7 +89,7 @@
 .header__primary-nav-item a.link-faded {
   font-family: brandon-grotesque, sans-serif !important;
   font-size: 15px !important;
-  color: #FFF !important;
+  color: #fff !important;
 }
 
 .v-stack .h6 {
@@ -120,7 +121,7 @@
 
 .product-card__figure {
   aspect-ratio: 1;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .product-card__media {
@@ -151,7 +152,6 @@ ul.mega-menu__linklist li ul li ul li {
 ul.mega-menu__linklist li ul li ul li a {
   font-size: 16px;
   line-height: normal;
-  text-transform: capitalize;
   letter-spacing: normal !important;
 }
 
@@ -194,6 +194,7 @@ ul.mega-menu__linklist li ul li a.link-faded .combine-data {
   list-style: none;
   padding: 0 16px;
   margin-bottom: 20px;
+  font-family: brandon-grotesque, sans-serif !important;
 }
 
 .coll-box.container ul li a span {
@@ -201,13 +202,16 @@ ul.mega-menu__linklist li ul li a.link-faded .combine-data {
   display: block;
   letter-spacing: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 15px;
+  font-family: brandon-grotesque, sans-serif !important;
 }
 
 .coll-box.container ul li a p {
   margin-bottom: 20px;
   display: block;
   letter-spacing: normal;
+  font-family: brandon-grotesque, sans-serif !important;
+  font-size: 15px;
 }
 
 /* collection megamenu CSS END */
