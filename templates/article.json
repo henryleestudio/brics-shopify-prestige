@@ -6,11 +6,11 @@
         "color_scheme": "scheme-2",
         "show_image": true,
         "enable_parallax": true,
-        "image_size": "small",
+        "image_size": "large",
         "content_width": "sm",
         "show_date": true,
         "show_category": true,
-        "show_author": true,
+        "show_author": false,
         "show_share_buttons": true,
         "show_sticky_bar": true,
         "toolbar_color_scheme": "scheme-4"
