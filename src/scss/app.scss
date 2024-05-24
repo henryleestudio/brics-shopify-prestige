@@ -106,6 +106,22 @@
   font-family: brandon-grotesque, sans-serif !important;
 }
 
+// no content over lay blue color
+
+.content-over-media:before {
+  content: "";
+  // background: rgba(29, 35, 68, 0.2901960784);
+  background: none;
+  border-radius: inherit;
+  z-index: 1;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 // .product-gallery__carousel {
 //   aspect-ratio: 1 / 1 !important;
 // }
