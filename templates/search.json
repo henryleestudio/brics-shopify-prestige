@@ -1,1 +1,24 @@
-{"sections":{"main":{"type":"main-search","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-search",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "show_sort_by": true,
+        "products_per_page": 24,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false,
+        "show_category": true,
+        "show_excerpt": true,
+        "show_read_more": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

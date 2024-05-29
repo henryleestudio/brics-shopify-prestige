@@ -218,15 +218,15 @@ LIQUID
 
                 <product-list id="product-list-{{ section.id }}" class="product-list" collection-mobile-layout="{{ products_mobile_grid_mode }}" collection-desktop-layout="{{ products_desktop_grid_mode }}">
                   {%- for product in collection.products -%}
-                    {% assign has_color = false %}
+                    {% comment %} {% assign has_color = false %}
                     {% for option in product.options %}
                       {% assign store_name = option | downcase %}
                       {% if store_name == 'color' %}
                         {% assign has_color = true %}
                       {% endif %}
-                    {% endfor %}
+                    {% endfor %} {% endcomment %}
                     {% unless product.has_only_default_variant %}
-                      {% assign first_variant = product.selected_or_first_available_variant.title %}
+                      {% comment %} {% assign first_variant = product.selected_or_first_available_variant.title %}
                       {% assign first_option_size = first_variant | split:'/' | first | strip %}
                       {%- for variant in product.variants -%}
                         {% if product.options.size > 1 %}
@@ -234,7 +234,31 @@ LIQUID
                         {% else %}
                           {%- render 'product-card', product: product, variant_obj: variant, reveal: settings.stagger_products_apparition, hide_product_information: section.settings.hide_product_information, stacked: true -%}
                         {% endif %}
-                      {%- endfor -%} 
+                      {%- endfor -%}  {% endcomment %}
+                      
+                      {% comment %} adding for product variant swatches 5.8.2024 {% endcomment %}
+                      {% for option in product.options_with_values %}
+                        {% assign temp_val = option.name | downcase %}
+                        {% assign option_index = forloop.index0 %}
+                        {% if temp_val == "size" %}
+                        
+                        {% for value in option.values %}
+                        {%- for variant in product.variants -%}
+                        {% if variant.options[option_index] == value %}
+                        {%- render 'product-card', product: product, variant_obj: variant, selected_val:value, reveal: settings.stagger_products_apparition, 
+                        hide_product_information: section.settings.hide_product_information, stacked: true -%}
+                        {% break %}
+                        {% endif %}
+                        {%- endfor -%}
+                        {% endfor %}
+                        
+                        {% else %} 
+                        {% if forloop.length == 1 %}
+                        {% assign show_default = true %}
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}
+                        {% comment %} end code {% endcomment %}
                     {% else %}
                       {% assign show_default = true %}
                     {% endunless %}
