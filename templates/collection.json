@@ -9,11 +9,11 @@
         "reveal": true,
         "enable_parallax": true,
         "show_image": true,
-        "show_collection_title": false,
-        "show_collection_description": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
         "show_breadcrumb": true,
         "content_width": "xs",
-        "overlay_color": "#000000",
+        "overlay_color": "#1c1c1c",
         "overlay_opacity": 30
       }
     },
