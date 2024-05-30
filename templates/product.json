@@ -108,6 +108,73 @@
         "max_image_zoom_level": 3
       }
     },
+    "collection_list_m6Xhe4": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_ehnnE6": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_fL3tK7": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "accessories",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "This change was made in the design theme",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_p7MBrK": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_ehnnE6",
+        "collection_fL3tK7",
+        "collection_p7MBrK"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "media_grid_pB7tab": {
       "type": "media-grid",
       "blocks": {
@@ -297,6 +364,7 @@
   },
   "order": [
     "main",
+    "collection_list_m6Xhe4",
     "media_grid_pB7tab",
     "tabs_DqVYrC",
     "multi_column_AbKzLf",
