@@ -5,7 +5,7 @@
       "settings": {
         "color_scheme": "scheme-2",
         "show_image": true,
-        "enable_parallax": true,
+        "enable_parallax": false,
         "image_size": "large",
         "content_width": "xs",
         "show_date": true,
